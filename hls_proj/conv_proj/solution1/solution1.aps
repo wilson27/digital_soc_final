@@ -1,6 +1,6 @@
 <AutoPilot:solution xmlns:AutoPilot="com.autoesl.autopilot.solution">
     <config>
-        <config_interface m_axi_addr64="1" m_axi_offset="off" register_io="off"/>
+        <config_interface m_axi_addr64="0" m_axi_offset="off" register_io="off"/>
         <schedule model="conv_layer"/>
     </config>
     <ExportDesign askAgain="true" evaluate="false" rtl="verilog" formatName="ip_catalog">

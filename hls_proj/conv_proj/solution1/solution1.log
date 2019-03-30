@@ -9,14 +9,14 @@ INFO: [SYN 201-201] Setting up clock 'default' with a period of 4ns.
 INFO: [HLS 200-10] Setting target device to 'xc7a200tsbg484-1'
 INFO: [HLS 200-10] Analyzing design file '../conv_test/conv_layer.cpp' ... 
 INFO: [HLS 200-10] Validating synthesis directives ...
-INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:07 ; elapsed = 00:00:22 . Memory (MB): peak = 98.609 ; gain = 48.809
-INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:07 ; elapsed = 00:00:24 . Memory (MB): peak = 98.629 ; gain = 48.828
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:07 ; elapsed = 00:00:21 . Memory (MB): peak = 98.766 ; gain = 49.363
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:07 ; elapsed = 00:00:23 . Memory (MB): peak = 98.785 ; gain = 49.383
 INFO: [HLS 200-10] Starting code transformations ...
-INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:08 ; elapsed = 00:00:26 . Memory (MB): peak = 101.727 ; gain = 51.926
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:08 ; elapsed = 00:00:24 . Memory (MB): peak = 101.641 ; gain = 52.238
 INFO: [HLS 200-10] Checking synthesizability ...
-INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:08 ; elapsed = 00:00:26 . Memory (MB): peak = 104.164 ; gain = 54.363
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:08 ; elapsed = 00:00:24 . Memory (MB): peak = 104.016 ; gain = 54.613
 INFO: [XFORM 203-11] Balancing expressions in function 'conv_layer' (../conv_test/conv_layer.cpp:6)...7 expression(s) balanced.
-INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:08 ; elapsed = 00:00:28 . Memory (MB): peak = 128.004 ; gain = 78.203
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:08 ; elapsed = 00:00:25 . Memory (MB): peak = 127.656 ; gain = 78.254
 INFO: [XFORM 203-541] Flattening a loop nest 'Loop-1.1.1.1.1.1' (../conv_test/conv_layer.cpp:63:42) in function 'conv_layer'.
 INFO: [XFORM 203-541] Flattening a loop nest 'Loop-1.1.1.1.1' (../conv_test/conv_layer.cpp:60:27) in function 'conv_layer'.
 WARNING: [XFORM 203-542] Cannot flatten a loop nest 'Loop-1.1.1.1' (../conv_test/conv_layer.cpp:52:25) in function 'conv_layer' : 
@@ -24,7 +24,7 @@ WARNING: [XFORM 203-542] Cannot flatten a loop nest 'Loop-1.1.1.1' (../conv_test
 INFO: [XFORM 203-541] Flattening a loop nest 'Loop-1.1.1' (../conv_test/conv_layer.cpp:49:23) in function 'conv_layer'.
 INFO: [XFORM 203-541] Flattening a loop nest 'Loop-1.1' (../conv_test/conv_layer.cpp:46:21) in function 'conv_layer'.
 INFO: [XFORM 203-541] Flattening a loop nest 'Loop-1' (../conv_test/conv_layer.cpp:43:16) in function 'conv_layer'.
-INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:09 ; elapsed = 00:00:28 . Memory (MB): peak = 129.082 ; gain = 79.281
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:09 ; elapsed = 00:00:27 . Memory (MB): peak = 128.176 ; gain = 78.773
 INFO: [HLS 200-10] Starting hardware synthesis ...
 INFO: [HLS 200-10] Synthesizing 'conv_layer' ...
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -53,13 +53,13 @@ WARNING: [SCHED 204-21] The critical path consists of the following:
 	'getelementptr' operation ('mem_addr_3', ../conv_test/conv_layer.cpp:71) (0 ns)
 	bus request on port 'mem' (../conv_test/conv_layer.cpp:71) (3.5 ns)
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111]  Elapsed time: 30.696 seconds; current allocated memory: 86.092 MB.
+INFO: [HLS 200-111]  Elapsed time: 28.849 seconds; current allocated memory: 86.131 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111]  Elapsed time: 1.879 seconds; current allocated memory: 88.128 MB.
+INFO: [HLS 200-111]  Elapsed time: 2.067 seconds; current allocated memory: 88.152 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'conv_layer' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -100,7 +100,7 @@ INFO: [RTGEN 206-100] Generating core module 'conv_layer_mul_32ibs': 8 instance(
 INFO: [RTGEN 206-100] Generating core module 'conv_layer_mul_64fYi': 2 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'conv_layer_mul_96g8j': 1 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'conv_layer'.
-INFO: [HLS 200-111]  Elapsed time: 2.285 seconds; current allocated memory: 92.133 MB.
+INFO: [HLS 200-111]  Elapsed time: 2.521 seconds; current allocated memory: 92.193 MB.
 INFO: [RTMG 210-282] Generating pipelined core: 'conv_layer_mul_32eOg_MulnS_0'
 INFO: [RTMG 210-282] Generating pipelined core: 'conv_layer_mul_64fYi_MulnS_1'
 INFO: [RTMG 210-282] Generating pipelined core: 'conv_layer_mul_96g8j_MulnS_2'
@@ -109,9 +109,9 @@ INFO: [RTMG 210-282] Generating pipelined core: 'conv_layer_mul_32ibs_MulnS_4'
 INFO: [RTMG 210-283] Generating pipelined adder/subtractor : 'conv_layer_add_12jbC_AddSubnS_0'
 INFO: [RTMG 210-283] Generating pipelined adder/subtractor : 'conv_layer_add_96kbM_AddSubnS_1'
 INFO: [RTMG 210-283] Generating pipelined adder/subtractor : 'conv_layer_add_64lbW_AddSubnS_2'
-INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:19 ; elapsed = 00:00:48 . Memory (MB): peak = 144.211 ; gain = 94.410
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:20 ; elapsed = 00:00:46 . Memory (MB): peak = 143.586 ; gain = 94.184
 INFO: [SYSC 207-301] Generating SystemC RTL for conv_layer.
 INFO: [VHDL 208-304] Generating VHDL RTL for conv_layer.
 INFO: [VLOG 209-307] Generating Verilog RTL for conv_layer.
 INFO: [IMPL 213-8] Exporting RTL as an IP in IP-XACT.
-INFO: [HLS 200-112] Total elapsed time: 282.395 seconds; peak allocated memory: 92.133 MB.
+INFO: [HLS 200-112] Total elapsed time: 273.005 seconds; peak allocated memory: 92.193 MB.

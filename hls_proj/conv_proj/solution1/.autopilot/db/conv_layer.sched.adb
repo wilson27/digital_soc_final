@@ -676,14 +676,14 @@
 						<id>50</id>
 						<name>tmp</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>37</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item class_id="11" tracking_level="0" version="0">
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second class_id="12" tracking_level="0" version="0">
 									<count>1</count>
 									<item_version>0</item_version>
@@ -719,14 +719,14 @@
 						<id>51</id>
 						<name>tmp6</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>37</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -762,14 +762,14 @@
 						<id>52</id>
 						<name>num_weights</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>37</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -805,14 +805,14 @@
 						<id>53</id>
 						<name>tmp_2</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>55</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -850,14 +850,14 @@
 						<id>54</id>
 						<name>tmp_7</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>55</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -892,14 +892,14 @@
 						<id>55</id>
 						<name>tmp_3</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>82</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -937,14 +937,14 @@
 						<id>56</id>
 						<name>tmp_8</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>82</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -979,14 +979,14 @@
 						<id>57</id>
 						<name>tmp3</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>69</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1277,14 +1277,14 @@
 						<id>67</id>
 						<name>p_mid</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1320,14 +1320,14 @@
 						<id>68</id>
 						<name>smax16_mid</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1364,14 +1364,14 @@
 						<id>69</id>
 						<name>tmp_10_mid</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1464,14 +1464,14 @@
 						<id>72</id>
 						<name></name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>43</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1537,14 +1537,14 @@
 						<id>75</id>
 						<name>b_s</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>69</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1613,14 +1613,14 @@
 						<id>77</id>
 						<name>o_d</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1658,14 +1658,14 @@
 						<id>78</id>
 						<name>indvar_flatten3</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1703,14 +1703,14 @@
 						<id>79</id>
 						<name>indvars_iv</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1748,14 +1748,14 @@
 						<id>80</id>
 						<name>indvars_iv1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1793,14 +1793,14 @@
 						<id>81</id>
 						<name>indvars_iv2</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1838,14 +1838,14 @@
 						<id>82</id>
 						<name>o_y</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1883,14 +1883,14 @@
 						<id>83</id>
 						<name>indvars_iv3</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1928,14 +1928,14 @@
 						<id>84</id>
 						<name>indvars_iv4</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1973,14 +1973,14 @@
 						<id>85</id>
 						<name>indvars_iv5</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2049,14 +2049,14 @@
 						<id>87</id>
 						<name>b_cast_mid1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>43</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2091,14 +2091,14 @@
 						<id>88</id>
 						<name>tmp_6</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>82</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2134,14 +2134,14 @@
 						<id>89</id>
 						<name>o_d_cast_mid1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>46</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2176,14 +2176,14 @@
 						<id>90</id>
 						<name>tmp8</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>55</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2219,14 +2219,14 @@
 						<id>91</id>
 						<name>tmp_s</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>71</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2262,14 +2262,14 @@
 						<id>92</id>
 						<name>tmp1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>82</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2305,14 +2305,14 @@
 						<id>93</id>
 						<name>tmp2</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>82</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2348,14 +2348,14 @@
 						<id>94</id>
 						<name>o_y_cast_mid1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2390,14 +2390,14 @@
 						<id>95</id>
 						<name>i_y</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>63</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2433,14 +2433,14 @@
 						<id>96</id>
 						<name>tmp7</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>82</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2476,14 +2476,14 @@
 						<id>97</id>
 						<name>o_x_cast</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2518,14 +2518,14 @@
 						<id>98</id>
 						<name>tmp_1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2649,14 +2649,14 @@
 						<id>103</id>
 						<name>b_s_4</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>43</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2692,14 +2692,14 @@
 						<id>104</id>
 						<name>b_cast</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>43</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2763,14 +2763,14 @@
 						<id>106</id>
 						<name>o_d_mid</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2807,14 +2807,14 @@
 						<id>107</id>
 						<name>indvars_iv12_mid</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2851,14 +2851,14 @@
 						<id>108</id>
 						<name>indvars_iv19_mid</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2895,14 +2895,14 @@
 						<id>109</id>
 						<name>tmp_5_mid2_v</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>69</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2939,14 +2939,14 @@
 						<id>110</id>
 						<name>tmp_5_mid2_v_cast</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>69</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2981,14 +2981,14 @@
 						<id>111</id>
 						<name>tmp_5_mid2</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>69</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3024,14 +3024,14 @@
 						<id>112</id>
 						<name>tmp_6_mid1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>82</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3067,14 +3067,14 @@
 						<id>113</id>
 						<name>tmp_6_mid2</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>82</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3111,14 +3111,14 @@
 						<id>114</id>
 						<name>tmp_9_mid2155_v</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>55</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3155,14 +3155,14 @@
 						<id>115</id>
 						<name>tmp_mid</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>71</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3199,14 +3199,14 @@
 						<id>116</id>
 						<name>tmp2_mid</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>82</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3242,14 +3242,14 @@
 						<id>117</id>
 						<name>tmp2_mid3</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>82</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3286,14 +3286,14 @@
 						<id>118</id>
 						<name>tmp_5</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3329,14 +3329,14 @@
 						<id>119</id>
 						<name>smax</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3373,14 +3373,14 @@
 						<id>120</id>
 						<name>tmp_13</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3416,14 +3416,14 @@
 						<id>121</id>
 						<name>p_mid1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3460,14 +3460,14 @@
 						<id>122</id>
 						<name>tmp12_mid2187_v</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>82</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3504,14 +3504,14 @@
 						<id>123</id>
 						<name>tmp_10_mid1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3548,14 +3548,14 @@
 						<id>124</id>
 						<name>exitcond_flatten1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3591,14 +3591,14 @@
 						<id>125</id>
 						<name>exitcond_flatten72_m_1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3635,14 +3635,14 @@
 						<id>126</id>
 						<name>o_d_1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>46</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3678,14 +3678,14 @@
 						<id>127</id>
 						<name>o_d_cast</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>46</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3720,14 +3720,14 @@
 						<id>128</id>
 						<name>tmp_14</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3763,14 +3763,14 @@
 						<id>129</id>
 						<name>indvars_iv17_mid</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3807,14 +3807,14 @@
 						<id>130</id>
 						<name>indvars_iv14_mid</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3851,14 +3851,14 @@
 						<id>131</id>
 						<name>indvars_iv12_mid1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3895,14 +3895,14 @@
 						<id>132</id>
 						<name>o_y_mid</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3939,14 +3939,14 @@
 						<id>133</id>
 						<name>indvars_iv24_mid</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3983,14 +3983,14 @@
 						<id>134</id>
 						<name>indvars_iv21_mid</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4027,14 +4027,14 @@
 						<id>135</id>
 						<name>indvars_iv19_mid1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4071,14 +4071,14 @@
 						<id>136</id>
 						<name>tmp14_mid1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>55</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4114,14 +4114,14 @@
 						<id>137</id>
 						<name>tmp_9_mid2_v</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>55</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4158,14 +4158,14 @@
 						<id>138</id>
 						<name>tmp_9_mid2</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>55</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4201,14 +4201,14 @@
 						<id>139</id>
 						<name>tmp_mid1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>71</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4244,14 +4244,14 @@
 						<id>140</id>
 						<name>tmp_mid2</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>71</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4288,14 +4288,14 @@
 						<id>141</id>
 						<name>tmp1_mid1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>46</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4331,14 +4331,14 @@
 						<id>142</id>
 						<name>tmp2_mid1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>46</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4374,14 +4374,14 @@
 						<id>143</id>
 						<name>tmp2_mid2</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4418,14 +4418,14 @@
 						<id>144</id>
 						<name>p_mid2</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4462,14 +4462,14 @@
 						<id>145</id>
 						<name>i_y_mid</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>63</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4506,14 +4506,14 @@
 						<id>146</id>
 						<name>tmp12_mid2117_v</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4550,14 +4550,14 @@
 						<id>147</id>
 						<name>o_x_cast_mid</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4594,14 +4594,14 @@
 						<id>148</id>
 						<name>tmp_10_mid2</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4638,14 +4638,14 @@
 						<id>149</id>
 						<name>o_d_mid2</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4682,14 +4682,14 @@
 						<id>150</id>
 						<name>o_y_1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4725,14 +4725,14 @@
 						<id>151</id>
 						<name>indvars_iv_next</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4768,14 +4768,14 @@
 						<id>152</id>
 						<name>indvars_iv_next1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4811,14 +4811,14 @@
 						<id>153</id>
 						<name>indvars_iv_next2</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4854,14 +4854,14 @@
 						<id>154</id>
 						<name>o_y_cast</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4896,14 +4896,14 @@
 						<id>155</id>
 						<name>indvars_iv24_mid2</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4940,14 +4940,14 @@
 						<id>156</id>
 						<name>indvars_iv21_mid2</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4984,14 +4984,14 @@
 						<id>157</id>
 						<name>indvars_iv19_mid2</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5028,14 +5028,14 @@
 						<id>158</id>
 						<name>p_mid3</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5071,14 +5071,14 @@
 						<id>159</id>
 						<name>smax16_mid1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5115,14 +5115,14 @@
 						<id>160</id>
 						<name>p_mid4</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5158,14 +5158,14 @@
 						<id>161</id>
 						<name>p_mid5</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5202,14 +5202,14 @@
 						<id>162</id>
 						<name>i_y_mid1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>63</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5245,14 +5245,14 @@
 						<id>163</id>
 						<name>i_y_mid2</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>63</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5289,14 +5289,14 @@
 						<id>164</id>
 						<name>tmp7_mid1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5332,14 +5332,14 @@
 						<id>165</id>
 						<name>tmp12_mid2_v</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5376,14 +5376,14 @@
 						<id>166</id>
 						<name>tmp12_mid2</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5419,14 +5419,14 @@
 						<id>167</id>
 						<name>o_x_cast_mid2</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5463,14 +5463,14 @@
 						<id>168</id>
 						<name>o_x_cast_mid2_cast</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5505,14 +5505,14 @@
 						<id>169</id>
 						<name>indvars_iv17_mid2</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5549,14 +5549,14 @@
 						<id>170</id>
 						<name>indvars_iv14_mid2</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5593,14 +5593,14 @@
 						<id>171</id>
 						<name>indvars_iv12_mid2</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5637,14 +5637,14 @@
 						<id>172</id>
 						<name>o_y_mid2</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5681,14 +5681,14 @@
 						<id>173</id>
 						<name>tmp_20</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5724,14 +5724,14 @@
 						<id>174</id>
 						<name>smax1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5768,14 +5768,14 @@
 						<id>175</id>
 						<name>tmp_25</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5811,14 +5811,14 @@
 						<id>176</id>
 						<name>mem_addr</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>55</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5854,14 +5854,14 @@
 						<id>177</id>
 						<name>output_element_req</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>55</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5898,14 +5898,14 @@
 						<id>178</id>
 						<name>output_element</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>55</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5942,14 +5942,14 @@
 						<id>179</id>
 						<name>i_x</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>66</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5985,14 +5985,14 @@
 						<id>180</id>
 						<name>tmp_4</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>66</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6028,14 +6028,14 @@
 						<id>181</id>
 						<name>cast</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6070,14 +6070,14 @@
 						<id>182</id>
 						<name>cast8</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6112,14 +6112,14 @@
 						<id>183</id>
 						<name>bound</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6155,14 +6155,14 @@
 						<id>184</id>
 						<name>cast9</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6197,14 +6197,14 @@
 						<id>185</id>
 						<name>bound4</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6240,14 +6240,14 @@
 						<id>186</id>
 						<name></name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>60</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6313,14 +6313,14 @@
 						<id>189</id>
 						<name>i_d</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6358,14 +6358,14 @@
 						<id>190</id>
 						<name>indvar_flatten</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6403,14 +6403,14 @@
 						<id>191</id>
 						<name>i_y1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>63</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6448,14 +6448,14 @@
 						<id>192</id>
 						<name>iiy</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>66</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6586,14 +6586,14 @@
 						<id>196</id>
 						<name>i_d_cast_mid1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>60</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6628,14 +6628,14 @@
 						<id>197</id>
 						<name>tmp4</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>60</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6671,14 +6671,14 @@
 						<id>198</id>
 						<name>tmp5</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>60</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6714,14 +6714,14 @@
 						<id>199</id>
 						<name>tmp9</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>60</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6757,14 +6757,14 @@
 						<id>200</id>
 						<name>tmp10</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>60</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6800,14 +6800,14 @@
 						<id>201</id>
 						<name>exitcond_flatten4</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6872,14 +6872,14 @@
 						<id>203</id>
 						<name></name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6916,14 +6916,14 @@
 						<id>205</id>
 						<name>i_d_s</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>60</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6959,14 +6959,14 @@
 						<id>206</id>
 						<name>i_d_cast</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>60</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7001,14 +7001,14 @@
 						<id>207</id>
 						<name>exitcond_flatten2</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7044,14 +7044,14 @@
 						<id>208</id>
 						<name>i_y1_mid</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7088,14 +7088,14 @@
 						<id>209</id>
 						<name>iiy_mid</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7132,14 +7132,14 @@
 						<id>210</id>
 						<name>i_x1_mid</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7176,14 +7176,14 @@
 						<id>211</id>
 						<name>iix_mid</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7220,14 +7220,14 @@
 						<id>212</id>
 						<name>tmp4_mid1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>60</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7263,14 +7263,14 @@
 						<id>213</id>
 						<name>tmp5_mid1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>60</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7306,14 +7306,14 @@
 						<id>214</id>
 						<name>tmp5_mid2</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7350,14 +7350,14 @@
 						<id>215</id>
 						<name>tmp9_mid1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>60</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7393,14 +7393,14 @@
 						<id>216</id>
 						<name>tmp10_mid1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>60</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7436,14 +7436,14 @@
 						<id>217</id>
 						<name>tmp10_mid2</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7480,14 +7480,14 @@
 						<id>218</id>
 						<name>tmp3_mid</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>63</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7523,14 +7523,14 @@
 						<id>219</id>
 						<name>tmp12</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>60</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7566,14 +7566,14 @@
 						<id>220</id>
 						<name>tmp6_mid241_v</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7610,14 +7610,14 @@
 						<id>221</id>
 						<name>tmp13</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>60</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7653,14 +7653,14 @@
 						<id>222</id>
 						<name>tmp11_mid245_v</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7697,14 +7697,14 @@
 						<id>223</id>
 						<name>tmp_26</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>66</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7740,14 +7740,14 @@
 						<id>224</id>
 						<name>tmp_15_mid</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>66</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7784,14 +7784,14 @@
 						<id>225</id>
 						<name>i_d_mid2</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7828,14 +7828,14 @@
 						<id>226</id>
 						<name>i_y_1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>63</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7871,14 +7871,14 @@
 						<id>227</id>
 						<name>iiy_1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>63</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7914,14 +7914,14 @@
 						<id>228</id>
 						<name>i_x1_mid2</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>66</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7958,14 +7958,14 @@
 						<id>229</id>
 						<name>iix_mid2</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>66</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8002,14 +8002,14 @@
 						<id>230</id>
 						<name>tmp3_mid1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>63</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8045,14 +8045,14 @@
 						<id>231</id>
 						<name>tmp6_mid2_v</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>66</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8089,14 +8089,14 @@
 						<id>232</id>
 						<name>tmp6_mid2</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>66</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8132,14 +8132,14 @@
 						<id>233</id>
 						<name>tmp8_mid1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>63</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8175,14 +8175,14 @@
 						<id>234</id>
 						<name>tmp11_mid2_v</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>66</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8219,14 +8219,14 @@
 						<id>235</id>
 						<name>tmp11_mid2</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>66</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8262,14 +8262,14 @@
 						<id>236</id>
 						<name>i_y1_mid2</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>66</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8306,14 +8306,14 @@
 						<id>237</id>
 						<name>iiy_mid2</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>66</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8350,14 +8350,14 @@
 						<id>240</id>
 						<name>tmp14</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>69</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8393,14 +8393,14 @@
 						<id>241</id>
 						<name>tmp15</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>69</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8436,14 +8436,14 @@
 						<id>242</id>
 						<name>tmp_11</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>69</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8479,14 +8479,14 @@
 						<id>243</id>
 						<name>mem_addr_2</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>69</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8522,14 +8522,14 @@
 						<id>244</id>
 						<name>input_element_req</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>69</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8567,14 +8567,14 @@
 						<id>245</id>
 						<name>input_element</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>69</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8613,14 +8613,14 @@
 						<id>246</id>
 						<name>input_element_to_int</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>69</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8655,14 +8655,14 @@
 						<id>247</id>
 						<name>tmp_12</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>69</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8700,14 +8700,14 @@
 						<id>248</id>
 						<name>tmp_27</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>69</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8742,14 +8742,14 @@
 						<id>249</id>
 						<name>notlhs</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>69</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8785,14 +8785,14 @@
 						<id>250</id>
 						<name>notrhs</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>69</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8828,14 +8828,14 @@
 						<id>251</id>
 						<name>tmp_15</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>69</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8871,14 +8871,14 @@
 						<id>252</id>
 						<name>tmp_16</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>70</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8914,14 +8914,14 @@
 						<id>253</id>
 						<name>tmp_17</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>70</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8957,14 +8957,14 @@
 						<id>254</id>
 						<name></name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>70</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9001,14 +9001,14 @@
 						<id>256</id>
 						<name>tmp20</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>71</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9044,14 +9044,14 @@
 						<id>257</id>
 						<name>tmp_18</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>71</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9087,14 +9087,14 @@
 						<id>258</id>
 						<name>mem_addr_3</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>71</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9130,14 +9130,14 @@
 						<id>259</id>
 						<name>weight_element_req</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>71</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9176,14 +9176,14 @@
 						<id>260</id>
 						<name>weight_element</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>71</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9224,14 +9224,14 @@
 						<id>261</id>
 						<name>weight_element_to_in</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>71</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9266,14 +9266,14 @@
 						<id>262</id>
 						<name>tmp_19</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>71</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9311,14 +9311,14 @@
 						<id>263</id>
 						<name>tmp_28</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>71</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9353,14 +9353,14 @@
 						<id>264</id>
 						<name>notlhs1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>71</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9396,14 +9396,14 @@
 						<id>265</id>
 						<name>notrhs1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>71</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9439,14 +9439,14 @@
 						<id>266</id>
 						<name>tmp_21</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>71</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9482,14 +9482,14 @@
 						<id>267</id>
 						<name>tmp_22</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9525,14 +9525,14 @@
 						<id>268</id>
 						<name>tmp_23</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9568,14 +9568,14 @@
 						<id>269</id>
 						<name></name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9612,14 +9612,14 @@
 						<id>271</id>
 						<name>tmp_24</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>73</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9655,14 +9655,14 @@
 						<id>272</id>
 						<name>output_element_1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>73</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9698,14 +9698,14 @@
 						<id>273</id>
 						<name></name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>74</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9773,14 +9773,14 @@
 						<id>277</id>
 						<name>i_x_1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>66</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9816,14 +9816,14 @@
 						<id>278</id>
 						<name>iix_1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>66</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9859,14 +9859,14 @@
 						<id>279</id>
 						<name>indvar_flatten_op</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9902,14 +9902,14 @@
 						<id>280</id>
 						<name>indvar_flatten_next</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9946,14 +9946,14 @@
 						<id>281</id>
 						<name></name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>66</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9988,14 +9988,14 @@
 						<id>283</id>
 						<name>tmp11</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>82</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10031,14 +10031,14 @@
 						<id>284</id>
 						<name>tmp_9</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>82</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10074,14 +10074,14 @@
 						<id>285</id>
 						<name>mem_addr_1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>82</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10117,14 +10117,14 @@
 						<id>286</id>
 						<name>mem_addr_1_req</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>82</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10161,14 +10161,14 @@
 						<id>287</id>
 						<name></name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>82</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10209,14 +10209,14 @@
 						<id>288</id>
 						<name>mem_addr_1_resp</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>82</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10253,14 +10253,14 @@
 						<id>289</id>
 						<name>o_x_op</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10296,14 +10296,14 @@
 						<id>290</id>
 						<name>o_x_mid293_op</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10340,14 +10340,14 @@
 						<id>291</id>
 						<name>o_x_1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10384,14 +10384,14 @@
 						<id>292</id>
 						<name>indvars_iv_next3</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10427,14 +10427,14 @@
 						<id>293</id>
 						<name>indvars_iv_next4</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10470,14 +10470,14 @@
 						<id>294</id>
 						<name>indvars_iv_next5</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10513,14 +10513,14 @@
 						<id>295</id>
 						<name>indvar_flatten70_op</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10556,14 +10556,14 @@
 						<id>296</id>
 						<name>indvar_flatten_next1</name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10659,14 +10659,14 @@
 						<id>299</id>
 						<name></name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10701,14 +10701,14 @@
 						<id>301</id>
 						<name></name>
 						<fileName>../conv_test/conv_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>87</lineNumber>
 						<contextFuncName>conv_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>

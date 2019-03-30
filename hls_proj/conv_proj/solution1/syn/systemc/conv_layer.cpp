@@ -262,7 +262,7 @@ conv_layer::conv_layer(sc_module_name name) : sc_module(name), mVcdFile(0) {
     conv_layer_CTRL_BUS_s_axi_U->iy(iy);
     conv_layer_CTRL_BUS_s_axi_U->s(s);
     conv_layer_CTRL_BUS_s_axi_U->k(k);
-    conv_layer_mem_m_axi_U = new conv_layer_mem_m_axi<32,64,5,16,16,16,16,C_M_AXI_MEM_ID_WIDTH,C_M_AXI_MEM_ADDR_WIDTH,C_M_AXI_MEM_DATA_WIDTH,C_M_AXI_MEM_AWUSER_WIDTH,C_M_AXI_MEM_ARUSER_WIDTH,C_M_AXI_MEM_WUSER_WIDTH,C_M_AXI_MEM_RUSER_WIDTH,C_M_AXI_MEM_BUSER_WIDTH,C_M_AXI_MEM_TARGET_ADDR,C_M_AXI_MEM_USER_VALUE,C_M_AXI_MEM_PROT_VALUE,C_M_AXI_MEM_CACHE_VALUE>("conv_layer_mem_m_axi_U");
+    conv_layer_mem_m_axi_U = new conv_layer_mem_m_axi<32,32,5,16,16,16,16,C_M_AXI_MEM_ID_WIDTH,C_M_AXI_MEM_ADDR_WIDTH,C_M_AXI_MEM_DATA_WIDTH,C_M_AXI_MEM_AWUSER_WIDTH,C_M_AXI_MEM_ARUSER_WIDTH,C_M_AXI_MEM_WUSER_WIDTH,C_M_AXI_MEM_RUSER_WIDTH,C_M_AXI_MEM_BUSER_WIDTH,C_M_AXI_MEM_TARGET_ADDR,C_M_AXI_MEM_USER_VALUE,C_M_AXI_MEM_PROT_VALUE,C_M_AXI_MEM_CACHE_VALUE>("conv_layer_mem_m_axi_U");
     conv_layer_mem_m_axi_U->AWVALID(m_axi_mem_AWVALID);
     conv_layer_mem_m_axi_U->AWREADY(m_axi_mem_AWREADY);
     conv_layer_mem_m_axi_U->AWADDR(m_axi_mem_AWADDR);
@@ -333,7 +333,7 @@ conv_layer::conv_layer(sc_module_name name) : sc_module(name), mVcdFile(0) {
     conv_layer_mem_m_axi_U->I_RLAST(mem_RLAST);
     conv_layer_mem_m_axi_U->I_AWVALID(mem_AWVALID);
     conv_layer_mem_m_axi_U->I_AWREADY(mem_AWREADY);
-    conv_layer_mem_m_axi_U->I_AWADDR(mem_AWADDR);
+    conv_layer_mem_m_axi_U->I_AWADDR(tmp_9_reg_2431);
     conv_layer_mem_m_axi_U->I_AWID(ap_var_for_const1);
     conv_layer_mem_m_axi_U->I_AWLEN(ap_var_for_const2);
     conv_layer_mem_m_axi_U->I_AWSIZE(ap_var_for_const3);
@@ -1743,11 +1743,6 @@ conv_layer::conv_layer(sc_module_name name) : sc_module(name), mVcdFile(0) {
     sensitive << ( ap_block_pp0_stage9_flag00001001 );
     sensitive << ( ap_block_pp0_stage8_flag00001001 );
 
-    SC_METHOD(thread_mem_AWADDR);
-    sensitive << ( ap_CS_fsm_state162 );
-    sensitive << ( tmp_9_reg_2431 );
-    sensitive << ( ap_reg_ioackin_mem_AWREADY );
-
     SC_METHOD(thread_mem_AWVALID);
     sensitive << ( ap_CS_fsm_state162 );
     sensitive << ( ap_reg_ioackin_mem_AWREADY );
@@ -2436,7 +2431,6 @@ conv_layer::conv_layer(sc_module_name name) : sc_module(name), mVcdFile(0) {
     sc_trace(mVcdFile, ap_CS_fsm_state93, "ap_CS_fsm_state93");
     sc_trace(mVcdFile, mem_AWVALID, "mem_AWVALID");
     sc_trace(mVcdFile, mem_AWREADY, "mem_AWREADY");
-    sc_trace(mVcdFile, mem_AWADDR, "mem_AWADDR");
     sc_trace(mVcdFile, mem_WVALID, "mem_WVALID");
     sc_trace(mVcdFile, mem_WREADY, "mem_WREADY");
     sc_trace(mVcdFile, mem_ARVALID, "mem_ARVALID");
@@ -3727,7 +3721,7 @@ void conv_layer::thread_ap_clk_no_reset_() {
     if ((esl_seteq<1,1,1>(ap_const_logic_1, ap_CS_fsm_pp0_stage9.read()) && esl_seteq<1,1,1>(exitcond_flatten4_reg_2127.read(), ap_const_lv1_0) && esl_seteq<1,1,1>(ap_block_pp0_stage9_flag00011001.read(), ap_const_boolean_0) && esl_seteq<1,1,1>(ap_const_lv1_0, tmp_15_mid_reg_2210.read()))) {
         tmp3_mid1_reg_2254 = tmp3_mid1_fu_1185_p2.read();
     }
-    if ((esl_seteq<1,1,1>(ap_const_logic_1, ap_CS_fsm_pp0_stage9.read()) && esl_seteq<1,1,1>(exitcond_flatten4_reg_2127.read(), ap_const_lv1_0) && esl_seteq<1,1,1>(ap_block_pp0_stage9_flag00011001.read(), ap_const_boolean_0) && esl_seteq<1,1,1>(ap_const_lv1_1, exitcond_flatten2_reg_2137.read()) && esl_seteq<1,1,1>(ap_const_lv1_1, tmp_15_mid_reg_2210.read()))) {
+    if ((esl_seteq<1,1,1>(ap_const_logic_1, ap_CS_fsm_pp0_stage9.read()) && esl_seteq<1,1,1>(exitcond_flatten4_reg_2127.read(), ap_const_lv1_0) && esl_seteq<1,1,1>(ap_block_pp0_stage9_flag00011001.read(), ap_const_boolean_0) && esl_seteq<1,1,1>(ap_const_lv1_1, tmp_15_mid_reg_2210.read()) && esl_seteq<1,1,1>(ap_const_lv1_1, exitcond_flatten2_reg_2137.read()))) {
         tmp3_mid_reg_2238 = tmp3_mid_fu_1170_p2.read();
     }
     if ((esl_seteq<1,1,1>(ap_const_logic_1, ap_CS_fsm_pp0_stage7.read()) && esl_seteq<1,1,1>(ap_block_pp0_stage7_flag00011001.read(), ap_const_boolean_0))) {
@@ -5288,16 +5282,16 @@ void conv_layer::thread_input_element_to_int_fu_1287_p1() {
 void conv_layer::thread_mem_ARADDR() {
     if (esl_seteq<1,1,1>(ap_const_logic_0, ap_reg_ioackin_mem_ARREADY.read())) {
         if (esl_seteq<1,1,1>(ap_condition_1376.read(), ap_const_boolean_1)) {
-            mem_ARADDR =  (sc_lv<64>) (tmp_18_fu_1330_p2.read());
+            mem_ARADDR = tmp_18_fu_1330_p2.read();
         } else if (esl_seteq<1,1,1>(ap_condition_1366.read(), ap_const_boolean_1)) {
-            mem_ARADDR =  (sc_lv<64>) (tmp_11_reg_2321.read());
+            mem_ARADDR = tmp_11_reg_2321.read();
         } else if (esl_seteq<1,1,1>(ap_const_logic_1, ap_CS_fsm_state86.read())) {
-            mem_ARADDR =  (sc_lv<64>) (tmp_9_mid2_reg_1984.read());
+            mem_ARADDR = tmp_9_mid2_reg_1984.read();
         } else {
-            mem_ARADDR =  (sc_lv<64>) ("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+            mem_ARADDR = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
         }
     } else {
-        mem_ARADDR =  (sc_lv<64>) ("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+        mem_ARADDR = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
     }
 }
 
@@ -5318,10 +5312,6 @@ void conv_layer::thread_mem_ARVALID() {
     } else {
         mem_ARVALID = ap_const_logic_0;
     }
-}
-
-void conv_layer::thread_mem_AWADDR() {
-    mem_AWADDR =  (sc_lv<64>) (tmp_9_reg_2431.read());
 }
 
 void conv_layer::thread_mem_AWVALID() {

@@ -26,7 +26,7 @@
 
 namespace ap_rtl {
 
-template<unsigned int C_M_AXI_MEM_ADDR_WIDTH = 64,
+template<unsigned int C_M_AXI_MEM_ADDR_WIDTH = 32,
          unsigned int C_M_AXI_MEM_ID_WIDTH = 1,
          unsigned int C_M_AXI_MEM_AWUSER_WIDTH = 1,
          unsigned int C_M_AXI_MEM_DATA_WIDTH = 32,
@@ -128,7 +128,7 @@ struct maxpool_layer : public sc_module {
     ofstream mHdltvinHandle;
     ofstream mHdltvoutHandle;
     maxpool_layer_CTRL_BUS_s_axi<C_S_AXI_CTRL_BUS_ADDR_WIDTH,C_S_AXI_CTRL_BUS_DATA_WIDTH>* maxpool_layer_CTRL_BUS_s_axi_U;
-    maxpool_layer_mem_m_axi<32,64,5,16,16,16,16,C_M_AXI_MEM_ID_WIDTH,C_M_AXI_MEM_ADDR_WIDTH,C_M_AXI_MEM_DATA_WIDTH,C_M_AXI_MEM_AWUSER_WIDTH,C_M_AXI_MEM_ARUSER_WIDTH,C_M_AXI_MEM_WUSER_WIDTH,C_M_AXI_MEM_RUSER_WIDTH,C_M_AXI_MEM_BUSER_WIDTH,C_M_AXI_MEM_TARGET_ADDR,C_M_AXI_MEM_USER_VALUE,C_M_AXI_MEM_PROT_VALUE,C_M_AXI_MEM_CACHE_VALUE>* maxpool_layer_mem_m_axi_U;
+    maxpool_layer_mem_m_axi<32,32,5,16,16,16,16,C_M_AXI_MEM_ID_WIDTH,C_M_AXI_MEM_ADDR_WIDTH,C_M_AXI_MEM_DATA_WIDTH,C_M_AXI_MEM_AWUSER_WIDTH,C_M_AXI_MEM_ARUSER_WIDTH,C_M_AXI_MEM_WUSER_WIDTH,C_M_AXI_MEM_RUSER_WIDTH,C_M_AXI_MEM_BUSER_WIDTH,C_M_AXI_MEM_TARGET_ADDR,C_M_AXI_MEM_USER_VALUE,C_M_AXI_MEM_PROT_VALUE,C_M_AXI_MEM_CACHE_VALUE>* maxpool_layer_mem_m_axi_U;
     maxpool_layer_fcmbkb<1,4,32,32,1>* maxpool_layer_fcmbkb_U0;
     maxpool_layer_mulcud<1,7,32,32,64>* maxpool_layer_mulcud_U1;
     maxpool_layer_muldEe<1,19,64,32,96>* maxpool_layer_muldEe_U2;
@@ -188,12 +188,10 @@ struct maxpool_layer : public sc_module {
     sc_signal< sc_logic > ap_CS_fsm_state117;
     sc_signal< sc_logic > mem_AWVALID;
     sc_signal< sc_logic > mem_AWREADY;
-    sc_signal< sc_lv<64> > mem_AWADDR;
     sc_signal< sc_logic > mem_WVALID;
     sc_signal< sc_logic > mem_WREADY;
     sc_signal< sc_logic > mem_ARVALID;
     sc_signal< sc_logic > mem_ARREADY;
-    sc_signal< sc_lv<64> > mem_ARADDR;
     sc_signal< sc_logic > mem_RVALID;
     sc_signal< sc_logic > mem_RREADY;
     sc_signal< sc_lv<32> > mem_RDATA;
@@ -945,9 +943,7 @@ struct maxpool_layer : public sc_module {
     void thread_indvars_iv_next4_fu_1093_p2();
     void thread_indvars_iv_next5_fu_1097_p2();
     void thread_indvars_iv_next_fu_650_p2();
-    void thread_mem_ARADDR();
     void thread_mem_ARVALID();
-    void thread_mem_AWADDR();
     void thread_mem_AWVALID();
     void thread_mem_BREADY();
     void thread_mem_RREADY();

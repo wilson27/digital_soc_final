@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'maxpool_layer'
 ================================================================
-* Date:           Sat Mar 30 12:35:59 2019
+* Date:           Sat Mar 30 16:16:47 2019
 
 * Version:        2017.2 (Build 1909853 on Thu Jun 15 18:55:24 MDT 2017)
 * Project:        maxpool_proj
@@ -1888,7 +1888,7 @@ The critical path consists of the following:
 
  <State 62>: 2.14ns
 The critical path consists of the following:
-	'mul' operation ('tmp_4_mid1', ../maxpool_test/maxpool_layer.cpp:73) [106]  (2.14 ns)
+	'mul' operation ('tmp_3_mid1', ../maxpool_test/maxpool_layer.cpp:68) [104]  (2.14 ns)
 
  <State 63>: 3.25ns
 The critical path consists of the following:

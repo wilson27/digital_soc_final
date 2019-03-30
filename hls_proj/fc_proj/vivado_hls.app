@@ -1,11 +1,15 @@
-<AutoPilot:project xmlns:AutoPilot="com.autoesl.autopilot.project" projectType="C/C++" name="fc_proj" top="fc_layer">
-    <files>
+<project xmlns="com.autoesl.autopilot.project" name="fc_proj" top="fc_layer">
+    <includePaths/>
+    <libraryPaths/>
+    <Simulation>
+        <SimFlow name="csim"/>
+    </Simulation>
+    <files xmlns="">
         <file name="../fc_test/fc_layer.cpp" sc="0" tb="false" cflags=""/>
-        <file name="../fc_layer.cpp" sc="0" tb="false" cflags=""/>
         <file name="fc_layer.cpp" sc="0" tb="false" cflags=""/>
     </files>
-    <solutions>
-        <solution name="solution1" status=""/>
+    <solutions xmlns="">
+        <solution name="solution1" status="active"/>
     </solutions>
-</AutoPilot:project>
+</project>
 

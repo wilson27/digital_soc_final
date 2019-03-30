@@ -196,7 +196,7 @@ parameter    C_S_AXI_CTRL_BUS_DATA_WIDTH = 32;
 parameter    C_S_AXI_CTRL_BUS_ADDR_WIDTH = 7;
 parameter    C_S_AXI_DATA_WIDTH = 32;
 parameter    C_M_AXI_MEM_ID_WIDTH = 1;
-parameter    C_M_AXI_MEM_ADDR_WIDTH = 64;
+parameter    C_M_AXI_MEM_ADDR_WIDTH = 32;
 parameter    C_M_AXI_MEM_DATA_WIDTH = 32;
 parameter    C_M_AXI_MEM_AWUSER_WIDTH = 1;
 parameter    C_M_AXI_MEM_ARUSER_WIDTH = 1;
@@ -327,12 +327,11 @@ wire    ap_CS_fsm_state86;
 wire    ap_CS_fsm_state93;
 reg    mem_AWVALID;
 wire    mem_AWREADY;
-wire   [63:0] mem_AWADDR;
 reg    mem_WVALID;
 wire    mem_WREADY;
 reg    mem_ARVALID;
 wire    mem_ARREADY;
-reg   [63:0] mem_ARADDR;
+reg   [31:0] mem_ARADDR;
 wire    mem_RVALID;
 reg    mem_RREADY;
 wire   [31:0] mem_RDATA;
@@ -1004,7 +1003,7 @@ conv_layer_CTRL_BUS_s_axi_U(
 
 conv_layer_mem_m_axi #(
     .USER_DW( 32 ),
-    .USER_AW( 64 ),
+    .USER_AW( 32 ),
     .USER_MAXREQS( 5 ),
     .NUM_READ_OUTSTANDING( 16 ),
     .NUM_WRITE_OUTSTANDING( 16 ),
@@ -1093,7 +1092,7 @@ conv_layer_mem_m_axi_U(
     .I_RLAST(mem_RLAST),
     .I_AWVALID(mem_AWVALID),
     .I_AWREADY(mem_AWREADY),
-    .I_AWADDR(mem_AWADDR),
+    .I_AWADDR(tmp_9_reg_2431),
     .I_AWID(1'd0),
     .I_AWLEN(32'd1),
     .I_AWSIZE(3'd0),
@@ -2418,7 +2417,7 @@ always @ (posedge ap_clk) begin
 end
 
 always @ (posedge ap_clk) begin
-    if (((1'b1 == ap_CS_fsm_pp0_stage9) & (exitcond_flatten4_reg_2127 == 1'd0) & (ap_block_pp0_stage9_flag00011001 == 1'b0) & (1'd1 == exitcond_flatten2_reg_2137) & (1'd1 == tmp_15_mid_reg_2210))) begin
+    if (((1'b1 == ap_CS_fsm_pp0_stage9) & (exitcond_flatten4_reg_2127 == 1'd0) & (ap_block_pp0_stage9_flag00011001 == 1'b0) & (1'd1 == tmp_15_mid_reg_2210) & (1'd1 == exitcond_flatten2_reg_2137))) begin
         tmp3_mid_reg_2238 <= tmp3_mid_fu_1170_p2;
     end
 end
@@ -3889,8 +3888,6 @@ assign indvars_iv_next5_fu_1403_p2 = ($signed(indvars_iv24_mid2_reg_1921) - $sig
 assign indvars_iv_next_fu_780_p2 = ($signed(s_read_reg_1473) + $signed(indvars_iv12_mid1_reg_1845));
 
 assign input_element_to_int_fu_1287_p1 = input_element_reg_2337;
-
-assign mem_AWADDR = tmp_9_reg_2431;
 
 assign notlhs1_fu_1364_p2 = ((tmp_19_fu_1350_p4 != 8'd255) ? 1'b1 : 1'b0);
 

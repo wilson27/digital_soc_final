@@ -1547,7 +1547,7 @@
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="61" bw="64" op_0_bw="64" op_1_bw="64">
+<Node id="61" bw="32" op_0_bw="32" op_1_bw="32">
 <![CDATA[
 .preheader.preheader:10  %mem_addr = getelementptr inbounds float* %mem, i32 %tmp_9
 
@@ -2142,7 +2142,7 @@
 </and_exp></or_exp>
 </condition>
 
-<Node id="79" bw="64" op_0_bw="64" op_1_bw="64">
+<Node id="79" bw="32" op_0_bw="32" op_1_bw="32">
 <![CDATA[
 :5  %mem_addr_1 = getelementptr inbounds float* %mem, i32 %tmp_10
 
@@ -2530,7 +2530,7 @@
 </and_exp></or_exp>
 </condition>
 
-<Node id="94" bw="64" op_0_bw="64" op_1_bw="64">
+<Node id="94" bw="32" op_0_bw="32" op_1_bw="32">
 <![CDATA[
 :2  %mem_addr_2 = getelementptr inbounds float* %mem, i32 %tmp_16
 
@@ -3746,7 +3746,7 @@
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="127" bw="64" op_0_bw="64" op_1_bw="64">
+<Node id="127" bw="32" op_0_bw="32" op_1_bw="32">
 <![CDATA[
 :10  %mem_addr_4 = getelementptr inbounds float* %mem, i32 %tmp_23
 
@@ -3920,7 +3920,7 @@
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="134" bw="64" op_0_bw="64" op_1_bw="64">
+<Node id="134" bw="32" op_0_bw="32" op_1_bw="32">
 <![CDATA[
 :1  %mem_addr_3 = getelementptr inbounds float* %mem, i32 %tmp_20
 

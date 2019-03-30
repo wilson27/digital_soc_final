@@ -391,14 +391,14 @@
 						<id>30</id>
 						<name>num_weights</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>21</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item class_id="11" tracking_level="0" version="0">
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second class_id="12" tracking_level="0" version="0">
 									<count>1</count>
 									<item_version>0</item_version>
@@ -434,14 +434,14 @@
 						<id>31</id>
 						<name>tmp</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>31</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -479,14 +479,14 @@
 						<id>32</id>
 						<name>tmp_3</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>31</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -521,14 +521,14 @@
 						<id>33</id>
 						<name>tmp_1</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>51</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -564,14 +564,14 @@
 						<id>34</id>
 						<name>tmp_2</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>54</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -609,14 +609,14 @@
 						<id>35</id>
 						<name>tmp_4</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>54</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -651,14 +651,14 @@
 						<id>36</id>
 						<name>tmp2</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>36</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -779,14 +779,14 @@
 						<id>40</id>
 						<name></name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>25</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -852,14 +852,14 @@
 						<id>43</id>
 						<name>b</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>36</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -928,14 +928,14 @@
 						<id>45</id>
 						<name>o_cast</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>28</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -970,14 +970,14 @@
 						<id>46</id>
 						<name>tmp_7</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>28</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1101,14 +1101,14 @@
 						<id>51</id>
 						<name>b_s</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>25</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1144,14 +1144,14 @@
 						<id>52</id>
 						<name>tmp_4_mid2_v_v</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>36</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1188,14 +1188,14 @@
 						<id>53</id>
 						<name>tmp_4_mid2_v</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>36</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1230,14 +1230,14 @@
 						<id>54</id>
 						<name>tmp_4_mid2</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>36</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1273,14 +1273,14 @@
 						<id>55</id>
 						<name>tmp_6_mid2_v</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>54</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1316,14 +1316,14 @@
 						<id>56</id>
 						<name>tmp_6_mid2</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>54</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1359,14 +1359,14 @@
 						<id>57</id>
 						<name>o_cast_mid2</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>28</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1403,14 +1403,14 @@
 						<id>58</id>
 						<name>o_cast_mid2_cast</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>28</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1445,14 +1445,14 @@
 						<id>59</id>
 						<name>tmp1</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>31</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1488,14 +1488,14 @@
 						<id>60</id>
 						<name>tmp_9</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>31</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1531,14 +1531,14 @@
 						<id>61</id>
 						<name>mem_addr</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>31</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1574,14 +1574,14 @@
 						<id>62</id>
 						<name>output_element_req</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>31</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1618,14 +1618,14 @@
 						<id>63</id>
 						<name>output_element</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>31</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1662,14 +1662,14 @@
 						<id>64</id>
 						<name>tmp_s</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>38</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1705,14 +1705,14 @@
 						<id>65</id>
 						<name></name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>34</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1809,14 +1809,14 @@
 						<id>69</id>
 						<name>i_cast</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>34</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1851,14 +1851,14 @@
 						<id>70</id>
 						<name>tmp_5</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>34</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1894,14 +1894,14 @@
 						<id>71</id>
 						<name>i_1</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>34</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1937,14 +1937,14 @@
 						<id>72</id>
 						<name></name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>34</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1981,14 +1981,14 @@
 						<id>76</id>
 						<name>tmp4</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>36</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2024,14 +2024,14 @@
 						<id>77</id>
 						<name>tmp3</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>36</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2067,14 +2067,14 @@
 						<id>78</id>
 						<name>tmp_10</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>36</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2110,14 +2110,14 @@
 						<id>79</id>
 						<name>mem_addr_1</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>36</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2153,14 +2153,14 @@
 						<id>80</id>
 						<name>input_element_req</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>36</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2198,14 +2198,14 @@
 						<id>81</id>
 						<name>input_element</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>36</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2244,14 +2244,14 @@
 						<id>82</id>
 						<name>input_element_to_int</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>36</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2286,14 +2286,14 @@
 						<id>83</id>
 						<name>tmp_11</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>36</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2331,14 +2331,14 @@
 						<id>84</id>
 						<name>tmp_12</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>36</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2373,14 +2373,14 @@
 						<id>85</id>
 						<name>notlhs8</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>36</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2416,14 +2416,14 @@
 						<id>86</id>
 						<name>notrhs9</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>36</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2459,14 +2459,14 @@
 						<id>87</id>
 						<name>tmp_13</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>36</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2502,14 +2502,14 @@
 						<id>88</id>
 						<name>tmp_14</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>37</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2545,14 +2545,14 @@
 						<id>89</id>
 						<name>tmp_15</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>37</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2588,14 +2588,14 @@
 						<id>90</id>
 						<name></name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>37</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2632,14 +2632,14 @@
 						<id>92</id>
 						<name>tmp5</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>38</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2675,14 +2675,14 @@
 						<id>93</id>
 						<name>tmp_16</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>38</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2718,14 +2718,14 @@
 						<id>94</id>
 						<name>mem_addr_2</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>38</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2761,14 +2761,14 @@
 						<id>95</id>
 						<name>weight_element_req</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>38</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2807,14 +2807,14 @@
 						<id>96</id>
 						<name>weight_element</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>38</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2855,14 +2855,14 @@
 						<id>97</id>
 						<name>weight_element_to_in</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>38</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2897,14 +2897,14 @@
 						<id>98</id>
 						<name>tmp_17</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>38</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2942,14 +2942,14 @@
 						<id>99</id>
 						<name>tmp_18</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>38</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2984,14 +2984,14 @@
 						<id>100</id>
 						<name>notlhs1</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>38</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3027,14 +3027,14 @@
 						<id>101</id>
 						<name>notrhs1</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>38</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3070,14 +3070,14 @@
 						<id>102</id>
 						<name>tmp_19</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>38</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3113,14 +3113,14 @@
 						<id>103</id>
 						<name>tmp_21</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>39</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3156,14 +3156,14 @@
 						<id>104</id>
 						<name>tmp_26</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>39</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3199,14 +3199,14 @@
 						<id>105</id>
 						<name></name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>39</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3243,14 +3243,14 @@
 						<id>107</id>
 						<name>tmp_24</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>40</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3286,14 +3286,14 @@
 						<id>108</id>
 						<name>output_element_1</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>40</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3329,14 +3329,14 @@
 						<id>109</id>
 						<name></name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3404,14 +3404,14 @@
 						<id>113</id>
 						<name></name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>34</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3446,14 +3446,14 @@
 						<id>115</id>
 						<name></name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>51</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3490,14 +3490,14 @@
 						<id>117</id>
 						<name>tmp_10_to_int</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>31</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3532,14 +3532,14 @@
 						<id>118</id>
 						<name>tmp_27</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>31</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3577,14 +3577,14 @@
 						<id>119</id>
 						<name>tmp_28</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>31</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3619,14 +3619,14 @@
 						<id>120</id>
 						<name>notlhs</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>31</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3662,14 +3662,14 @@
 						<id>121</id>
 						<name>notrhs</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>31</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3705,14 +3705,14 @@
 						<id>122</id>
 						<name>tmp_29</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>31</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3748,14 +3748,14 @@
 						<id>123</id>
 						<name>tmp_30</name>
 						<fileName>C:/Xilinx/Vivado_HLS/2017.2/win64/tools/clang/bin\..\lib\clang\3.1/../../../include/c++/4.5.2\bits/stl_algobase.h</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>214</lineNumber>
 						<contextFuncName>max&amp;lt;float&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -3798,14 +3798,14 @@
 						<id>124</id>
 						<name>tmp_31</name>
 						<fileName>C:/Xilinx/Vivado_HLS/2017.2/win64/tools/clang/bin\..\lib\clang\3.1/../../../include/c++/4.5.2\bits/stl_algobase.h</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>214</lineNumber>
 						<contextFuncName>max&amp;lt;float&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -3848,14 +3848,14 @@
 						<id>125</id>
 						<name>tmp_22</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3892,14 +3892,14 @@
 						<id>126</id>
 						<name>tmp_23</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3935,14 +3935,14 @@
 						<id>127</id>
 						<name>mem_addr_4</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3978,14 +3978,14 @@
 						<id>128</id>
 						<name>mem_addr_4_req</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4022,14 +4022,14 @@
 						<id>129</id>
 						<name></name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4070,14 +4070,14 @@
 						<id>130</id>
 						<name>mem_addr_4_resp</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4114,14 +4114,14 @@
 						<id>131</id>
 						<name></name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4156,14 +4156,14 @@
 						<id>133</id>
 						<name>tmp_20</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>54</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4199,14 +4199,14 @@
 						<id>134</id>
 						<name>mem_addr_3</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>54</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4242,14 +4242,14 @@
 						<id>135</id>
 						<name>mem_addr_3_req</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>54</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4286,14 +4286,14 @@
 						<id>136</id>
 						<name></name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>54</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4334,14 +4334,14 @@
 						<id>137</id>
 						<name>mem_addr_3_resp</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>54</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4406,14 +4406,14 @@
 						<id>140</id>
 						<name>o_op</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>28</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4449,14 +4449,14 @@
 						<id>141</id>
 						<name>o_1</name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>28</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4493,14 +4493,14 @@
 						<id>142</id>
 						<name></name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>28</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4535,14 +4535,14 @@
 						<id>144</id>
 						<name></name>
 						<fileName>../fc_test/fc_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>57</lineNumber>
 						<contextFuncName>fc_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>

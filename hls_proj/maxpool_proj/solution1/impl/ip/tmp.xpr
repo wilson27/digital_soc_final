@@ -3,10 +3,10 @@
 <!--                                                         -->
 <!-- Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="20" Path="C:/Users/Wilson/Desktop/classic_cnn/hls_proj/maxpool_proj/solution1/impl/ip/tmp.xpr">
+<Project Version="7" Minor="20" Path="C:/Users/Wilson/Desktop/digital_soc_final/digital_soc_final/hls_proj/maxpool_proj/solution1/impl/ip/tmp.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
-    <Option Name="Id" Val="43ea77f315ac48588a4f44778bc9a2f2"/>
+    <Option Name="Id" Val="47da94d65b9148cda4adcd9d8982b5e7"/>
     <Option Name="Part" Val="xc7vx485tffg1157-1"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>
@@ -18,7 +18,7 @@
     <Option Name="CompiledLibDirActivehdl" Val="$PCACHEDIR/compile_simlib/activehdl"/>
     <Option Name="TargetLanguage" Val="VHDL"/>
     <Option Name="BoardPart" Val=""/>
-    <Option Name="BoardPartRepoPaths" Val="$PPRDIR/../../../../../../vivado-boards-master/new/board_files"/>
+    <Option Name="BoardPartRepoPaths" Val="$PPRDIR/../../../../../../../vivado-boards-master/new/board_files"/>
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
     <Option Name="IPOutputRepo" Val="$PCACHEDIR/ip"/>

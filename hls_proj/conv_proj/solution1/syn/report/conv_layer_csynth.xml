@@ -344,7 +344,7 @@
 <IOProtocol>m_axi</IOProtocol>
 <IOConfig></IOConfig>
 <Dir>out</Dir>
-<Bits>64</Bits>
+<Bits>32</Bits>
 <Attribute>unknown</Attribute>
 <CType>float</CType>
 </RtlPorts>
@@ -584,7 +584,7 @@
 <IOProtocol>m_axi</IOProtocol>
 <IOConfig></IOConfig>
 <Dir>out</Dir>
-<Bits>64</Bits>
+<Bits>32</Bits>
 <Attribute>unknown</Attribute>
 <CType>float</CType>
 </RtlPorts>

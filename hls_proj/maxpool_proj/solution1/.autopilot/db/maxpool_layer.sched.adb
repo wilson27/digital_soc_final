@@ -676,14 +676,14 @@
 						<id>50</id>
 						<name>tmp</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>68</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item class_id="11" tracking_level="0" version="0">
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second class_id="12" tracking_level="0" version="0">
 									<count>1</count>
 									<item_version>0</item_version>
@@ -721,14 +721,14 @@
 						<id>51</id>
 						<name>tmp_2</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>68</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -763,14 +763,14 @@
 						<id>52</id>
 						<name>tmp_1</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>73</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -808,14 +808,14 @@
 						<id>53</id>
 						<name>tmp_5</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>73</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1105,14 +1105,14 @@
 						<id>63</id>
 						<name>p_mid</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1148,14 +1148,14 @@
 						<id>64</id>
 						<name>smax16_mid</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1192,14 +1192,14 @@
 						<id>65</id>
 						<name>tmp_6_mid</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1264,14 +1264,14 @@
 						<id>67</id>
 						<name></name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>43</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1337,14 +1337,14 @@
 						<id>70</id>
 						<name>b_s</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>43</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1413,14 +1413,14 @@
 						<id>72</id>
 						<name>i_d</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1458,14 +1458,14 @@
 						<id>73</id>
 						<name>indvar_flatten3</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1503,14 +1503,14 @@
 						<id>74</id>
 						<name>indvars_iv</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1548,14 +1548,14 @@
 						<id>75</id>
 						<name>indvars_iv1</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1593,14 +1593,14 @@
 						<id>76</id>
 						<name>indvars_iv2</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1638,14 +1638,14 @@
 						<id>77</id>
 						<name>o_y</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1683,14 +1683,14 @@
 						<id>78</id>
 						<name>indvars_iv3</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1728,14 +1728,14 @@
 						<id>79</id>
 						<name>indvars_iv4</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1773,14 +1773,14 @@
 						<id>80</id>
 						<name>indvars_iv5</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1849,14 +1849,14 @@
 						<id>82</id>
 						<name>b_cast_mid1</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>43</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1891,14 +1891,14 @@
 						<id>83</id>
 						<name>tmp_3</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>68</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1934,14 +1934,14 @@
 						<id>84</id>
 						<name>tmp_4</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>73</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1977,14 +1977,14 @@
 						<id>85</id>
 						<name>i_d_cast_mid1</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>46</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2019,14 +2019,14 @@
 						<id>86</id>
 						<name>tmp4</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>68</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2062,14 +2062,14 @@
 						<id>87</id>
 						<name>tmp9</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>73</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2105,14 +2105,14 @@
 						<id>88</id>
 						<name>tmp7</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>73</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2148,14 +2148,14 @@
 						<id>89</id>
 						<name>o_y_cast_mid1</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2190,14 +2190,14 @@
 						<id>90</id>
 						<name>i_y</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>62</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2233,14 +2233,14 @@
 						<id>91</id>
 						<name>tmp8</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>73</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2276,14 +2276,14 @@
 						<id>92</id>
 						<name>o_x_cast</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2318,14 +2318,14 @@
 						<id>93</id>
 						<name>tmp_6</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2449,14 +2449,14 @@
 						<id>98</id>
 						<name>b_s_4</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>43</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2492,14 +2492,14 @@
 						<id>99</id>
 						<name>b_cast</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>43</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2563,14 +2563,14 @@
 						<id>101</id>
 						<name>i_d_mid</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2607,14 +2607,14 @@
 						<id>102</id>
 						<name>indvars_iv12_mid</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2651,14 +2651,14 @@
 						<id>103</id>
 						<name>indvars_iv19_mid</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2695,14 +2695,14 @@
 						<id>104</id>
 						<name>tmp_3_mid1</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>68</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2738,14 +2738,14 @@
 						<id>105</id>
 						<name>tmp_3_mid2</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>68</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2782,14 +2782,14 @@
 						<id>106</id>
 						<name>tmp_4_mid1</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>73</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2825,14 +2825,14 @@
 						<id>107</id>
 						<name>tmp_4_mid2</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>73</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2869,14 +2869,14 @@
 						<id>108</id>
 						<name>tmp5_mid2127_v</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>68</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2913,14 +2913,14 @@
 						<id>109</id>
 						<name>tmp7_mid</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>73</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2956,14 +2956,14 @@
 						<id>110</id>
 						<name>tmp7_mid3</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>73</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3000,14 +3000,14 @@
 						<id>111</id>
 						<name>tmp_8</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3043,14 +3043,14 @@
 						<id>112</id>
 						<name>smax</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3087,14 +3087,14 @@
 						<id>113</id>
 						<name>tmp_9</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3130,14 +3130,14 @@
 						<id>114</id>
 						<name>p_mid1</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3174,14 +3174,14 @@
 						<id>115</id>
 						<name>tmp1_mid2157_v</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>73</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3218,14 +3218,14 @@
 						<id>116</id>
 						<name>tmp_6_mid1</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3262,14 +3262,14 @@
 						<id>117</id>
 						<name>exitcond_flatten2</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3305,14 +3305,14 @@
 						<id>118</id>
 						<name>exitcond_flatten45_m_1</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3349,14 +3349,14 @@
 						<id>119</id>
 						<name>b_mid2</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>43</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3393,14 +3393,14 @@
 						<id>120</id>
 						<name>o_d</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>46</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3436,14 +3436,14 @@
 						<id>121</id>
 						<name>i_d_cast</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>46</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3478,14 +3478,14 @@
 						<id>122</id>
 						<name>tmp_10</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3521,14 +3521,14 @@
 						<id>123</id>
 						<name>indvars_iv17_mid</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3565,14 +3565,14 @@
 						<id>124</id>
 						<name>indvars_iv14_mid</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3609,14 +3609,14 @@
 						<id>125</id>
 						<name>indvars_iv12_mid1</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3653,14 +3653,14 @@
 						<id>126</id>
 						<name>o_y_mid</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3697,14 +3697,14 @@
 						<id>127</id>
 						<name>indvars_iv24_mid</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3741,14 +3741,14 @@
 						<id>128</id>
 						<name>indvars_iv21_mid</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3785,14 +3785,14 @@
 						<id>129</id>
 						<name>indvars_iv19_mid1</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3829,14 +3829,14 @@
 						<id>130</id>
 						<name>tmp4_mid1</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>68</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3872,14 +3872,14 @@
 						<id>131</id>
 						<name>tmp5_mid2_v</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3916,14 +3916,14 @@
 						<id>132</id>
 						<name>tmp5_mid2</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3959,14 +3959,14 @@
 						<id>133</id>
 						<name>tmp9_mid1</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>73</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4002,14 +4002,14 @@
 						<id>134</id>
 						<name>tmp7_mid1</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>73</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4045,14 +4045,14 @@
 						<id>135</id>
 						<name>tmp7_mid2</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4089,14 +4089,14 @@
 						<id>136</id>
 						<name>p_mid2</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4133,14 +4133,14 @@
 						<id>137</id>
 						<name>i_y_mid</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>62</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4177,14 +4177,14 @@
 						<id>138</id>
 						<name>tmp1_mid289_v</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4221,14 +4221,14 @@
 						<id>139</id>
 						<name>o_x_cast_mid</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4265,14 +4265,14 @@
 						<id>140</id>
 						<name>tmp_6_mid2</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4309,14 +4309,14 @@
 						<id>141</id>
 						<name>i_d_mid2</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4353,14 +4353,14 @@
 						<id>142</id>
 						<name>o_y_1</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4396,14 +4396,14 @@
 						<id>143</id>
 						<name>indvars_iv_next</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4439,14 +4439,14 @@
 						<id>144</id>
 						<name>indvars_iv_next1</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4482,14 +4482,14 @@
 						<id>145</id>
 						<name>indvars_iv_next2</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4525,14 +4525,14 @@
 						<id>146</id>
 						<name>o_y_cast</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4567,14 +4567,14 @@
 						<id>147</id>
 						<name>indvars_iv24_mid2</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4611,14 +4611,14 @@
 						<id>148</id>
 						<name>indvars_iv21_mid2</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4655,14 +4655,14 @@
 						<id>149</id>
 						<name>indvars_iv19_mid2</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4699,14 +4699,14 @@
 						<id>150</id>
 						<name>p_mid3</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4742,14 +4742,14 @@
 						<id>151</id>
 						<name>smax16_mid1</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4786,14 +4786,14 @@
 						<id>152</id>
 						<name>p_mid4</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4829,14 +4829,14 @@
 						<id>153</id>
 						<name>p_mid5</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4873,14 +4873,14 @@
 						<id>154</id>
 						<name>i_y_mid1</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>62</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4916,14 +4916,14 @@
 						<id>155</id>
 						<name>i_y_mid2</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>62</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4960,14 +4960,14 @@
 						<id>156</id>
 						<name>tmp8_mid1</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5003,14 +5003,14 @@
 						<id>157</id>
 						<name>tmp1_mid2_v</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5047,14 +5047,14 @@
 						<id>158</id>
 						<name>tmp1_mid2</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5090,14 +5090,14 @@
 						<id>159</id>
 						<name>o_x_cast_mid2</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5134,14 +5134,14 @@
 						<id>160</id>
 						<name>o_x_cast_mid2_cast</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5176,14 +5176,14 @@
 						<id>161</id>
 						<name>indvars_iv17_mid2</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5220,14 +5220,14 @@
 						<id>162</id>
 						<name>indvars_iv14_mid2</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5264,14 +5264,14 @@
 						<id>163</id>
 						<name>indvars_iv12_mid2</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5308,14 +5308,14 @@
 						<id>164</id>
 						<name>o_y_mid2</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5352,14 +5352,14 @@
 						<id>165</id>
 						<name>tmp_12</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5395,14 +5395,14 @@
 						<id>166</id>
 						<name>smax1</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5439,14 +5439,14 @@
 						<id>167</id>
 						<name>tmp_16</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5482,14 +5482,14 @@
 						<id>168</id>
 						<name>i_x</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5525,14 +5525,14 @@
 						<id>169</id>
 						<name>tmp_7</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5568,14 +5568,14 @@
 						<id>170</id>
 						<name>cast</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5610,14 +5610,14 @@
 						<id>171</id>
 						<name>cast7</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5652,14 +5652,14 @@
 						<id>172</id>
 						<name>bound</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5695,14 +5695,14 @@
 						<id>173</id>
 						<name></name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>62</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5768,14 +5768,14 @@
 						<id>176</id>
 						<name>i_y1</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>62</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5875,14 +5875,14 @@
 						<id>179</id>
 						<name>exitcond_flatten</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5947,14 +5947,14 @@
 						<id>181</id>
 						<name></name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5991,14 +5991,14 @@
 						<id>183</id>
 						<name>tmp_18</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6034,14 +6034,14 @@
 						<id>184</id>
 						<name>i_x1_mid2</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6078,14 +6078,14 @@
 						<id>185</id>
 						<name>i_y_s</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>62</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6121,14 +6121,14 @@
 						<id>186</id>
 						<name>tmp6_mid2_v_v</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6165,14 +6165,14 @@
 						<id>187</id>
 						<name>tmp6_mid2_v</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6208,14 +6208,14 @@
 						<id>188</id>
 						<name>tmp6_mid2</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6251,14 +6251,14 @@
 						<id>191</id>
 						<name>tmp2</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>68</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6294,14 +6294,14 @@
 						<id>192</id>
 						<name>tmp_14</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>68</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6337,14 +6337,14 @@
 						<id>193</id>
 						<name>mem_addr_1</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>68</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6380,14 +6380,14 @@
 						<id>194</id>
 						<name>temp_req</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>68</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6424,14 +6424,14 @@
 						<id>195</id>
 						<name>temp</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>68</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6468,14 +6468,14 @@
 						<id>196</id>
 						<name>temp_to_int</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>68</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6510,14 +6510,14 @@
 						<id>197</id>
 						<name>tmp_15</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>68</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6555,14 +6555,14 @@
 						<id>198</id>
 						<name>tmp_24</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>68</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6597,14 +6597,14 @@
 						<id>199</id>
 						<name>tmp_13_to_int</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>69</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6639,14 +6639,14 @@
 						<id>200</id>
 						<name>tmp_17</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>69</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6684,14 +6684,14 @@
 						<id>201</id>
 						<name>tmp_25</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>69</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6726,14 +6726,14 @@
 						<id>202</id>
 						<name>notlhs</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>68</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6769,14 +6769,14 @@
 						<id>203</id>
 						<name>notrhs</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>68</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6812,14 +6812,14 @@
 						<id>204</id>
 						<name>tmp_19</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>68</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6855,14 +6855,14 @@
 						<id>205</id>
 						<name>notlhs1</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>69</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6898,14 +6898,14 @@
 						<id>206</id>
 						<name>notrhs1</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>69</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6941,14 +6941,14 @@
 						<id>207</id>
 						<name>tmp_20</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>69</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6984,14 +6984,14 @@
 						<id>208</id>
 						<name>tmp_21</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>68</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7027,14 +7027,14 @@
 						<id>209</id>
 						<name>tmp_22</name>
 						<fileName>C:/Xilinx/Vivado_HLS/2017.2/win64/tools/clang/bin\..\lib\clang\3.1/../../../include/c++/4.5.2\bits/stl_algobase.h</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>214</lineNumber>
 						<contextFuncName>max&amp;lt;float&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -7077,14 +7077,14 @@
 						<id>210</id>
 						<name>tmp_23</name>
 						<fileName>C:/Xilinx/Vivado_HLS/2017.2/win64/tools/clang/bin\..\lib\clang\3.1/../../../include/c++/4.5.2\bits/stl_algobase.h</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>214</lineNumber>
 						<contextFuncName>max&amp;lt;float&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -7127,14 +7127,14 @@
 						<id>211</id>
 						<name>output_element</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>69</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7171,14 +7171,14 @@
 						<id>213</id>
 						<name>i_x_1</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7214,14 +7214,14 @@
 						<id>214</id>
 						<name></name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7256,14 +7256,14 @@
 						<id>216</id>
 						<name>tmp1</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>73</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7299,14 +7299,14 @@
 						<id>217</id>
 						<name>tmp_11</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>73</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7342,14 +7342,14 @@
 						<id>218</id>
 						<name>mem_addr</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>73</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7385,14 +7385,14 @@
 						<id>219</id>
 						<name>mem_addr_req</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>73</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7429,14 +7429,14 @@
 						<id>220</id>
 						<name></name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>73</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7475,14 +7475,14 @@
 						<id>221</id>
 						<name>mem_addr_resp</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>73</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7519,14 +7519,14 @@
 						<id>222</id>
 						<name>o_x_op</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7562,14 +7562,14 @@
 						<id>223</id>
 						<name>o_x_mid265_op</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7606,14 +7606,14 @@
 						<id>224</id>
 						<name>o_x_1</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7650,14 +7650,14 @@
 						<id>225</id>
 						<name>indvars_iv_next3</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7693,14 +7693,14 @@
 						<id>226</id>
 						<name>indvars_iv_next4</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7736,14 +7736,14 @@
 						<id>227</id>
 						<name>indvars_iv_next5</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7779,14 +7779,14 @@
 						<id>228</id>
 						<name>indvar_flatten43_op</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7822,14 +7822,14 @@
 						<id>229</id>
 						<name>indvar_flatten_next1</name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7925,14 +7925,14 @@
 						<id>232</id>
 						<name></name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>52</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7967,14 +7967,14 @@
 						<id>234</id>
 						<name></name>
 						<fileName>../maxpool_test/maxpool_layer.cpp</fileName>
-						<fileDirectory>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</fileDirectory>
+						<fileDirectory>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</fileDirectory>
 						<lineNumber>81</lineNumber>
 						<contextFuncName>maxpool_layer</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\Wilson\Desktop\classic_cnn\hls_proj</first>
+								<first>C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>

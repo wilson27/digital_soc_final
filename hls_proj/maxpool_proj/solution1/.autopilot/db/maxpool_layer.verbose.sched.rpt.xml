@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'maxpool_layer'" level="0">
-<item name = "Date">Sat Mar 30 12:35:59 2019
+<item name = "Date">Sat Mar 30 16:16:47 2019
 </item>
 <item name = "Version">2017.2 (Build 1909853 on Thu Jun 15 18:55:24 MDT 2017)</item>
 <item name = "Project">maxpool_proj</item>

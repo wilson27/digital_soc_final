@@ -8,7 +8,7 @@ add_files ../maxpool_test/maxpool_layer.cpp
 open_solution "solution1"
 set_part {xc7a200tsbg484-1} -tool vivado
 create_clock -period 250MHz -name default
-config_interface -m_axi_addr64 -m_axi_offset off -register_io off
+config_interface -m_axi_addr64=false -m_axi_offset off -register_io off
 #csim_design -compiler gcc
 csynth_design
 #cosim_design

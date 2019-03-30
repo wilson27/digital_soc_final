@@ -1,9 +1,14 @@
-<AutoPilot:project xmlns:AutoPilot="com.autoesl.autopilot.project" projectType="C/C++" name="conv_proj" top="conv_layer">
-    <files>
+<project xmlns="com.autoesl.autopilot.project" name="conv_proj" top="conv_layer">
+    <includePaths/>
+    <libraryPaths/>
+    <Simulation>
+        <SimFlow name="csim"/>
+    </Simulation>
+    <files xmlns="">
         <file name="../conv_test/conv_layer.cpp" sc="0" tb="false" cflags=""/>
     </files>
-    <solutions>
-        <solution name="solution1" status=""/>
+    <solutions xmlns="">
+        <solution name="solution1" status="active"/>
     </solutions>
-</AutoPilot:project>
+</project>
 

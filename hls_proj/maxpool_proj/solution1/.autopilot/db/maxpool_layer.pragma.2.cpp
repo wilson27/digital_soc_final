@@ -1,5 +1,5 @@
-# 1 "C:/Users/Wilson/Desktop/classic_cnn/hls_proj/maxpool_proj/solution1/.autopilot/db/maxpool_layer.pragma.1.cpp"
-# 1 "C:/Users/Wilson/Desktop/classic_cnn/hls_proj/maxpool_proj/solution1/.autopilot/db/maxpool_layer.pragma.1.cpp" 1
+# 1 "C:/Users/Wilson/Desktop/digital_soc_final/digital_soc_final/hls_proj/maxpool_proj/solution1/.autopilot/db/maxpool_layer.pragma.1.cpp"
+# 1 "C:/Users/Wilson/Desktop/digital_soc_final/digital_soc_final/hls_proj/maxpool_proj/solution1/.autopilot/db/maxpool_layer.pragma.1.cpp" 1
 # 1 "<built-in>" 1
 # 1 "<built-in>" 3
 # 153 "<built-in>" 3
@@ -203,7 +203,7 @@ extern "C" {
 // 67d7842dbbe25473c3c32b93c0da8047785f30d78e8a024de1b57352245f9689
 # 8 "<command line>" 2
 # 1 "<built-in>" 2
-# 1 "C:/Users/Wilson/Desktop/classic_cnn/hls_proj/maxpool_proj/solution1/.autopilot/db/maxpool_layer.pragma.1.cpp" 2
+# 1 "C:/Users/Wilson/Desktop/digital_soc_final/digital_soc_final/hls_proj/maxpool_proj/solution1/.autopilot/db/maxpool_layer.pragma.1.cpp" 2
 # 1 "../maxpool_test/maxpool_layer.cpp"
 # 1 "../maxpool_test/maxpool_layer.cpp" 1
 # 1 "<built-in>" 1

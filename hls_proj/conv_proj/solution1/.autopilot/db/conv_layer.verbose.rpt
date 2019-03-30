@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'conv_layer'
 ================================================================
-* Date:           Sat Mar 30 12:41:11 2019
+* Date:           Sat Mar 30 15:56:33 2019
 
 * Version:        2017.2 (Build 1909853 on Thu Jun 15 18:55:24 MDT 2017)
 * Project:        conv_proj
@@ -309,7 +309,7 @@
     |indvars_iv4_reg_307                                      |    9|          2|   32|         64|
     |indvars_iv5_reg_319                                      |    9|          2|   32|         64|
     |indvars_iv_reg_261                                       |    9|          2|   32|         64|
-    |mem_ARADDR                                               |   21|          4|   64|        256|
+    |mem_ARADDR                                               |   21|          4|   32|        128|
     |mem_blk_n_AR                                             |    9|          2|    1|          2|
     |mem_blk_n_AW                                             |    9|          2|    1|          2|
     |mem_blk_n_B                                              |    9|          2|    1|          2|
@@ -322,7 +322,7 @@
     |output_element_2_reg_420                                 |    9|          2|   32|         64|
     |output_element_4_phi_fu_435_p6                           |    9|          2|   32|         64|
     +---------------------------------------------------------+-----+-----------+-----+-----------+
-    |Total                                                    | 1000|        206| 1477|       3229|
+    |Total                                                    | 1000|        206| 1445|       3101|
     +---------------------------------------------------------+-----+-----------+-----+-----------+
 
     * Register: 
@@ -558,7 +558,7 @@
 |interrupt               | out |    1| ap_ctrl_hs |  conv_layer  | return value |
 |m_axi_mem_AWVALID       | out |    1|    m_axi   |      mem     |    pointer   |
 |m_axi_mem_AWREADY       |  in |    1|    m_axi   |      mem     |    pointer   |
-|m_axi_mem_AWADDR        | out |   64|    m_axi   |      mem     |    pointer   |
+|m_axi_mem_AWADDR        | out |   32|    m_axi   |      mem     |    pointer   |
 |m_axi_mem_AWID          | out |    1|    m_axi   |      mem     |    pointer   |
 |m_axi_mem_AWLEN         | out |    8|    m_axi   |      mem     |    pointer   |
 |m_axi_mem_AWSIZE        | out |    3|    m_axi   |      mem     |    pointer   |
@@ -578,7 +578,7 @@
 |m_axi_mem_WUSER         | out |    1|    m_axi   |      mem     |    pointer   |
 |m_axi_mem_ARVALID       | out |    1|    m_axi   |      mem     |    pointer   |
 |m_axi_mem_ARREADY       |  in |    1|    m_axi   |      mem     |    pointer   |
-|m_axi_mem_ARADDR        | out |   64|    m_axi   |      mem     |    pointer   |
+|m_axi_mem_ARADDR        | out |   32|    m_axi   |      mem     |    pointer   |
 |m_axi_mem_ARID          | out |    1|    m_axi   |      mem     |    pointer   |
 |m_axi_mem_ARLEN         | out |    8|    m_axi   |      mem     |    pointer   |
 |m_axi_mem_ARSIZE        | out |    3|    m_axi   |      mem     |    pointer   |
@@ -5789,9 +5789,9 @@ StgValue_693           (br             ) [ 0000000000000000000000000000000000000
 
 <comp id="1031" class="1004" name="mem_addr_fu_1031">
 <pin_list>
-<pin id="1032" dir="0" index="0" bw="64" slack="0"/>
-<pin id="1033" dir="0" index="1" bw="64" slack="16"/>
-<pin id="1034" dir="1" index="2" bw="64" slack="0"/>
+<pin id="1032" dir="0" index="0" bw="32" slack="0"/>
+<pin id="1033" dir="0" index="1" bw="32" slack="16"/>
+<pin id="1034" dir="1" index="2" bw="32" slack="0"/>
 </pin_list>
 <bind>
 <opcode="getelementptr(29) " fcode="getelementptr"/>
@@ -6377,9 +6377,9 @@ StgValue_693           (br             ) [ 0000000000000000000000000000000000000
 
 <comp id="1267" class="1004" name="mem_addr_2_fu_1267">
 <pin_list>
-<pin id="1268" dir="0" index="0" bw="64" slack="0"/>
-<pin id="1269" dir="0" index="1" bw="64" slack="1"/>
-<pin id="1270" dir="1" index="2" bw="64" slack="0"/>
+<pin id="1268" dir="0" index="0" bw="32" slack="0"/>
+<pin id="1269" dir="0" index="1" bw="32" slack="1"/>
+<pin id="1270" dir="1" index="2" bw="32" slack="0"/>
 </pin_list>
 <bind>
 <opcode="getelementptr(29) " fcode="getelementptr"/>
@@ -6523,9 +6523,9 @@ StgValue_693           (br             ) [ 0000000000000000000000000000000000000
 
 <comp id="1335" class="1004" name="mem_addr_3_fu_1335">
 <pin_list>
-<pin id="1336" dir="0" index="0" bw="64" slack="0"/>
-<pin id="1337" dir="0" index="1" bw="64" slack="0"/>
-<pin id="1338" dir="1" index="2" bw="64" slack="0"/>
+<pin id="1336" dir="0" index="0" bw="32" slack="0"/>
+<pin id="1337" dir="0" index="1" bw="32" slack="0"/>
+<pin id="1338" dir="1" index="2" bw="32" slack="0"/>
 </pin_list>
 <bind>
 <opcode="getelementptr(29) " fcode="getelementptr"/>
@@ -6753,9 +6753,9 @@ StgValue_693           (br             ) [ 0000000000000000000000000000000000000
 
 <comp id="1436" class="1004" name="mem_addr_1_fu_1436">
 <pin_list>
-<pin id="1437" dir="0" index="0" bw="64" slack="0"/>
-<pin id="1438" dir="0" index="1" bw="64" slack="1"/>
-<pin id="1439" dir="1" index="2" bw="64" slack="0"/>
+<pin id="1437" dir="0" index="0" bw="32" slack="0"/>
+<pin id="1438" dir="0" index="1" bw="32" slack="1"/>
+<pin id="1439" dir="1" index="2" bw="32" slack="0"/>
 </pin_list>
 <bind>
 <opcode="getelementptr(29) " fcode="getelementptr"/>

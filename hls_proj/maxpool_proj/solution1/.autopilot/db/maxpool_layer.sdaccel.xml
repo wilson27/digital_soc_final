@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'maxpool_layer'" level="0">
-<item name = "Date">Sat Mar 30 12:36:04 2019
+<item name = "Date">Sat Mar 30 16:16:51 2019
 </item>
 <item name = "Version">2017.2 (Build 1909853 on Thu Jun 15 18:55:24 MDT 2017)</item>
 <item name = "Project">maxpool_proj</item>
@@ -421,7 +421,7 @@
 <column name="interrupt">out, 1, ap_ctrl_hs, maxpool_layer, return value</column>
 <column name="m_axi_mem_AWVALID">out, 1, m_axi, mem, pointer</column>
 <column name="m_axi_mem_AWREADY">in, 1, m_axi, mem, pointer</column>
-<column name="m_axi_mem_AWADDR">out, 64, m_axi, mem, pointer</column>
+<column name="m_axi_mem_AWADDR">out, 32, m_axi, mem, pointer</column>
 <column name="m_axi_mem_AWID">out, 1, m_axi, mem, pointer</column>
 <column name="m_axi_mem_AWLEN">out, 8, m_axi, mem, pointer</column>
 <column name="m_axi_mem_AWSIZE">out, 3, m_axi, mem, pointer</column>
@@ -441,7 +441,7 @@
 <column name="m_axi_mem_WUSER">out, 1, m_axi, mem, pointer</column>
 <column name="m_axi_mem_ARVALID">out, 1, m_axi, mem, pointer</column>
 <column name="m_axi_mem_ARREADY">in, 1, m_axi, mem, pointer</column>
-<column name="m_axi_mem_ARADDR">out, 64, m_axi, mem, pointer</column>
+<column name="m_axi_mem_ARADDR">out, 32, m_axi, mem, pointer</column>
 <column name="m_axi_mem_ARID">out, 1, m_axi, mem, pointer</column>
 <column name="m_axi_mem_ARLEN">out, 8, m_axi, mem, pointer</column>
 <column name="m_axi_mem_ARSIZE">out, 3, m_axi, mem, pointer</column>

@@ -178,7 +178,7 @@ parameter    C_S_AXI_CTRL_BUS_DATA_WIDTH = 32;
 parameter    C_S_AXI_CTRL_BUS_ADDR_WIDTH = 7;
 parameter    C_S_AXI_DATA_WIDTH = 32;
 parameter    C_M_AXI_MEM_ID_WIDTH = 1;
-parameter    C_M_AXI_MEM_ADDR_WIDTH = 64;
+parameter    C_M_AXI_MEM_ADDR_WIDTH = 32;
 parameter    C_M_AXI_MEM_DATA_WIDTH = 32;
 parameter    C_M_AXI_MEM_AWUSER_WIDTH = 1;
 parameter    C_M_AXI_MEM_ARUSER_WIDTH = 1;
@@ -299,12 +299,10 @@ reg    mem_blk_n_B;
 wire    ap_CS_fsm_state117;
 reg    mem_AWVALID;
 wire    mem_AWREADY;
-wire   [63:0] mem_AWADDR;
 reg    mem_WVALID;
 wire    mem_WREADY;
 reg    mem_ARVALID;
 wire    mem_ARREADY;
-wire   [63:0] mem_ARADDR;
 wire    mem_RVALID;
 reg    mem_RREADY;
 wire   [31:0] mem_RDATA;
@@ -770,7 +768,7 @@ maxpool_layer_CTRL_BUS_s_axi_U(
 
 maxpool_layer_mem_m_axi #(
     .USER_DW( 32 ),
-    .USER_AW( 64 ),
+    .USER_AW( 32 ),
     .USER_MAXREQS( 5 ),
     .NUM_READ_OUTSTANDING( 16 ),
     .NUM_WRITE_OUTSTANDING( 16 ),
@@ -839,7 +837,7 @@ maxpool_layer_mem_m_axi_U(
     .ACLK_EN(1'b1),
     .I_ARVALID(mem_ARVALID),
     .I_ARREADY(mem_ARREADY),
-    .I_ARADDR(mem_ARADDR),
+    .I_ARADDR(tmp_14_reg_1779),
     .I_ARID(1'd0),
     .I_ARLEN(32'd1),
     .I_ARSIZE(3'd0),
@@ -859,7 +857,7 @@ maxpool_layer_mem_m_axi_U(
     .I_RLAST(mem_RLAST),
     .I_AWVALID(mem_AWVALID),
     .I_AWREADY(mem_AWREADY),
-    .I_AWADDR(mem_AWADDR),
+    .I_AWADDR(tmp_11_reg_1847),
     .I_AWID(1'd0),
     .I_AWLEN(32'd1),
     .I_AWSIZE(3'd0),
@@ -2736,10 +2734,6 @@ assign indvars_iv_next4_fu_1093_p2 = ($signed(indvars_iv21_mid2_reg_1614) + $sig
 assign indvars_iv_next5_fu_1097_p2 = ($signed(indvars_iv24_mid2_reg_1643) - $signed(s_read_reg_1162));
 
 assign indvars_iv_next_fu_650_p2 = ($signed(indvars_iv12_mid1_reg_1474) + $signed(s_read_reg_1162));
-
-assign mem_ARADDR = tmp_14_reg_1779;
-
-assign mem_AWADDR = tmp_11_reg_1847;
 
 assign notlhs1_fu_1040_p2 = ((tmp_17_fu_1014_p4 != 8'd255) ? 1'b1 : 1'b0);
 

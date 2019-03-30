@@ -4,7 +4,7 @@ const Port_Property HLS_Design_Meta::port_props[]={
 	Port_Property("ap_rst_n", 1, hls_in, -1, "", "", 1),
 	Port_Property("m_axi_mem_AWVALID", 1, hls_out, 0, "m_axi", "VALID", 1),
 	Port_Property("m_axi_mem_AWREADY", 1, hls_in, 0, "m_axi", "READY", 1),
-	Port_Property("m_axi_mem_AWADDR", 64, hls_out, 0, "m_axi", "ADDR", 1),
+	Port_Property("m_axi_mem_AWADDR", 32, hls_out, 0, "m_axi", "ADDR", 1),
 	Port_Property("m_axi_mem_AWID", 1, hls_out, 0, "m_axi", "ID", 1),
 	Port_Property("m_axi_mem_AWLEN", 8, hls_out, 0, "m_axi", "LEN", 1),
 	Port_Property("m_axi_mem_AWSIZE", 3, hls_out, 0, "m_axi", "SIZE", 1),
@@ -24,7 +24,7 @@ const Port_Property HLS_Design_Meta::port_props[]={
 	Port_Property("m_axi_mem_WUSER", 1, hls_out, 0, "m_axi", "USER", 1),
 	Port_Property("m_axi_mem_ARVALID", 1, hls_out, 0, "m_axi", "VALID", 1),
 	Port_Property("m_axi_mem_ARREADY", 1, hls_in, 0, "m_axi", "READY", 1),
-	Port_Property("m_axi_mem_ARADDR", 64, hls_out, 0, "m_axi", "ADDR", 1),
+	Port_Property("m_axi_mem_ARADDR", 32, hls_out, 0, "m_axi", "ADDR", 1),
 	Port_Property("m_axi_mem_ARID", 1, hls_out, 0, "m_axi", "ID", 1),
 	Port_Property("m_axi_mem_ARLEN", 8, hls_out, 0, "m_axi", "LEN", 1),
 	Port_Property("m_axi_mem_ARSIZE", 3, hls_out, 0, "m_axi", "SIZE", 1),
@@ -64,6 +64,7 @@ const Port_Property HLS_Design_Meta::port_props[]={
 	Port_Property("s_axi_CTRL_BUS_BVALID", 1, hls_out, -1, "", "", 1),
 	Port_Property("s_axi_CTRL_BUS_BREADY", 1, hls_in, -1, "", "", 1),
 	Port_Property("s_axi_CTRL_BUS_BRESP", 2, hls_out, -1, "", "", 1),
+	Port_Property("ap_ce", 1, hls_in, -1, "", "", 1),
 	Port_Property("interrupt", 1, hls_out, -1, "", "", 1),
 };
 const char* HLS_Design_Meta::dut_name = "fc_layer";

@@ -7304,8 +7304,8 @@
 <MemPortIdVec></MemPortIdVec>
 <condition id="776">
 <or_exp><and_exp><literal name="exitcond_flatten4" val="0"/>
-<literal name="exitcond_flatten2" val="1"/>
 <literal name="tmp_15_mid" val="1"/>
+<literal name="exitcond_flatten2" val="1"/>
 </and_exp></or_exp>
 </condition>
 
@@ -7322,8 +7322,8 @@
 <MemPortIdVec></MemPortIdVec>
 <condition id="777">
 <or_exp><and_exp><literal name="exitcond_flatten4" val="0"/>
-<literal name="exitcond_flatten2" val="0"/>
 <literal name="tmp_15_mid" val="1"/>
+<literal name="exitcond_flatten2" val="0"/>
 </and_exp></or_exp>
 </condition>
 
@@ -7477,8 +7477,8 @@
 <MemPortIdVec></MemPortIdVec>
 <condition id="782">
 <or_exp><and_exp><literal name="exitcond_flatten4" val="0"/>
-<literal name="exitcond_flatten2" val="0"/>
 <literal name="tmp_15_mid" val="1"/>
+<literal name="exitcond_flatten2" val="0"/>
 </and_exp></or_exp>
 </condition>
 
@@ -8084,8 +8084,8 @@
 <core>NULL</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="787">
-<or_exp><and_exp><literal name="exitcond_flatten2" val="0"/>
-<literal name="tmp_15_mid" val="1"/>
+<or_exp><and_exp><literal name="tmp_15_mid" val="1"/>
+<literal name="exitcond_flatten2" val="0"/>
 </and_exp></or_exp>
 </condition>
 

@@ -11,7 +11,7 @@ use IEEE.numeric_std.all;
 
 entity conv_layer is
 generic (
-    C_M_AXI_MEM_ADDR_WIDTH : INTEGER := 64;
+    C_M_AXI_MEM_ADDR_WIDTH : INTEGER := 32;
     C_M_AXI_MEM_ID_WIDTH : INTEGER := 1;
     C_M_AXI_MEM_AWUSER_WIDTH : INTEGER := 1;
     C_M_AXI_MEM_DATA_WIDTH : INTEGER := 32;
@@ -21,10 +21,10 @@ generic (
     C_M_AXI_MEM_BUSER_WIDTH : INTEGER := 1;
     C_S_AXI_CTRL_BUS_ADDR_WIDTH : INTEGER := 7;
     C_S_AXI_CTRL_BUS_DATA_WIDTH : INTEGER := 32;
+    C_M_AXI_MEM_CACHE_VALUE : INTEGER := 3;
     C_M_AXI_MEM_PROT_VALUE : INTEGER := 0;
-    C_M_AXI_MEM_USER_VALUE : INTEGER := 0;
     C_M_AXI_MEM_TARGET_ADDR : INTEGER := 0;
-    C_M_AXI_MEM_CACHE_VALUE : INTEGER := 3 );
+    C_M_AXI_MEM_USER_VALUE : INTEGER := 0 );
 port (
     ap_clk : IN STD_LOGIC;
     ap_rst_n : IN STD_LOGIC;
@@ -365,12 +365,11 @@ architecture behav of conv_layer is
     attribute fsm_encoding of ap_CS_fsm_state93 : signal is "none";
     signal mem_AWVALID : STD_LOGIC;
     signal mem_AWREADY : STD_LOGIC;
-    signal mem_AWADDR : STD_LOGIC_VECTOR (63 downto 0);
     signal mem_WVALID : STD_LOGIC;
     signal mem_WREADY : STD_LOGIC;
     signal mem_ARVALID : STD_LOGIC;
     signal mem_ARREADY : STD_LOGIC;
-    signal mem_ARADDR : STD_LOGIC_VECTOR (63 downto 0);
+    signal mem_ARADDR : STD_LOGIC_VECTOR (31 downto 0);
     signal mem_RVALID : STD_LOGIC;
     signal mem_RREADY : STD_LOGIC;
     signal mem_RDATA : STD_LOGIC_VECTOR (31 downto 0);
@@ -1343,7 +1342,7 @@ architecture behav of conv_layer is
         ACLK_EN : IN STD_LOGIC;
         I_ARVALID : IN STD_LOGIC;
         I_ARREADY : OUT STD_LOGIC;
-        I_ARADDR : IN STD_LOGIC_VECTOR (63 downto 0);
+        I_ARADDR : IN STD_LOGIC_VECTOR (31 downto 0);
         I_ARID : IN STD_LOGIC_VECTOR (0 downto 0);
         I_ARLEN : IN STD_LOGIC_VECTOR (31 downto 0);
         I_ARSIZE : IN STD_LOGIC_VECTOR (2 downto 0);
@@ -1363,7 +1362,7 @@ architecture behav of conv_layer is
         I_RLAST : OUT STD_LOGIC;
         I_AWVALID : IN STD_LOGIC;
         I_AWREADY : OUT STD_LOGIC;
-        I_AWADDR : IN STD_LOGIC_VECTOR (63 downto 0);
+        I_AWADDR : IN STD_LOGIC_VECTOR (31 downto 0);
         I_AWID : IN STD_LOGIC_VECTOR (0 downto 0);
         I_AWLEN : IN STD_LOGIC_VECTOR (31 downto 0);
         I_AWSIZE : IN STD_LOGIC_VECTOR (2 downto 0);
@@ -1436,7 +1435,7 @@ begin
     conv_layer_mem_m_axi_U : component conv_layer_mem_m_axi
     generic map (
         USER_DW => 32,
-        USER_AW => 64,
+        USER_AW => 32,
         USER_MAXREQS => 5,
         NUM_READ_OUTSTANDING => 16,
         NUM_WRITE_OUTSTANDING => 16,
@@ -1525,7 +1524,7 @@ begin
         I_RLAST => mem_RLAST,
         I_AWVALID => mem_AWVALID,
         I_AWREADY => mem_AWREADY,
-        I_AWADDR => mem_AWADDR,
+        I_AWADDR => tmp_9_reg_2431,
         I_AWID => ap_const_lv1_0,
         I_AWLEN => ap_const_lv32_1,
         I_AWSIZE => ap_const_lv3_0,
@@ -3100,7 +3099,7 @@ begin
     process (ap_clk)
     begin
         if (ap_clk'event and ap_clk = '1') then
-            if (((ap_const_logic_1 = ap_CS_fsm_pp0_stage9) and (exitcond_flatten4_reg_2127 = ap_const_lv1_0) and (ap_block_pp0_stage9_flag00011001 = ap_const_boolean_0) and (ap_const_lv1_1 = exitcond_flatten2_reg_2137) and (ap_const_lv1_1 = tmp_15_mid_reg_2210))) then
+            if (((ap_const_logic_1 = ap_CS_fsm_pp0_stage9) and (exitcond_flatten4_reg_2127 = ap_const_lv1_0) and (ap_block_pp0_stage9_flag00011001 = ap_const_boolean_0) and (ap_const_lv1_1 = tmp_15_mid_reg_2210) and (ap_const_lv1_1 = exitcond_flatten2_reg_2137))) then
                 tmp3_mid_reg_2238 <= tmp3_mid_fu_1170_p2;
             end if;
         end if;
@@ -4305,16 +4304,16 @@ begin
     begin
         if ((ap_const_logic_0 = ap_reg_ioackin_mem_ARREADY)) then
             if ((ap_condition_1376 = ap_const_boolean_1)) then 
-                mem_ARADDR <= std_logic_vector(IEEE.numeric_std.resize(unsigned(tmp_18_fu_1330_p2),64));
+                mem_ARADDR <= tmp_18_fu_1330_p2;
             elsif ((ap_condition_1366 = ap_const_boolean_1)) then 
-                mem_ARADDR <= std_logic_vector(IEEE.numeric_std.resize(unsigned(tmp_11_reg_2321),64));
+                mem_ARADDR <= tmp_11_reg_2321;
             elsif ((ap_const_logic_1 = ap_CS_fsm_state86)) then 
-                mem_ARADDR <= std_logic_vector(IEEE.numeric_std.resize(unsigned(tmp_9_mid2_reg_1984),64));
+                mem_ARADDR <= tmp_9_mid2_reg_1984;
             else 
-                mem_ARADDR <= "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+                mem_ARADDR <= "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
             end if;
         else 
-            mem_ARADDR <= "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+            mem_ARADDR <= "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
         end if; 
     end process;
 
@@ -4328,7 +4327,6 @@ begin
         end if; 
     end process;
 
-    mem_AWADDR <= std_logic_vector(IEEE.numeric_std.resize(unsigned(tmp_9_reg_2431),64));
 
     mem_AWVALID_assign_proc : process(ap_CS_fsm_state162, ap_reg_ioackin_mem_AWREADY)
     begin

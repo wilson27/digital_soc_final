@@ -222,7 +222,7 @@ maxpool_layer::maxpool_layer(sc_module_name name) : sc_module(name), mVcdFile(0)
     maxpool_layer_CTRL_BUS_s_axi_U->iy(iy);
     maxpool_layer_CTRL_BUS_s_axi_U->s(s);
     maxpool_layer_CTRL_BUS_s_axi_U->k(k);
-    maxpool_layer_mem_m_axi_U = new maxpool_layer_mem_m_axi<32,64,5,16,16,16,16,C_M_AXI_MEM_ID_WIDTH,C_M_AXI_MEM_ADDR_WIDTH,C_M_AXI_MEM_DATA_WIDTH,C_M_AXI_MEM_AWUSER_WIDTH,C_M_AXI_MEM_ARUSER_WIDTH,C_M_AXI_MEM_WUSER_WIDTH,C_M_AXI_MEM_RUSER_WIDTH,C_M_AXI_MEM_BUSER_WIDTH,C_M_AXI_MEM_TARGET_ADDR,C_M_AXI_MEM_USER_VALUE,C_M_AXI_MEM_PROT_VALUE,C_M_AXI_MEM_CACHE_VALUE>("maxpool_layer_mem_m_axi_U");
+    maxpool_layer_mem_m_axi_U = new maxpool_layer_mem_m_axi<32,32,5,16,16,16,16,C_M_AXI_MEM_ID_WIDTH,C_M_AXI_MEM_ADDR_WIDTH,C_M_AXI_MEM_DATA_WIDTH,C_M_AXI_MEM_AWUSER_WIDTH,C_M_AXI_MEM_ARUSER_WIDTH,C_M_AXI_MEM_WUSER_WIDTH,C_M_AXI_MEM_RUSER_WIDTH,C_M_AXI_MEM_BUSER_WIDTH,C_M_AXI_MEM_TARGET_ADDR,C_M_AXI_MEM_USER_VALUE,C_M_AXI_MEM_PROT_VALUE,C_M_AXI_MEM_CACHE_VALUE>("maxpool_layer_mem_m_axi_U");
     maxpool_layer_mem_m_axi_U->AWVALID(m_axi_mem_AWVALID);
     maxpool_layer_mem_m_axi_U->AWREADY(m_axi_mem_AWREADY);
     maxpool_layer_mem_m_axi_U->AWADDR(m_axi_mem_AWADDR);
@@ -273,7 +273,7 @@ maxpool_layer::maxpool_layer(sc_module_name name) : sc_module(name), mVcdFile(0)
     maxpool_layer_mem_m_axi_U->ACLK_EN(ap_var_for_const0);
     maxpool_layer_mem_m_axi_U->I_ARVALID(mem_ARVALID);
     maxpool_layer_mem_m_axi_U->I_ARREADY(mem_ARREADY);
-    maxpool_layer_mem_m_axi_U->I_ARADDR(mem_ARADDR);
+    maxpool_layer_mem_m_axi_U->I_ARADDR(tmp_14_reg_1779);
     maxpool_layer_mem_m_axi_U->I_ARID(ap_var_for_const1);
     maxpool_layer_mem_m_axi_U->I_ARLEN(ap_var_for_const2);
     maxpool_layer_mem_m_axi_U->I_ARSIZE(ap_var_for_const3);
@@ -293,7 +293,7 @@ maxpool_layer::maxpool_layer(sc_module_name name) : sc_module(name), mVcdFile(0)
     maxpool_layer_mem_m_axi_U->I_RLAST(mem_RLAST);
     maxpool_layer_mem_m_axi_U->I_AWVALID(mem_AWVALID);
     maxpool_layer_mem_m_axi_U->I_AWREADY(mem_AWREADY);
-    maxpool_layer_mem_m_axi_U->I_AWADDR(mem_AWADDR);
+    maxpool_layer_mem_m_axi_U->I_AWADDR(tmp_11_reg_1847);
     maxpool_layer_mem_m_axi_U->I_AWID(ap_var_for_const1);
     maxpool_layer_mem_m_axi_U->I_AWLEN(ap_var_for_const2);
     maxpool_layer_mem_m_axi_U->I_AWSIZE(ap_var_for_const3);
@@ -1056,25 +1056,12 @@ maxpool_layer::maxpool_layer(sc_module_name name) : sc_module(name), mVcdFile(0)
     sensitive << ( s_read_reg_1162 );
     sensitive << ( indvars_iv12_mid1_reg_1474 );
 
-    SC_METHOD(thread_mem_ARADDR);
-    sensitive << ( ap_CS_fsm_pp0_stage2 );
-    sensitive << ( ap_enable_reg_pp0_iter3 );
-    sensitive << ( ap_reg_pp0_iter3_exitcond_flatten_reg_1727 );
-    sensitive << ( tmp_14_reg_1779 );
-    sensitive << ( ap_reg_ioackin_mem_ARREADY );
-    sensitive << ( ap_block_pp0_stage2_flag00001001 );
-
     SC_METHOD(thread_mem_ARVALID);
     sensitive << ( ap_CS_fsm_pp0_stage2 );
     sensitive << ( ap_enable_reg_pp0_iter3 );
     sensitive << ( ap_reg_pp0_iter3_exitcond_flatten_reg_1727 );
     sensitive << ( ap_reg_ioackin_mem_ARREADY );
     sensitive << ( ap_block_pp0_stage2_flag00001001 );
-
-    SC_METHOD(thread_mem_AWADDR);
-    sensitive << ( ap_CS_fsm_state111 );
-    sensitive << ( tmp_11_reg_1847 );
-    sensitive << ( ap_reg_ioackin_mem_AWREADY );
 
     SC_METHOD(thread_mem_AWVALID);
     sensitive << ( ap_CS_fsm_state111 );
@@ -1617,12 +1604,10 @@ maxpool_layer::maxpool_layer(sc_module_name name) : sc_module(name), mVcdFile(0)
     sc_trace(mVcdFile, ap_CS_fsm_state117, "ap_CS_fsm_state117");
     sc_trace(mVcdFile, mem_AWVALID, "mem_AWVALID");
     sc_trace(mVcdFile, mem_AWREADY, "mem_AWREADY");
-    sc_trace(mVcdFile, mem_AWADDR, "mem_AWADDR");
     sc_trace(mVcdFile, mem_WVALID, "mem_WVALID");
     sc_trace(mVcdFile, mem_WREADY, "mem_WREADY");
     sc_trace(mVcdFile, mem_ARVALID, "mem_ARVALID");
     sc_trace(mVcdFile, mem_ARREADY, "mem_ARREADY");
-    sc_trace(mVcdFile, mem_ARADDR, "mem_ARADDR");
     sc_trace(mVcdFile, mem_RVALID, "mem_RVALID");
     sc_trace(mVcdFile, mem_RREADY, "mem_RREADY");
     sc_trace(mVcdFile, mem_RDATA, "mem_RDATA");
@@ -3313,10 +3298,6 @@ void maxpool_layer::thread_indvars_iv_next_fu_650_p2() {
     indvars_iv_next_fu_650_p2 = (!indvars_iv12_mid1_reg_1474.read().is_01() || !s_read_reg_1162.read().is_01())? sc_lv<32>(): (sc_biguint<32>(indvars_iv12_mid1_reg_1474.read()) + sc_bigint<32>(s_read_reg_1162.read()));
 }
 
-void maxpool_layer::thread_mem_ARADDR() {
-    mem_ARADDR =  (sc_lv<64>) (tmp_14_reg_1779.read());
-}
-
 void maxpool_layer::thread_mem_ARVALID() {
     if ((esl_seteq<1,1,1>(ap_const_logic_1, ap_CS_fsm_pp0_stage2.read()) && 
          esl_seteq<1,1,1>(ap_const_logic_1, ap_enable_reg_pp0_iter3.read()) && 
@@ -3327,10 +3308,6 @@ void maxpool_layer::thread_mem_ARVALID() {
     } else {
         mem_ARVALID = ap_const_logic_0;
     }
-}
-
-void maxpool_layer::thread_mem_AWADDR() {
-    mem_AWADDR =  (sc_lv<64>) (tmp_11_reg_1847.read());
 }
 
 void maxpool_layer::thread_mem_AWVALID() {

@@ -5651,7 +5651,7 @@
 </and_exp></or_exp>
 </condition>
 
-<Node id="193" bw="64" op_0_bw="64" op_1_bw="64">
+<Node id="193" bw="32" op_0_bw="32" op_1_bw="32">
 <![CDATA[
 .reset:10  %mem_addr_1 = getelementptr inbounds float* %mem, i32 %tmp_14
 
@@ -6391,7 +6391,7 @@
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="218" bw="64" op_0_bw="64" op_1_bw="64">
+<Node id="218" bw="32" op_0_bw="32" op_1_bw="32">
 <![CDATA[
 :2  %mem_addr = getelementptr inbounds float* %mem, i32 %tmp_11
 

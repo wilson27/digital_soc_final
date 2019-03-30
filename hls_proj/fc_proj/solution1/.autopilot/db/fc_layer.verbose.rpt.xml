@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'fc_layer'" level="0">
-<item name = "Date">Sat Mar 30 12:46:07 2019
+<item name = "Date">Sat Mar 30 16:23:04 2019
 </item>
 <item name = "Version">2017.2 (Build 1909853 on Thu Jun 15 18:55:24 MDT 2017)</item>
 <item name = "Project">fc_proj</item>
@@ -49,7 +49,7 @@
 <item name = "Summary"><table name="" hasTotal="1">
 <keys size="5">Name, BRAM_18K, DSP48E, FF, LUT</keys>
 <column name="DSP">-, -, -, -</column>
-<column name="Expression">-, -, 1304, 776</column>
+<column name="Expression">-, -, 1304, 788</column>
 <column name="FIFO">-, -, -, -</column>
 <column name="Instance">2, 25, 3002, 1617</column>
 <column name="Memory">-, -, -, -</column>
@@ -112,8 +112,10 @@
 <column name="ap_block_state35_io">and, 0, 0, 2, 1, 1</column>
 <column name="ap_block_state42_pp0_stage9_iter1">and, 0, 0, 2, 1, 1</column>
 <column name="ap_block_state78">and, 0, 0, 2, 1, 1</column>
-<column name="ap_condition_767">and, 0, 0, 2, 1, 1</column>
-<column name="ap_condition_779">and, 0, 0, 2, 1, 1</column>
+<column name="ap_condition_1526">and, 0, 0, 2, 1, 1</column>
+<column name="ap_condition_1531">and, 0, 0, 2, 1, 1</column>
+<column name="ap_condition_1535">and, 0, 0, 2, 1, 1</column>
+<column name="ap_condition_1539">and, 0, 0, 2, 1, 1</column>
 <column name="ap_predicate_op211_readreq_state35">and, 0, 0, 2, 1, 1</column>
 <column name="ap_predicate_op218_read_state42">and, 0, 0, 2, 1, 1</column>
 <column name="ap_predicate_op227_fcmp_state46">and, 0, 0, 2, 1, 1</column>
@@ -130,6 +132,10 @@
 <column name="tmp_1_fu_285_p2">icmp, 0, 0, 16, 32, 1</column>
 <column name="tmp_5_fu_382_p2">icmp, 0, 0, 16, 32, 32</column>
 <column name="tmp_7_fu_305_p2">icmp, 0, 0, 16, 32, 32</column>
+<column name="ap_block_pp0_stage10_flag00011011">or, 0, 0, 2, 1, 1</column>
+<column name="ap_block_pp0_stage2_flag00011011">or, 0, 0, 2, 1, 1</column>
+<column name="ap_block_pp0_stage3_flag00011011">or, 0, 0, 2, 1, 1</column>
+<column name="ap_block_pp0_stage9_flag00011011">or, 0, 0, 2, 1, 1</column>
 <column name="tmp_13_fu_441_p2">or, 0, 0, 2, 1, 1</column>
 <column name="tmp_19_fu_496_p2">or, 0, 0, 2, 1, 1</column>
 <column name="tmp_29_fu_535_p2">or, 0, 0, 2, 1, 1</column>
@@ -155,7 +161,7 @@
 <column name="i_phi_fu_181_p4">9, 2, 31, 62</column>
 <column name="i_reg_177">9, 2, 31, 62</column>
 <column name="indvar_flatten_reg_141">9, 2, 64, 128</column>
-<column name="mem_ARADDR">21, 4, 64, 256</column>
+<column name="mem_ARADDR">21, 4, 32, 128</column>
 <column name="mem_WDATA">15, 3, 32, 96</column>
 <column name="mem_blk_n_AR">9, 2, 1, 2</column>
 <column name="mem_blk_n_AW">9, 2, 1, 2</column>
@@ -265,10 +271,11 @@
 <column name="s_axi_CTRL_BUS_BRESP">out, 2, s_axi, CTRL_BUS, scalar</column>
 <column name="ap_clk">in, 1, ap_ctrl_hs, fc_layer, return value</column>
 <column name="ap_rst_n">in, 1, ap_ctrl_hs, fc_layer, return value</column>
+<column name="ap_ce">in, 1, ap_ctrl_hs, fc_layer, return value</column>
 <column name="interrupt">out, 1, ap_ctrl_hs, fc_layer, return value</column>
 <column name="m_axi_mem_AWVALID">out, 1, m_axi, mem, pointer</column>
 <column name="m_axi_mem_AWREADY">in, 1, m_axi, mem, pointer</column>
-<column name="m_axi_mem_AWADDR">out, 64, m_axi, mem, pointer</column>
+<column name="m_axi_mem_AWADDR">out, 32, m_axi, mem, pointer</column>
 <column name="m_axi_mem_AWID">out, 1, m_axi, mem, pointer</column>
 <column name="m_axi_mem_AWLEN">out, 8, m_axi, mem, pointer</column>
 <column name="m_axi_mem_AWSIZE">out, 3, m_axi, mem, pointer</column>
@@ -288,7 +295,7 @@
 <column name="m_axi_mem_WUSER">out, 1, m_axi, mem, pointer</column>
 <column name="m_axi_mem_ARVALID">out, 1, m_axi, mem, pointer</column>
 <column name="m_axi_mem_ARREADY">in, 1, m_axi, mem, pointer</column>
-<column name="m_axi_mem_ARADDR">out, 64, m_axi, mem, pointer</column>
+<column name="m_axi_mem_ARADDR">out, 32, m_axi, mem, pointer</column>
 <column name="m_axi_mem_ARID">out, 1, m_axi, mem, pointer</column>
 <column name="m_axi_mem_ARLEN">out, 8, m_axi, mem, pointer</column>
 <column name="m_axi_mem_ARSIZE">out, 3, m_axi, mem, pointer</column>

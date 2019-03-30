@@ -9,21 +9,21 @@ INFO: [SYN 201-201] Setting up clock 'default' with a period of 4ns.
 INFO: [HLS 200-10] Setting target device to 'xc7a200tsbg484-1'
 INFO: [HLS 200-10] Analyzing design file '../maxpool_test/maxpool_layer.cpp' ... 
 INFO: [HLS 200-10] Validating synthesis directives ...
-INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:07 ; elapsed = 00:00:43 . Memory (MB): peak = 98.043 ; gain = 48.707
-INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:07 ; elapsed = 00:00:48 . Memory (MB): peak = 98.063 ; gain = 48.727
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:07 ; elapsed = 00:00:20 . Memory (MB): peak = 98.820 ; gain = 49.441
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:07 ; elapsed = 00:00:22 . Memory (MB): peak = 98.840 ; gain = 49.461
 INFO: [HLS 200-10] Starting code transformations ...
 INFO: [XFORM 203-603] Inlining function 'std::max<float>' into 'maxpool_layer' (../maxpool_test/maxpool_layer.cpp:69).
-INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:07 ; elapsed = 00:00:51 . Memory (MB): peak = 101.234 ; gain = 51.898
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:07 ; elapsed = 00:00:23 . Memory (MB): peak = 101.738 ; gain = 52.359
 INFO: [HLS 200-10] Checking synthesizability ...
-INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:08 ; elapsed = 00:00:51 . Memory (MB): peak = 103.809 ; gain = 54.473
-INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:08 ; elapsed = 00:00:53 . Memory (MB): peak = 127.109 ; gain = 77.773
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:07 ; elapsed = 00:00:23 . Memory (MB): peak = 104.090 ; gain = 54.711
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:08 ; elapsed = 00:00:24 . Memory (MB): peak = 128.902 ; gain = 79.523
 INFO: [XFORM 203-541] Flattening a loop nest 'Loop-1.1.1.1.1' (../maxpool_test/maxpool_layer.cpp:62:33) in function 'maxpool_layer'.
 WARNING: [XFORM 203-542] Cannot flatten a loop nest 'Loop-1.1.1.1' (../maxpool_test/maxpool_layer.cpp:52:25) in function 'maxpool_layer' : 
                          the outer loop is not a perfect loop because there is nontrivial logic in the loop latch.
 INFO: [XFORM 203-541] Flattening a loop nest 'Loop-1.1.1' (../maxpool_test/maxpool_layer.cpp:49:23) in function 'maxpool_layer'.
 INFO: [XFORM 203-541] Flattening a loop nest 'Loop-1.1' (../maxpool_test/maxpool_layer.cpp:46:21) in function 'maxpool_layer'.
 INFO: [XFORM 203-541] Flattening a loop nest 'Loop-1' (../maxpool_test/maxpool_layer.cpp:43:16) in function 'maxpool_layer'.
-INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:09 ; elapsed = 00:00:54 . Memory (MB): peak = 128.512 ; gain = 79.176
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:09 ; elapsed = 00:00:25 . Memory (MB): peak = 128.902 ; gain = 79.523
 INFO: [HLS 200-10] Starting hardware synthesis ...
 INFO: [HLS 200-10] Synthesizing 'maxpool_layer' ...
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -45,13 +45,13 @@ WARNING: [SCHED 204-21] The critical path consists of the following:
 	'and' operation ('tmp_23', C:/Xilinx/Vivado_HLS/2017.2/win64/tools/clang/bin\..\lib\clang\3.1/../../../include/c++/4.5.2\bits/stl_algobase.h:214->../maxpool_test/maxpool_layer.cpp:69) (2.07 ns)
 	'select' operation ('output_element', ../maxpool_test/maxpool_layer.cpp:69) (2.07 ns)
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111]  Elapsed time: 55.571 seconds; current allocated memory: 84.649 MB.
+INFO: [HLS 200-111]  Elapsed time: 26.609 seconds; current allocated memory: 84.718 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111]  Elapsed time: 1.693 seconds; current allocated memory: 86.043 MB.
+INFO: [HLS 200-111]  Elapsed time: 1.333 seconds; current allocated memory: 86.114 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'maxpool_layer' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -90,7 +90,7 @@ INFO: [RTGEN 206-100] Generating core module 'maxpool_layer_mulfYi': 3 instance(
 INFO: [RTGEN 206-100] Generating core module 'maxpool_layer_mulhbi': 6 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'maxpool_layer_mulibs': 4 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'maxpool_layer'.
-INFO: [HLS 200-111]  Elapsed time: 1.786 seconds; current allocated memory: 89.027 MB.
+INFO: [HLS 200-111]  Elapsed time: 1.498 seconds; current allocated memory: 89.083 MB.
 INFO: [RTMG 210-282] Generating pipelined core: 'maxpool_layer_mulcud_MulnS_0'
 INFO: [RTMG 210-282] Generating pipelined core: 'maxpool_layer_muldEe_MulnS_1'
 INFO: [RTMG 210-282] Generating pipelined core: 'maxpool_layer_muleOg_MulnS_2'
@@ -100,9 +100,9 @@ INFO: [RTMG 210-282] Generating pipelined core: 'maxpool_layer_mulhbi_MulnS_4'
 INFO: [RTMG 210-282] Generating pipelined core: 'maxpool_layer_mulibs_MulnS_5'
 INFO: [RTMG 210-283] Generating pipelined adder/subtractor : 'maxpool_layer_addjbC_AddSubnS_1'
 INFO: [RTMG 210-283] Generating pipelined adder/subtractor : 'maxpool_layer_addkbM_AddSubnS_2'
-INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:17 ; elapsed = 00:01:10 . Memory (MB): peak = 138.531 ; gain = 89.195
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:16 ; elapsed = 00:00:40 . Memory (MB): peak = 138.863 ; gain = 89.484
 INFO: [SYSC 207-301] Generating SystemC RTL for maxpool_layer.
 INFO: [VHDL 208-304] Generating VHDL RTL for maxpool_layer.
 INFO: [VLOG 209-307] Generating Verilog RTL for maxpool_layer.
 INFO: [IMPL 213-8] Exporting RTL as an IP in IP-XACT.
-INFO: [HLS 200-112] Total elapsed time: 275.621 seconds; peak allocated memory: 89.027 MB.
+INFO: [HLS 200-112] Total elapsed time: 200.47 seconds; peak allocated memory: 89.083 MB.

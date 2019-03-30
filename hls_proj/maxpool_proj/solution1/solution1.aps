@@ -1,6 +1,6 @@
 <AutoPilot:solution xmlns:AutoPilot="com.autoesl.autopilot.solution">
     <config>
-        <config_interface m_axi_addr64="1" m_axi_offset="off" register_io="off"/>
+        <config_interface m_axi_addr64="0" m_axi_offset="off" register_io="off"/>
         <schedule model="maxpool_layer"/>
     </config>
     <ExportDesign askAgain="true" evaluate="false" rtl="verilog" formatName="ip_catalog">
@@ -25,7 +25,7 @@
         <DownStreamTool name="vivado"/>
     </downStreamTool>
     <clockList>
-        <clock default="false" name="default" period="250MHz"/>
+        <clock name="default" default="false" period="250MHz"/>
     </clockList>
 </AutoPilot:solution>
 

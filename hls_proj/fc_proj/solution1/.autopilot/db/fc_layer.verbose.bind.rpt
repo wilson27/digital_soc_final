@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'fc_layer'
 ================================================================
-* Date:           Sat Mar 30 12:46:04 2019
+* Date:           Sat Mar 30 16:23:01 2019
 
 * Version:        2017.2 (Build 1909853 on Thu Jun 15 18:55:24 MDT 2017)
 * Project:        fc_proj
@@ -1069,7 +1069,7 @@ STG Binding:
 - Is datapath-only: 0
 - Is pipelined: 0
 - Is top level: 1
-Port [ Return ] is wired: 1; IO mode=ap_ctrl_hs:ce=0
+Port [ Return ] is wired: 1; IO mode=ap_ctrl_hs_ce:ce=1
 Port [ mem]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=2; type=4; pingpong=0; private_global=0; IO mode=m_axi:ce=0
 Port [ input_offset]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=0; pingpong=0; private_global=0; IO mode=ap_none:ce=0
 Port [ output_offset]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=0; pingpong=0; private_global=0; IO mode=ap_none:ce=0

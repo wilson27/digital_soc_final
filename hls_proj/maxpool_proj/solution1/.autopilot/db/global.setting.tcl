@@ -43,7 +43,7 @@ set SCTraceOption "all"
 set TargetInfo "xc7a200t:sbg484:-1"
 set SourceFiles {sc {} c ../../../maxpool_test/maxpool_layer.cpp}
 set SourceFlags {sc {} c {{}}}
-set DirectiveFile {C:/Users/Wilson/Desktop/classic_cnn/hls_proj/maxpool_proj/solution1/solution1.directive}
+set DirectiveFile {C:/Users/Wilson/Desktop/digital_soc_final/digital_soc_final/hls_proj/maxpool_proj/solution1/solution1.directive}
 set TBFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
 set SpecLanguage "C"
 set TVInFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}

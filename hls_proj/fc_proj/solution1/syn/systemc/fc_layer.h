@@ -23,7 +23,7 @@
 
 namespace ap_rtl {
 
-template<unsigned int C_M_AXI_MEM_ADDR_WIDTH = 64,
+template<unsigned int C_M_AXI_MEM_ADDR_WIDTH = 32,
          unsigned int C_M_AXI_MEM_ID_WIDTH = 1,
          unsigned int C_M_AXI_MEM_AWUSER_WIDTH = 1,
          unsigned int C_M_AXI_MEM_DATA_WIDTH = 32,
@@ -34,7 +34,7 @@ template<unsigned int C_M_AXI_MEM_ADDR_WIDTH = 64,
          unsigned int C_S_AXI_CTRL_BUS_ADDR_WIDTH = 6,
          unsigned int C_S_AXI_CTRL_BUS_DATA_WIDTH = 32>
 struct fc_layer : public sc_module {
-    // Port declarations 65
+    // Port declarations 66
     sc_in_clk ap_clk;
     sc_in< sc_logic > ap_rst_n;
     sc_out< sc_logic > m_axi_mem_AWVALID;
@@ -99,17 +99,17 @@ struct fc_layer : public sc_module {
     sc_out< sc_logic > s_axi_CTRL_BUS_BVALID;
     sc_in< sc_logic > s_axi_CTRL_BUS_BREADY;
     sc_out< sc_lv<2> > s_axi_CTRL_BUS_BRESP;
+    sc_in< sc_logic > ap_ce;
     sc_out< sc_logic > interrupt;
-    sc_signal< sc_logic > ap_var_for_const0;
-    sc_signal< sc_logic > ap_var_for_const6;
-    sc_signal< sc_lv<32> > ap_var_for_const8;
-    sc_signal< sc_lv<1> > ap_var_for_const1;
-    sc_signal< sc_lv<32> > ap_var_for_const2;
-    sc_signal< sc_lv<3> > ap_var_for_const3;
-    sc_signal< sc_lv<2> > ap_var_for_const4;
-    sc_signal< sc_lv<4> > ap_var_for_const5;
-    sc_signal< sc_lv<4> > ap_var_for_const7;
-    sc_signal< sc_lv<64> > ap_var_for_const9;
+    sc_signal< sc_logic > ap_var_for_const5;
+    sc_signal< sc_lv<32> > ap_var_for_const7;
+    sc_signal< sc_lv<1> > ap_var_for_const0;
+    sc_signal< sc_lv<32> > ap_var_for_const1;
+    sc_signal< sc_lv<3> > ap_var_for_const2;
+    sc_signal< sc_lv<2> > ap_var_for_const3;
+    sc_signal< sc_lv<4> > ap_var_for_const4;
+    sc_signal< sc_lv<4> > ap_var_for_const6;
+    sc_signal< sc_lv<64> > ap_var_for_const8;
 
 
     // Module declarations
@@ -123,7 +123,7 @@ struct fc_layer : public sc_module {
     ofstream mHdltvinHandle;
     ofstream mHdltvoutHandle;
     fc_layer_CTRL_BUS_s_axi<C_S_AXI_CTRL_BUS_ADDR_WIDTH,C_S_AXI_CTRL_BUS_DATA_WIDTH>* fc_layer_CTRL_BUS_s_axi_U;
-    fc_layer_mem_m_axi<32,64,5,16,16,16,16,C_M_AXI_MEM_ID_WIDTH,C_M_AXI_MEM_ADDR_WIDTH,C_M_AXI_MEM_DATA_WIDTH,C_M_AXI_MEM_AWUSER_WIDTH,C_M_AXI_MEM_ARUSER_WIDTH,C_M_AXI_MEM_WUSER_WIDTH,C_M_AXI_MEM_RUSER_WIDTH,C_M_AXI_MEM_BUSER_WIDTH,C_M_AXI_MEM_TARGET_ADDR,C_M_AXI_MEM_USER_VALUE,C_M_AXI_MEM_PROT_VALUE,C_M_AXI_MEM_CACHE_VALUE>* fc_layer_mem_m_axi_U;
+    fc_layer_mem_m_axi<32,32,5,16,16,16,16,C_M_AXI_MEM_ID_WIDTH,C_M_AXI_MEM_ADDR_WIDTH,C_M_AXI_MEM_DATA_WIDTH,C_M_AXI_MEM_AWUSER_WIDTH,C_M_AXI_MEM_ARUSER_WIDTH,C_M_AXI_MEM_WUSER_WIDTH,C_M_AXI_MEM_RUSER_WIDTH,C_M_AXI_MEM_BUSER_WIDTH,C_M_AXI_MEM_TARGET_ADDR,C_M_AXI_MEM_USER_VALUE,C_M_AXI_MEM_PROT_VALUE,C_M_AXI_MEM_CACHE_VALUE>* fc_layer_mem_m_axi_U;
     fc_layer_fadd_32nbkb<1,13,32,32,32>* fc_layer_fadd_32nbkb_U0;
     fc_layer_fmul_32ncud<1,8,32,32,32>* fc_layer_fmul_32ncud_U1;
     fc_layer_fcmp_32ndEe<1,4,32,32,1>* fc_layer_fcmp_32ndEe_U2;
@@ -176,13 +176,12 @@ struct fc_layer : public sc_module {
     sc_signal< sc_logic > ap_CS_fsm_state19;
     sc_signal< sc_logic > mem_AWVALID;
     sc_signal< sc_logic > mem_AWREADY;
-    sc_signal< sc_lv<64> > mem_AWADDR;
     sc_signal< sc_logic > mem_WVALID;
     sc_signal< sc_logic > mem_WREADY;
     sc_signal< sc_lv<32> > mem_WDATA;
     sc_signal< sc_logic > mem_ARVALID;
     sc_signal< sc_logic > mem_ARREADY;
-    sc_signal< sc_lv<64> > mem_ARADDR;
+    sc_signal< sc_lv<32> > mem_ARADDR;
     sc_signal< sc_logic > mem_RVALID;
     sc_signal< sc_logic > mem_RREADY;
     sc_signal< sc_lv<32> > mem_RDATA;
@@ -431,6 +430,13 @@ struct fc_layer : public sc_module {
     sc_signal< sc_lv<5> > grp_fu_224_opcode;
     sc_signal< bool > ap_block_pp0_stage11_flag00000001;
     sc_signal< bool > ap_block_pp0_stage10_flag00000001;
+    sc_signal< sc_logic > grp_fu_245_ce;
+    sc_signal< sc_logic > ap_CS_fsm_state3;
+    sc_signal< sc_logic > ap_CS_fsm_state4;
+    sc_signal< sc_logic > ap_CS_fsm_state5;
+    sc_signal< sc_logic > ap_CS_fsm_state6;
+    sc_signal< sc_logic > grp_fu_279_ce;
+    sc_signal< sc_logic > grp_fu_315_ce;
     sc_signal< sc_logic > grp_fu_351_ce;
     sc_signal< sc_logic > ap_CS_fsm_state13;
     sc_signal< sc_logic > ap_CS_fsm_state15;
@@ -453,8 +459,10 @@ struct fc_layer : public sc_module {
     sc_signal< sc_lv<64> > grp_fu_279_p00;
     sc_signal< sc_lv<64> > grp_fu_279_p10;
     sc_signal< sc_lv<32> > grp_fu_351_p00;
-    sc_signal< bool > ap_condition_767;
-    sc_signal< bool > ap_condition_779;
+    sc_signal< bool > ap_condition_1526;
+    sc_signal< bool > ap_condition_1531;
+    sc_signal< bool > ap_condition_1535;
+    sc_signal< bool > ap_condition_1539;
     static const sc_logic ap_const_logic_1;
     static const sc_logic ap_const_logic_0;
     static const sc_lv<51> ap_ST_fsm_state1;
@@ -567,20 +575,22 @@ struct fc_layer : public sc_module {
     static const sc_lv<32> ap_const_lv32_22;
     static const sc_lv<5> ap_const_lv5_1;
     static const sc_lv<5> ap_const_lv5_2;
+    static const sc_lv<32> ap_const_lv32_3;
+    static const sc_lv<32> ap_const_lv32_4;
+    static const sc_lv<32> ap_const_lv32_5;
     static const sc_lv<32> ap_const_lv32_C;
     static const sc_lv<32> ap_const_lv32_E;
     static const sc_lv<32> ap_const_lv32_F;
     // Thread declarations
+    void thread_ap_var_for_const5();
+    void thread_ap_var_for_const7();
     void thread_ap_var_for_const0();
-    void thread_ap_var_for_const6();
-    void thread_ap_var_for_const8();
     void thread_ap_var_for_const1();
     void thread_ap_var_for_const2();
     void thread_ap_var_for_const3();
     void thread_ap_var_for_const4();
-    void thread_ap_var_for_const5();
-    void thread_ap_var_for_const7();
-    void thread_ap_var_for_const9();
+    void thread_ap_var_for_const6();
+    void thread_ap_var_for_const8();
     void thread_ap_clk_no_reset_();
     void thread_ap_CS_fsm_pp0_stage0();
     void thread_ap_CS_fsm_pp0_stage1();
@@ -607,6 +617,10 @@ struct fc_layer : public sc_module {
     void thread_ap_CS_fsm_state19();
     void thread_ap_CS_fsm_state2();
     void thread_ap_CS_fsm_state20();
+    void thread_ap_CS_fsm_state3();
+    void thread_ap_CS_fsm_state4();
+    void thread_ap_CS_fsm_state5();
+    void thread_ap_CS_fsm_state6();
     void thread_ap_CS_fsm_state68();
     void thread_ap_CS_fsm_state69();
     void thread_ap_CS_fsm_state7();
@@ -706,8 +720,10 @@ struct fc_layer : public sc_module {
     void thread_ap_block_state66_pp0_stage9_iter3();
     void thread_ap_block_state67_pp0_stage10_iter3();
     void thread_ap_block_state78();
-    void thread_ap_condition_767();
-    void thread_ap_condition_779();
+    void thread_ap_condition_1526();
+    void thread_ap_condition_1531();
+    void thread_ap_condition_1535();
+    void thread_ap_condition_1539();
     void thread_ap_condition_pp0_exit_iter2_state55();
     void thread_ap_done();
     void thread_ap_enable_pp0();
@@ -732,10 +748,13 @@ struct fc_layer : public sc_module {
     void thread_grp_fu_224_opcode();
     void thread_grp_fu_224_p0();
     void thread_grp_fu_230_p2();
+    void thread_grp_fu_245_ce();
+    void thread_grp_fu_279_ce();
     void thread_grp_fu_279_p0();
     void thread_grp_fu_279_p00();
     void thread_grp_fu_279_p1();
     void thread_grp_fu_279_p10();
+    void thread_grp_fu_315_ce();
     void thread_grp_fu_351_ce();
     void thread_grp_fu_351_p0();
     void thread_grp_fu_351_p00();
@@ -749,7 +768,6 @@ struct fc_layer : public sc_module {
     void thread_input_element_to_int_fu_412_p1();
     void thread_mem_ARADDR();
     void thread_mem_ARVALID();
-    void thread_mem_AWADDR();
     void thread_mem_AWVALID();
     void thread_mem_BREADY();
     void thread_mem_RREADY();

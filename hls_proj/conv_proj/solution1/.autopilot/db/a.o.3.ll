@@ -1,4 +1,4 @@
-; ModuleID = 'C:/Users/Wilson/Desktop/classic_cnn/hls_proj/conv_proj/solution1/.autopilot/db/a.o.3.bc'
+; ModuleID = 'C:/Users/Wilson/Desktop/digital_soc_final/digital_soc_final/hls_proj/conv_proj/solution1/.autopilot/db/a.o.3.bc'
 target datalayout = "e-p:32:32:32-i1:8:8-i8:8:8-i16:16:16-i32:32:32-i64:64:64-f32:32:32-f64:64:64-f80:128:128-v64:64:64-v128:128:128-a0:0:64-f80:32:32-n8:16:32-S32"
 target triple = "i686-pc-mingw32"
 
@@ -528,7 +528,7 @@ declare void @_GLOBAL__I_a() nounwind
 !63 = metadata !{metadata !"k", metadata !22, metadata !"int", i32 0, i32 31}
 !64 = metadata !{i32 786689, metadata !65, metadata !"k", metadata !66, i32 201326609, metadata !72, i32 0, i32 0} ; [ DW_TAG_arg_variable ]
 !65 = metadata !{i32 786478, i32 0, metadata !66, metadata !"conv_layer", metadata !"conv_layer", metadata !"_Z10conv_layerPfiiiiiiiiiii", metadata !66, i32 6, metadata !67, i1 false, i1 true, i32 0, i32 0, null, i32 256, i1 false, void (float*, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32)* @conv_layer, null, null, metadata !73, i32 18} ; [ DW_TAG_subprogram ]
-!66 = metadata !{i32 786473, metadata !"../conv_test/conv_layer.cpp", metadata !"C:\5CUsers\5CWilson\5CDesktop\5Cclassic_cnn\5Chls_proj", null} ; [ DW_TAG_file_type ]
+!66 = metadata !{i32 786473, metadata !"../conv_test/conv_layer.cpp", metadata !"C:\5CUsers\5CWilson\5CDesktop\5Cdigital_soc_final\5Cdigital_soc_final\5Chls_proj", null} ; [ DW_TAG_file_type ]
 !67 = metadata !{i32 786453, i32 0, metadata !"", i32 0, i32 0, i64 0, i64 0, i64 0, i32 0, null, metadata !68, i32 0, i32 0} ; [ DW_TAG_subroutine_type ]
 !68 = metadata !{null, metadata !69, metadata !71, metadata !71, metadata !72, metadata !72, metadata !72, metadata !72, metadata !72, metadata !72, metadata !72, metadata !72, metadata !72}
 !69 = metadata !{i32 786447, null, metadata !"", null, i32 0, i64 32, i64 32, i64 0, i32 0, metadata !70} ; [ DW_TAG_pointer_type ]

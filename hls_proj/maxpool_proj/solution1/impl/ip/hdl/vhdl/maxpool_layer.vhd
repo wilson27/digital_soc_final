@@ -11,7 +11,7 @@ use IEEE.numeric_std.all;
 
 entity maxpool_layer is
 generic (
-    C_M_AXI_MEM_ADDR_WIDTH : INTEGER := 64;
+    C_M_AXI_MEM_ADDR_WIDTH : INTEGER := 32;
     C_M_AXI_MEM_ID_WIDTH : INTEGER := 1;
     C_M_AXI_MEM_AWUSER_WIDTH : INTEGER := 1;
     C_M_AXI_MEM_DATA_WIDTH : INTEGER := 32;
@@ -21,10 +21,10 @@ generic (
     C_M_AXI_MEM_BUSER_WIDTH : INTEGER := 1;
     C_S_AXI_CTRL_BUS_ADDR_WIDTH : INTEGER := 7;
     C_S_AXI_CTRL_BUS_DATA_WIDTH : INTEGER := 32;
-    C_M_AXI_MEM_USER_VALUE : INTEGER := 0;
+    C_M_AXI_MEM_CACHE_VALUE : INTEGER := 3;
     C_M_AXI_MEM_TARGET_ADDR : INTEGER := 0;
-    C_M_AXI_MEM_PROT_VALUE : INTEGER := 0;
-    C_M_AXI_MEM_CACHE_VALUE : INTEGER := 3 );
+    C_M_AXI_MEM_USER_VALUE : INTEGER := 0;
+    C_M_AXI_MEM_PROT_VALUE : INTEGER := 0 );
 port (
     ap_clk : IN STD_LOGIC;
     ap_rst_n : IN STD_LOGIC;
@@ -311,12 +311,10 @@ architecture behav of maxpool_layer is
     attribute fsm_encoding of ap_CS_fsm_state117 : signal is "none";
     signal mem_AWVALID : STD_LOGIC;
     signal mem_AWREADY : STD_LOGIC;
-    signal mem_AWADDR : STD_LOGIC_VECTOR (63 downto 0);
     signal mem_WVALID : STD_LOGIC;
     signal mem_WREADY : STD_LOGIC;
     signal mem_ARVALID : STD_LOGIC;
     signal mem_ARREADY : STD_LOGIC;
-    signal mem_ARADDR : STD_LOGIC_VECTOR (63 downto 0);
     signal mem_RVALID : STD_LOGIC;
     signal mem_RREADY : STD_LOGIC;
     signal mem_RDATA : STD_LOGIC_VECTOR (31 downto 0);
@@ -1044,7 +1042,7 @@ architecture behav of maxpool_layer is
         ACLK_EN : IN STD_LOGIC;
         I_ARVALID : IN STD_LOGIC;
         I_ARREADY : OUT STD_LOGIC;
-        I_ARADDR : IN STD_LOGIC_VECTOR (63 downto 0);
+        I_ARADDR : IN STD_LOGIC_VECTOR (31 downto 0);
         I_ARID : IN STD_LOGIC_VECTOR (0 downto 0);
         I_ARLEN : IN STD_LOGIC_VECTOR (31 downto 0);
         I_ARSIZE : IN STD_LOGIC_VECTOR (2 downto 0);
@@ -1064,7 +1062,7 @@ architecture behav of maxpool_layer is
         I_RLAST : OUT STD_LOGIC;
         I_AWVALID : IN STD_LOGIC;
         I_AWREADY : OUT STD_LOGIC;
-        I_AWADDR : IN STD_LOGIC_VECTOR (63 downto 0);
+        I_AWADDR : IN STD_LOGIC_VECTOR (31 downto 0);
         I_AWID : IN STD_LOGIC_VECTOR (0 downto 0);
         I_AWLEN : IN STD_LOGIC_VECTOR (31 downto 0);
         I_AWSIZE : IN STD_LOGIC_VECTOR (2 downto 0);
@@ -1137,7 +1135,7 @@ begin
     maxpool_layer_mem_m_axi_U : component maxpool_layer_mem_m_axi
     generic map (
         USER_DW => 32,
-        USER_AW => 64,
+        USER_AW => 32,
         USER_MAXREQS => 5,
         NUM_READ_OUTSTANDING => 16,
         NUM_WRITE_OUTSTANDING => 16,
@@ -1206,7 +1204,7 @@ begin
         ACLK_EN => ap_const_logic_1,
         I_ARVALID => mem_ARVALID,
         I_ARREADY => mem_ARREADY,
-        I_ARADDR => mem_ARADDR,
+        I_ARADDR => tmp_14_reg_1779,
         I_ARID => ap_const_lv1_0,
         I_ARLEN => ap_const_lv32_1,
         I_ARSIZE => ap_const_lv3_0,
@@ -1226,7 +1224,7 @@ begin
         I_RLAST => mem_RLAST,
         I_AWVALID => mem_AWVALID,
         I_AWREADY => mem_AWREADY,
-        I_AWADDR => mem_AWADDR,
+        I_AWADDR => tmp_11_reg_1847,
         I_AWID => ap_const_lv1_0,
         I_AWLEN => ap_const_lv32_1,
         I_AWSIZE => ap_const_lv3_0,
@@ -3088,7 +3086,6 @@ begin
     indvars_iv_next4_fu_1093_p2 <= std_logic_vector(unsigned(indvars_iv21_mid2_reg_1614) + unsigned(s_read_reg_1162));
     indvars_iv_next5_fu_1097_p2 <= std_logic_vector(unsigned(indvars_iv24_mid2_reg_1643) - unsigned(s_read_reg_1162));
     indvars_iv_next_fu_650_p2 <= std_logic_vector(unsigned(indvars_iv12_mid1_reg_1474) + unsigned(s_read_reg_1162));
-    mem_ARADDR <= std_logic_vector(IEEE.numeric_std.resize(unsigned(tmp_14_reg_1779),64));
 
     mem_ARVALID_assign_proc : process(ap_CS_fsm_pp0_stage2, ap_enable_reg_pp0_iter3, ap_reg_pp0_iter3_exitcond_flatten_reg_1727, ap_reg_ioackin_mem_ARREADY, ap_block_pp0_stage2_flag00001001)
     begin
@@ -3099,7 +3096,6 @@ begin
         end if; 
     end process;
 
-    mem_AWADDR <= std_logic_vector(IEEE.numeric_std.resize(unsigned(tmp_11_reg_1847),64));
 
     mem_AWVALID_assign_proc : process(ap_CS_fsm_state111, ap_reg_ioackin_mem_AWREADY)
     begin

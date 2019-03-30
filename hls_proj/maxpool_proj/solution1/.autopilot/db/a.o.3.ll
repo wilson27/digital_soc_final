@@ -1,4 +1,4 @@
-; ModuleID = 'C:/Users/Wilson/Desktop/classic_cnn/hls_proj/maxpool_proj/solution1/.autopilot/db/a.o.3.bc'
+; ModuleID = 'C:/Users/Wilson/Desktop/digital_soc_final/digital_soc_final/hls_proj/maxpool_proj/solution1/.autopilot/db/a.o.3.bc'
 target datalayout = "e-p:32:32:32-i1:8:8-i8:8:8-i16:16:16-i32:32:32-i64:64:64-f32:32:32-f64:64:64-f80:128:128-v64:64:64-v128:128:128-a0:0:64-f80:32:32-n8:16:32-S32"
 target triple = "i686-pc-mingw32"
 
@@ -456,7 +456,7 @@ declare void @_GLOBAL__I_a() nounwind
 !69 = metadata !{metadata !"k", metadata !28, metadata !"int", i32 0, i32 31}
 !70 = metadata !{i32 786689, metadata !71, metadata !"k", metadata !72, i32 201326609, metadata !78, i32 0, i32 0} ; [ DW_TAG_arg_variable ]
 !71 = metadata !{i32 786478, i32 0, metadata !72, metadata !"maxpool_layer", metadata !"maxpool_layer", metadata !"_Z13maxpool_layerPfiiiiiiiiiii", metadata !72, i32 6, metadata !73, i1 false, i1 true, i32 0, i32 0, null, i32 256, i1 false, void (float*, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32, i32)* @maxpool_layer, null, null, metadata !79, i32 18} ; [ DW_TAG_subprogram ]
-!72 = metadata !{i32 786473, metadata !"../maxpool_test/maxpool_layer.cpp", metadata !"C:\5CUsers\5CWilson\5CDesktop\5Cclassic_cnn\5Chls_proj", null} ; [ DW_TAG_file_type ]
+!72 = metadata !{i32 786473, metadata !"../maxpool_test/maxpool_layer.cpp", metadata !"C:\5CUsers\5CWilson\5CDesktop\5Cdigital_soc_final\5Cdigital_soc_final\5Chls_proj", null} ; [ DW_TAG_file_type ]
 !73 = metadata !{i32 786453, i32 0, metadata !"", i32 0, i32 0, i64 0, i64 0, i64 0, i32 0, null, metadata !74, i32 0, i32 0} ; [ DW_TAG_subroutine_type ]
 !74 = metadata !{null, metadata !75, metadata !77, metadata !77, metadata !78, metadata !78, metadata !78, metadata !78, metadata !78, metadata !78, metadata !78, metadata !78, metadata !78}
 !75 = metadata !{i32 786447, null, metadata !"", null, i32 0, i64 32, i64 32, i64 0, i32 0, metadata !76} ; [ DW_TAG_pointer_type ]
@@ -538,14 +538,14 @@ declare void @_GLOBAL__I_a() nounwind
 !151 = metadata !{i32 786443, metadata !152, i32 210, i32 5, metadata !161, i32 13} ; [ DW_TAG_lexical_block ]
 !152 = metadata !{i32 786478, i32 0, metadata !153, metadata !"max<float>", metadata !"max<float>", metadata !"_ZSt3maxIfERKT_S2_S2_", metadata !154, i32 342, metadata !155, i1 false, i1 true, i32 0, i32 0, null, i32 256, i1 false, null, metadata !159, null, metadata !79, i32 210} ; [ DW_TAG_subprogram ]
 !153 = metadata !{i32 786489, null, metadata !"std", metadata !154, i32 39} ; [ DW_TAG_namespace ]
-!154 = metadata !{i32 786473, metadata !"C:/Xilinx/Vivado_HLS/2017.2/win64/tools/clang/bin\5C..\5Clib\5Cclang\5C3.1/../../../include/c++/4.5.2\5Cbits/algorithmfwd.h", metadata !"C:\5CUsers\5CWilson\5CDesktop\5Cclassic_cnn\5Chls_proj", null} ; [ DW_TAG_file_type ]
+!154 = metadata !{i32 786473, metadata !"C:/Xilinx/Vivado_HLS/2017.2/win64/tools/clang/bin\5C..\5Clib\5Cclang\5C3.1/../../../include/c++/4.5.2\5Cbits/algorithmfwd.h", metadata !"C:\5CUsers\5CWilson\5CDesktop\5Cdigital_soc_final\5Cdigital_soc_final\5Chls_proj", null} ; [ DW_TAG_file_type ]
 !155 = metadata !{i32 786453, i32 0, metadata !"", i32 0, i32 0, i64 0, i64 0, i64 0, i32 0, null, metadata !156, i32 0, i32 0} ; [ DW_TAG_subroutine_type ]
 !156 = metadata !{metadata !157, metadata !157, metadata !157}
 !157 = metadata !{i32 786448, null, null, null, i32 0, i64 0, i64 0, i64 0, i32 0, metadata !158} ; [ DW_TAG_reference_type ]
 !158 = metadata !{i32 786470, null, metadata !"", null, i32 0, i64 0, i64 0, i64 0, i32 0, metadata !76} ; [ DW_TAG_const_type ]
 !159 = metadata !{metadata !160}
 !160 = metadata !{i32 786479, null, metadata !"_Tp", metadata !76, null, i32 0, i32 0} ; [ DW_TAG_template_type_parameter ]
-!161 = metadata !{i32 786473, metadata !"C:/Xilinx/Vivado_HLS/2017.2/win64/tools/clang/bin\5C..\5Clib\5Cclang\5C3.1/../../../include/c++/4.5.2\5Cbits/stl_algobase.h", metadata !"C:\5CUsers\5CWilson\5CDesktop\5Cclassic_cnn\5Chls_proj", null} ; [ DW_TAG_file_type ]
+!161 = metadata !{i32 786473, metadata !"C:/Xilinx/Vivado_HLS/2017.2/win64/tools/clang/bin\5C..\5Clib\5Cclang\5C3.1/../../../include/c++/4.5.2\5Cbits/stl_algobase.h", metadata !"C:\5CUsers\5CWilson\5CDesktop\5Cdigital_soc_final\5Cdigital_soc_final\5Chls_proj", null} ; [ DW_TAG_file_type ]
 !162 = metadata !{i32 69, i32 21, metadata !121, null}
 !163 = metadata !{i32 786688, metadata !125, metadata !"output_element", metadata !72, i32 54, metadata !76, i32 0, i32 0} ; [ DW_TAG_auto_variable ]
 !164 = metadata !{i32 70, i32 15, metadata !121, null}
