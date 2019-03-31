@@ -64,7 +64,7 @@ void maxpool_layer(float * mem,            // global memory pointer
               // Input X Dimension
               for (int i_x = o_x*s; i_x < o_x*s+k; i_x++)
               {
-#pragma HLS PIPELINE
+//#pragma HLS PIPELINE
 		 temp = mem[input_offset/sizeof(float) + b_*id*ix*iy + i_d*ix*iy + i_y*ix + i_x];
 		 output_element = std::max(temp, output_element);
               }

@@ -15,14 +15,14 @@ port (
     ce: in std_logic;
     a: in std_logic_vector(32 - 1 downto 0);
     b: in std_logic_vector(32 - 1 downto 0);
-    p: out std_logic_vector(64 - 1 downto 0));
+    p: out std_logic_vector(32 - 1 downto 0));
 end entity;
 
 architecture behav of maxpool_layer_mulcud_MulnS_0 is
-    signal tmp_product : std_logic_vector(64 - 1 downto 0);
+    signal tmp_product : std_logic_vector(32 - 1 downto 0);
     signal a_i : std_logic_vector(32 - 1 downto 0);
     signal b_i : std_logic_vector(32 - 1 downto 0);
-    signal p_tmp : std_logic_vector(64 - 1 downto 0);
+    signal p_tmp : std_logic_vector(32 - 1 downto 0);
     signal a_reg0 : std_logic_vector(32 - 1 downto 0);
     signal b_reg0 : std_logic_vector(32 - 1 downto 0);
 
@@ -30,18 +30,18 @@ architecture behav of maxpool_layer_mulcud_MulnS_0 is
     attribute keep of a_i : signal is "true";
     attribute keep of b_i : signal is "true";
 
-    signal buff0 : std_logic_vector(64 - 1 downto 0);
-    signal buff1 : std_logic_vector(64 - 1 downto 0);
-    signal buff2 : std_logic_vector(64 - 1 downto 0);
-    signal buff3 : std_logic_vector(64 - 1 downto 0);
-    signal buff4 : std_logic_vector(64 - 1 downto 0);
+    signal buff0 : std_logic_vector(32 - 1 downto 0);
+    signal buff1 : std_logic_vector(32 - 1 downto 0);
+    signal buff2 : std_logic_vector(32 - 1 downto 0);
+    signal buff3 : std_logic_vector(32 - 1 downto 0);
+    signal buff4 : std_logic_vector(32 - 1 downto 0);
 begin
     a_i <= a;
     b_i <= b;
     p <= p_tmp;
 
     p_tmp <= buff4;
-    tmp_product <= std_logic_vector(resize(unsigned(a_reg0) * unsigned(b_reg0), 64));
+    tmp_product <= std_logic_vector(resize(unsigned(std_logic_vector(signed(a_reg0) * signed(b_reg0))), 32));
 
     process(clk)
     begin

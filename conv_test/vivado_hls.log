@@ -5,7 +5,7 @@
   Copyright (C) 1986-2017 Xilinx, Inc. All Rights Reserved.
 ================================================================
 INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado_HLS/2017.2/bin/unwrapped/win64.o/vivado_hls.exe'
-INFO: [HLS 200-10] For user 'Wilson' on host 'wilson24' (Windows NT_amd64 version 6.2) on Sat Mar 30 15:55:57 -0400 2019
+INFO: [HLS 200-10] For user 'Wilson' on host 'wilson24' (Windows NT_amd64 version 6.2) on Sun Mar 31 16:50:15 -0400 2019
 INFO: [HLS 200-10] In directory 'C:/Users/Wilson/Desktop/digital_soc_final/digital_soc_final/conv_test'
 INFO: [HLS 200-10] Opening project 'C:/Users/Wilson/Desktop/digital_soc_final/digital_soc_final/hls_proj/conv_proj'.
 INFO: [HLS 200-10] Adding design file '../conv_test/conv_layer.cpp' to the project
@@ -14,57 +14,29 @@ INFO: [SYN 201-201] Setting up clock 'default' with a period of 4ns.
 INFO: [HLS 200-10] Setting target device to 'xc7a200tsbg484-1'
 INFO: [HLS 200-10] Analyzing design file '../conv_test/conv_layer.cpp' ... 
 INFO: [HLS 200-10] Validating synthesis directives ...
-INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:07 ; elapsed = 00:00:21 . Memory (MB): peak = 98.766 ; gain = 49.363
-INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:07 ; elapsed = 00:00:23 . Memory (MB): peak = 98.785 ; gain = 49.383
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:05 ; elapsed = 00:00:40 . Memory (MB): peak = 98.375 ; gain = 49.063
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:05 ; elapsed = 00:00:45 . Memory (MB): peak = 98.395 ; gain = 49.082
 INFO: [HLS 200-10] Starting code transformations ...
-INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:08 ; elapsed = 00:00:24 . Memory (MB): peak = 101.641 ; gain = 52.238
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:05 ; elapsed = 00:00:47 . Memory (MB): peak = 101.379 ; gain = 52.066
 INFO: [HLS 200-10] Checking synthesizability ...
-INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:08 ; elapsed = 00:00:24 . Memory (MB): peak = 104.016 ; gain = 54.613
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:06 ; elapsed = 00:00:47 . Memory (MB): peak = 104.059 ; gain = 54.746
 INFO: [XFORM 203-11] Balancing expressions in function 'conv_layer' (../conv_test/conv_layer.cpp:6)...7 expression(s) balanced.
-INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:08 ; elapsed = 00:00:25 . Memory (MB): peak = 127.656 ; gain = 78.254
-INFO: [XFORM 203-541] Flattening a loop nest 'Loop-1.1.1.1.1.1' (../conv_test/conv_layer.cpp:63:42) in function 'conv_layer'.
-INFO: [XFORM 203-541] Flattening a loop nest 'Loop-1.1.1.1.1' (../conv_test/conv_layer.cpp:60:27) in function 'conv_layer'.
-WARNING: [XFORM 203-542] Cannot flatten a loop nest 'Loop-1.1.1.1' (../conv_test/conv_layer.cpp:52:25) in function 'conv_layer' : 
-WARNING: [XFORM 203-542] the outer loop is not a perfect loop because there is nontrivial logic in the loop latch.
-INFO: [XFORM 203-541] Flattening a loop nest 'Loop-1.1.1' (../conv_test/conv_layer.cpp:49:23) in function 'conv_layer'.
-INFO: [XFORM 203-541] Flattening a loop nest 'Loop-1.1' (../conv_test/conv_layer.cpp:46:21) in function 'conv_layer'.
-INFO: [XFORM 203-541] Flattening a loop nest 'Loop-1' (../conv_test/conv_layer.cpp:43:16) in function 'conv_layer'.
-INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:09 ; elapsed = 00:00:27 . Memory (MB): peak = 128.176 ; gain = 78.773
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:06 ; elapsed = 00:00:49 . Memory (MB): peak = 128.945 ; gain = 79.633
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:06 ; elapsed = 00:00:50 . Memory (MB): peak = 129.168 ; gain = 79.855
 INFO: [HLS 200-10] Starting hardware synthesis ...
 INFO: [HLS 200-10] Synthesizing 'conv_layer' ...
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Implementing module 'conv_layer' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
-WARNING: [SCHED 204-21] Estimated delay (4.66ns) of 'icmp' operation ('exitcond_flatten3') exceeds the target cycle time (target cycle time: 4ns, clock uncertainty: 0.5ns, effective cycle time: 3.5ns).
-INFO: [SCHED 204-61] Pipelining loop 'Loop 1.1'.
-WARNING: [SCHED 204-68] Unable to enforce a carried constraint (II = 1)
-   between 'add' operation ('indvar_flatten_next4') and 'add' operation ('indvar_flatten_next4').
-WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 0)
-   between 'phi' operation ('output_element') with incoming values : ('output_element', ../conv_test/conv_layer.cpp:55) ('output_element', ../conv_test/conv_layer.cpp:73) and 'fadd' operation ('output_element', ../conv_test/conv_layer.cpp:73).
-WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 0)
-   between 'phi' operation ('output_element') with incoming values : ('output_element', ../conv_test/conv_layer.cpp:55) ('output_element', ../conv_test/conv_layer.cpp:73) and 'fadd' operation ('output_element', ../conv_test/conv_layer.cpp:73).
-WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 0)
-   between 'phi' operation ('output_element') with incoming values : ('output_element', ../conv_test/conv_layer.cpp:55) ('output_element', ../conv_test/conv_layer.cpp:73) and 'fadd' operation ('output_element', ../conv_test/conv_layer.cpp:73).
-WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 0)
-   between 'phi' operation ('output_element') with incoming values : ('output_element', ../conv_test/conv_layer.cpp:55) ('output_element', ../conv_test/conv_layer.cpp:73) and 'fadd' operation ('output_element', ../conv_test/conv_layer.cpp:73).
-WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 11, distance = 1, offset = 0)
-   between 'phi' operation ('output_element') with incoming values : ('output_element', ../conv_test/conv_layer.cpp:55) ('output_element', ../conv_test/conv_layer.cpp:73) and 'fadd' operation ('output_element', ../conv_test/conv_layer.cpp:73).
-INFO: [SCHED 204-61] Pipelining result: Target II: 1, Final II: 12, Depth: 65.
-WARNING: [SCHED 204-21] Estimated clock period (9.28ns) exceeds the target (target clock period: 4ns, clock uncertainty: 0.5ns, effective delay budget: 3.5ns).
-WARNING: [SCHED 204-21] The critical path consists of the following:
-	'add' operation ('tmp20', ../conv_test/conv_layer.cpp:71) (2.89 ns)
-	'add' operation ('tmp_18', ../conv_test/conv_layer.cpp:71) (2.89 ns)
-	'getelementptr' operation ('mem_addr_3', ../conv_test/conv_layer.cpp:71) (0 ns)
-	bus request on port 'mem' (../conv_test/conv_layer.cpp:71) (3.5 ns)
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111]  Elapsed time: 28.849 seconds; current allocated memory: 86.131 MB.
+INFO: [HLS 200-111]  Elapsed time: 50.742 seconds; current allocated memory: 84.504 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111]  Elapsed time: 2.067 seconds; current allocated memory: 88.152 MB.
+INFO: [HLS 200-111]  Elapsed time: 0.659 seconds; current allocated memory: 85.474 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'conv_layer' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -85,36 +57,15 @@ INFO: [RTGEN 206-100] Bundling port 'return', 'input_offset', 'output_offset', '
 INFO: [SYN 201-210] Renamed object name 'conv_layer_fadd_32ns_32ns_32_13_full_dsp' to 'conv_layer_fadd_3bkb' due to the length limit 20
 INFO: [SYN 201-210] Renamed object name 'conv_layer_fmul_32ns_32ns_32_8_max_dsp' to 'conv_layer_fmul_3cud' due to the length limit 20
 INFO: [SYN 201-210] Renamed object name 'conv_layer_fcmp_32ns_32ns_1_4' to 'conv_layer_fcmp_3dEe' due to the length limit 20
-INFO: [SYN 201-210] Renamed object name 'conv_layer_mul_32ns_32ns_64_7' to 'conv_layer_mul_32eOg' due to the length limit 20
-INFO: [SYN 201-210] Renamed object name 'conv_layer_mul_64ns_32ns_96_19' to 'conv_layer_mul_64fYi' due to the length limit 20
-INFO: [SYN 201-210] Renamed object name 'conv_layer_mul_96ns_32ns_128_19' to 'conv_layer_mul_96g8j' due to the length limit 20
-INFO: [SYN 201-210] Renamed object name 'conv_layer_mul_32s_32s_32_7' to 'conv_layer_mul_32hbi' due to the length limit 20
-INFO: [SYN 201-210] Renamed object name 'conv_layer_mul_32s_31ns_32_7' to 'conv_layer_mul_32ibs' due to the length limit 20
-INFO: [SYN 201-210] Renamed object name 'conv_layer_add_128ns_128ns_128_3' to 'conv_layer_add_12jbC' due to the length limit 20
-INFO: [SYN 201-210] Renamed object name 'conv_layer_add_96ns_96ns_96_2' to 'conv_layer_add_96kbM' due to the length limit 20
-INFO: [SYN 201-210] Renamed object name 'conv_layer_add_64ns_64ns_64_2' to 'conv_layer_add_64lbW' due to the length limit 20
-INFO: [RTGEN 206-100] Generating core module 'conv_layer_add_12jbC': 1 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'conv_layer_add_64lbW': 2 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'conv_layer_add_96kbM': 2 instance(s).
+INFO: [SYN 201-210] Renamed object name 'conv_layer_mul_32s_32s_32_7' to 'conv_layer_mul_32eOg' due to the length limit 20
 INFO: [RTGEN 206-100] Generating core module 'conv_layer_fadd_3bkb': 1 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'conv_layer_fcmp_3dEe': 1 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'conv_layer_fmul_3cud': 1 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'conv_layer_mul_32eOg': 2 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'conv_layer_mul_32hbi': 13 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'conv_layer_mul_32ibs': 8 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'conv_layer_mul_64fYi': 2 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'conv_layer_mul_96g8j': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'conv_layer_mul_32eOg': 9 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'conv_layer'.
-INFO: [HLS 200-111]  Elapsed time: 2.521 seconds; current allocated memory: 92.193 MB.
+INFO: [HLS 200-111]  Elapsed time: 0.849 seconds; current allocated memory: 87.637 MB.
 INFO: [RTMG 210-282] Generating pipelined core: 'conv_layer_mul_32eOg_MulnS_0'
-INFO: [RTMG 210-282] Generating pipelined core: 'conv_layer_mul_64fYi_MulnS_1'
-INFO: [RTMG 210-282] Generating pipelined core: 'conv_layer_mul_96g8j_MulnS_2'
-INFO: [RTMG 210-282] Generating pipelined core: 'conv_layer_mul_32hbi_MulnS_3'
-INFO: [RTMG 210-282] Generating pipelined core: 'conv_layer_mul_32ibs_MulnS_4'
-INFO: [RTMG 210-283] Generating pipelined adder/subtractor : 'conv_layer_add_12jbC_AddSubnS_0'
-INFO: [RTMG 210-283] Generating pipelined adder/subtractor : 'conv_layer_add_96kbM_AddSubnS_1'
-INFO: [RTMG 210-283] Generating pipelined adder/subtractor : 'conv_layer_add_64lbW_AddSubnS_2'
-INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:20 ; elapsed = 00:00:46 . Memory (MB): peak = 143.586 ; gain = 94.184
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:10 ; elapsed = 00:00:59 . Memory (MB): peak = 134.813 ; gain = 85.500
 INFO: [SYSC 207-301] Generating SystemC RTL for conv_layer.
 INFO: [VHDL 208-304] Generating VHDL RTL for conv_layer.
 INFO: [VLOG 209-307] Generating Verilog RTL for conv_layer.
@@ -129,24 +80,22 @@ Sourcing tcl script 'C:/Users/Wilson/AppData/Roaming/Xilinx/Vivado/Vivado_init.t
 source run_ippack.tcl -notrace
 INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
 Current project path is 'C:/Users/Wilson/Desktop/digital_soc_final/digital_soc_final/hls_proj/conv_proj/solution1/impl/ip'
-create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:14 . Memory (MB): peak = 342.605 ; gain = 114.363
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:19 . Memory (MB): peak = 343.246 ; gain = 115.363
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
 WARNING: [IP_Flow 19-4832] The IP name 'conv_layer_ap_fadd_11_full_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
-create_ip: Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 372.520 ; gain = 29.914
+create_ip: Time (s): cpu = 00:00:07 ; elapsed = 00:00:19 . Memory (MB): peak = 372.094 ; gain = 28.848
 INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'conv_layer_ap_fadd_11_full_dsp_32'...
 INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'conv_layer_ap_fadd_11_full_dsp_32'...
 WARNING: [IP_Flow 19-4832] The IP name 'conv_layer_ap_fcmp_2_no_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
-create_ip: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 382.637 ; gain = 2.477
 INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'conv_layer_ap_fcmp_2_no_dsp_32'...
 INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'conv_layer_ap_fcmp_2_no_dsp_32'...
 WARNING: [IP_Flow 19-4832] The IP name 'conv_layer_ap_fmul_6_max_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
-create_ip: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 390.613 ; gain = 7.977
 INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'conv_layer_ap_fmul_6_max_dsp_32'...
 INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'conv_layer_ap_fmul_6_max_dsp_32'...
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
-INFO: [Common 17-206] Exiting Vivado at Sat Mar 30 15:58:11 2019...
-INFO: [HLS 200-112] Total elapsed time: 273.005 seconds; peak allocated memory: 92.193 MB.
+INFO: [Common 17-206] Exiting Vivado at Sun Mar 31 16:52:44 2019...
+INFO: [HLS 200-112] Total elapsed time: 270.17 seconds; peak allocated memory: 87.637 MB.

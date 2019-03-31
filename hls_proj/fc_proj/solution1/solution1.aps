@@ -1,4 +1,11 @@
 <AutoPilot:solution xmlns:AutoPilot="com.autoesl.autopilot.solution">
+    <config>
+        <config_interface m_axi_addr64="0" m_axi_offset="off" register_io="off"/>
+        <schedule model="fc_layer"/>
+    </config>
+    <ExportDesign askAgain="true" evaluate="false" rtl="verilog" formatName="ip_catalog">
+        <Format formatName="ip_catalog" description="" vendor="" library="" version="1.0" driver_input_dir="" display_name="" taxonomy=""/>
+    </ExportDesign>
     <name>
         <value string="solution1"/>
     </name>
@@ -16,14 +23,7 @@
         <DownStreamTool name="vivado"/>
     </downStreamTool>
     <clockList>
-        <clock name="default" period="250MHz" default="false"/>
+        <clock default="false" name="default" period="250MHz"/>
     </clockList>
-    <config>
-        <config_interface m_axi_addr64="0" m_axi_offset="off" register_io="off"/>
-        <schedule model="fc_layer"/>
-    </config>
-    <ExportDesign askAgain="true" evaluate="false" rtl="verilog" formatName="ip_catalog">
-        <Format formatName="ip_catalog" description="" vendor="" library="" version="1.0" driver_input_dir="" display_name="" taxonomy=""/>
-    </ExportDesign>
 </AutoPilot:solution>
 

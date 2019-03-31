@@ -1,13 +1,5 @@
 maxpool_layer_fcmbkb
 maxpool_layer_mulcud
-maxpool_layer_muldEe
-maxpool_layer_muleOg
-maxpool_layer_mulfYi
-maxpool_layer_addg8j
-maxpool_layer_mulhbi
-maxpool_layer_mulibs
-maxpool_layer_addjbC
-maxpool_layer_addkbM
 maxpool_layer_CTRL_BUS_s_axi
 maxpool_layer_mem_m_axi
 maxpool_layer

@@ -14166,8 +14166,8 @@ _ssdm_op_SpecInterface(0, "s_axilite", 0, 0, "", 0, 0, "CTRL_BUS", "", "", 0, 0,
 
       // Accumulate weighted sum
       for (int i = 0; i < num_inputs; i = i+1) {
-_ssdm_op_SpecPipeline(-1, 1, 1, 0, "");
- float input_element = mem[input_offset/sizeof(float) + num_weights + num_biases + b*num_inputs+i];
+//#pragma HLS PIPELINE
+        float input_element = mem[input_offset/sizeof(float) + num_weights + num_biases + b*num_inputs+i];
         if (input_element != 0.0f){
             float weight_element = mem[input_offset/sizeof(float) + o*num_inputs+i];
             if (weight_element != 0.0f){

@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'fc_layer'" level="0">
-<item name = "Date">Sat Mar 30 21:53:49 2019
+<item name = "Date">Sun Mar 31 16:55:31 2019
 </item>
 <item name = "Version">2017.2 (Build 1909853 on Thu Jun 15 18:55:24 MDT 2017)</item>
 <item name = "Project">fc_proj</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">4.00, 9.24, 0.50</column>
+<column name="ap_clk">4.00, 3.50, 0.50</column>
 </table>
 </item>
 </section>
@@ -36,7 +36,8 @@
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
 <column name="- Loop 1">?, ?, ?, -, -, ?, no</column>
-<column name=" + Loop 1.1">?, ?, 47, 12, 1, ?, yes</column>
+<column name=" + Loop 1.1">?, ?, ?, -, -, ?, no</column>
+<column name="  ++ Loop 1.1.1">?, ?, 18 ~ 53, -, -, ?, no</column>
 </table>
 </item>
 </section>

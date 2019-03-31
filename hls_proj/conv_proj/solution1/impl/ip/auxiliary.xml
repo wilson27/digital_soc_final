@@ -14,5 +14,5 @@
   <xd:arg xd:name="s" xd:originalName="s" xd:direction="in" xd:interfaceRef="s_axi_CTRL_BUS" xd:busTypeRef="axilite" xd:offset="0x58" xd:handshakeRef="ap_none" xd:dataWidth="32"/>
   <xd:arg xd:name="k" xd:originalName="k" xd:direction="in" xd:interfaceRef="s_axi_CTRL_BUS" xd:busTypeRef="axilite" xd:offset="0x60" xd:handshakeRef="ap_none" xd:dataWidth="32"/>
   <xd:latencyEstimates xd:best-case="undef" xd:worst-case="undef" xd:average-case="undef"/>
-  <xd:resourceEstimates xd:LUT="9059" xd:FF="22927" xd:BRAM="2" xd:DSP="145"/>
+  <xd:resourceEstimates xd:LUT="4159" xd:FF="9674" xd:BRAM="2" xd:DSP="41"/>
 </xd:acceleratorMap>

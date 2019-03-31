@@ -7,7 +7,7 @@
 
 #ifndef __maxpool_layer_mulcud__HH__
 #define __maxpool_layer_mulcud__HH__
-#include "ACMP_mul_uu.h"
+#include "ACMP_mul_ss.h"
 #include <systemc>
 
 template<
@@ -26,15 +26,15 @@ SC_MODULE(maxpool_layer_mulcud) {
 
 
 
-    ACMP_mul_uu<ID, 7, din0_WIDTH, din1_WIDTH, dout_WIDTH> ACMP_mul_uu_U;
+    ACMP_mul_ss<ID, 7, din0_WIDTH, din1_WIDTH, dout_WIDTH> ACMP_mul_ss_U;
 
-    SC_CTOR(maxpool_layer_mulcud):  ACMP_mul_uu_U ("ACMP_mul_uu_U") {
-        ACMP_mul_uu_U.clk(clk);
-        ACMP_mul_uu_U.reset(reset);
-        ACMP_mul_uu_U.ce(ce);
-        ACMP_mul_uu_U.din0(din0);
-        ACMP_mul_uu_U.din1(din1);
-        ACMP_mul_uu_U.dout(dout);
+    SC_CTOR(maxpool_layer_mulcud):  ACMP_mul_ss_U ("ACMP_mul_ss_U") {
+        ACMP_mul_ss_U.clk(clk);
+        ACMP_mul_ss_U.reset(reset);
+        ACMP_mul_ss_U.ce(ce);
+        ACMP_mul_ss_U.din0(din0);
+        ACMP_mul_ss_U.din1(din1);
+        ACMP_mul_ss_U.dout(dout);
 
     }
 

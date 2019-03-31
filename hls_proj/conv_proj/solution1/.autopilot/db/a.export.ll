@@ -5,7 +5,6 @@ target triple = "i686-pc-mingw32"
 @llvm_global_ctors_1 = appending global [1 x void ()*] [void ()* @_GLOBAL__I_a]
 @llvm_global_ctors_0 = appending global [1 x i32] [i32 65535]
 @conv_layer_str = internal unnamed_addr constant [11 x i8] c"conv_layer\00"
-@p_str4 = private unnamed_addr constant [12 x i8] c"hls_label_0\00", align 1
 @p_str3 = private unnamed_addr constant [9 x i8] c"CTRL_BUS\00", align 1
 @p_str2 = private unnamed_addr constant [10 x i8] c"s_axilite\00", align 1
 @p_str1 = private unnamed_addr constant [1 x i8] zeroinitializer, align 1
@@ -54,265 +53,183 @@ define void @conv_layer(float* %mem, i32 %input_offset, i32 %output_offset, i32 
   call void (...)* @_ssdm_op_SpecInterface(i32 %output_offset, [10 x i8]* @p_str2, i32 0, i32 0, [1 x i8]* @p_str1, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1, [1 x i8]* @p_str1, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind
   call void (...)* @_ssdm_op_SpecInterface(i32 0, [10 x i8]* @p_str2, i32 0, i32 0, [1 x i8]* @p_str1, i32 0, i32 0, [9 x i8]* @p_str3, [1 x i8]* @p_str1, [1 x i8]* @p_str1, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind
   %tmp = mul i32 %od_read, %k_read
-  %tmp6 = mul i32 %id_read, %k_read
-  %num_weights = mul i32 %tmp6, %tmp
+  %tmp13 = mul i32 %id_read, %k_read
+  %num_weights = mul i32 %tmp13, %tmp
   %tmp_2 = call i30 @_ssdm_op_PartSelect.i30.i32.i32.i32(i32 %input_offset_read, i32 2, i32 31)
-  %tmp_7 = zext i30 %tmp_2 to i32
+  %tmp_s = zext i30 %tmp_2 to i32
   %tmp_3 = call i30 @_ssdm_op_PartSelect.i30.i32.i32.i32(i32 %output_offset_read, i32 2, i32 31)
-  %tmp_8 = zext i30 %tmp_3 to i32
-  %tmp3 = add i32 %tmp_7, %od_read
-  %cast1 = zext i32 %oy_read to i64
-  %cast2 = zext i32 %ox_read to i64
-  %bound1 = mul i64 %cast2, %cast1
-  %cast3 = zext i32 %od_read to i96
-  %cast4 = zext i64 %bound1 to i96
-  %bound2 = mul i96 %cast4, %cast3
-  %cast5 = zext i32 %b_read to i128
-  %cast6 = zext i96 %bound2 to i128
-  %bound3 = mul i128 %cast6, %cast5
-  %p_mid = icmp sgt i32 %k_read, 0
-  %smax16_mid = select i1 %p_mid, i32 %k_read, i32 0
-  %tmp_10_mid = icmp sgt i32 %ox_read, 0
-  %exitcond_flatten72_m = icmp eq i64 %bound1, 0
-  %cast7 = zext i32 %id_read to i96
+  %tmp_5 = zext i30 %tmp_3 to i32
+  %tmp16 = add i32 %tmp_s, %od_read
+  br label %.loopexit20
+
+.loopexit20.loopexit:                             ; preds = %.preheader2
+  br label %.loopexit20
+
+.loopexit20:                                      ; preds = %.loopexit20.loopexit, %0
+  %b_s = phi i31 [ 0, %0 ], [ %b_1, %.loopexit20.loopexit ]
+  %phi_mul5 = phi i32 [ 0, %0 ], [ %next_mul6, %.loopexit20.loopexit ]
+  %phi_mul7 = phi i32 [ 0, %0 ], [ %next_mul8, %.loopexit20.loopexit ]
+  %next_mul8 = add i32 %phi_mul7, %od_read
+  %next_mul6 = add i32 %phi_mul5, %id_read
+  %b_cast = zext i31 %b_s to i32
+  %tmp_4 = icmp slt i32 %b_cast, %b_read
+  %b_1 = add i31 %b_s, 1
+  br i1 %tmp_4, label %.preheader2.preheader, label %11
+
+.preheader2.preheader:                            ; preds = %.loopexit20
+  br label %.preheader2
+
+.preheader2.loopexit:                             ; preds = %.preheader1
+  br label %.preheader2
+
+.preheader2:                                      ; preds = %.preheader2.preheader, %.preheader2.loopexit
+  %o_d = phi i31 [ %o_d_1, %.preheader2.loopexit ], [ 0, %.preheader2.preheader ]
+  %phi_mul3 = phi i32 [ %next_mul4, %.preheader2.loopexit ], [ 0, %.preheader2.preheader ]
+  %next_mul4 = add i32 %phi_mul3, %id_read
+  %o_d_cast = zext i31 %o_d to i32
+  %tmp_7 = icmp slt i32 %o_d_cast, %od_read
+  %o_d_1 = add i31 %o_d, 1
+  br i1 %tmp_7, label %.preheader1.preheader, label %.loopexit20.loopexit
+
+.preheader1.preheader:                            ; preds = %.preheader2
+  %tmp14 = add i32 %tmp_s, %o_d_cast
+  %tmp_9 = add i32 %tmp14, %num_weights
+  %mem_addr = getelementptr inbounds float* %mem, i32 %tmp_9
+  %tmp1 = add i32 %o_d_cast, %phi_mul7
+  %tmp2 = mul i32 %tmp1, %oy_read
+  br label %.preheader1
+
+.preheader1.loopexit:                             ; preds = %.preheader
+  br label %.preheader1
+
+.preheader1:                                      ; preds = %.preheader1.loopexit, %.preheader1.preheader
+  %o_y = phi i31 [ 0, %.preheader1.preheader ], [ %o_y_1, %.preheader1.loopexit ]
+  %i_y = phi i32 [ 0, %.preheader1.preheader ], [ %next_mul2, %.preheader1.loopexit ]
+  %next_mul2 = add i32 %i_y, %s_read
+  %o_y_cast = zext i31 %o_y to i32
+  %tmp_1 = icmp slt i32 %o_y_cast, %oy_read
+  %o_y_1 = add i31 %o_y, 1
+  br i1 %tmp_1, label %.preheader.preheader, label %.preheader2.loopexit
+
+.preheader.preheader:                             ; preds = %.preheader1
+  %tmp_8 = add nsw i32 %i_y, %k_read
+  %tmp7 = add i32 %o_y_cast, %tmp2
+  %tmp12 = mul i32 %tmp7, %ox_read
   br label %.preheader
 
-.preheader:                                       ; preds = %0, %4
-  %indvar_flatten1 = phi i128 [ 0, %0 ], [ %indvar_flatten_next3, %4 ]
-  %b_s = phi i31 [ 0, %0 ], [ %tmp_5_mid2_v, %4 ]
-  %indvar_flatten2 = phi i96 [ 0, %0 ], [ %indvar_flatten_next2, %4 ]
-  %o_d = phi i31 [ 0, %0 ], [ %o_d_mid2, %4 ]
-  %indvar_flatten3 = phi i64 [ 0, %0 ], [ %indvar_flatten_next1, %4 ]
-  %indvars_iv = phi i32 [ 0, %0 ], [ %indvars_iv17_mid2, %4 ]
-  %indvars_iv1 = phi i32 [ 0, %0 ], [ %indvars_iv14_mid2, %4 ]
-  %indvars_iv2 = phi i32 [ %k_read, %0 ], [ %indvars_iv12_mid2, %4 ]
-  %o_y = phi i31 [ 0, %0 ], [ %o_y_mid2, %4 ]
-  %indvars_iv3 = phi i32 [ 0, %0 ], [ %indvars_iv_next5, %4 ]
-  %indvars_iv4 = phi i32 [ 0, %0 ], [ %indvars_iv_next4, %4 ]
-  %indvars_iv5 = phi i32 [ %k_read, %0 ], [ %indvars_iv_next3, %4 ]
-  %o_x = phi i31 [ 0, %0 ], [ %o_x_1, %4 ]
-  %b_cast_mid1 = zext i31 %b_s to i32
-  %tmp_6 = mul i32 %od_read, %b_cast_mid1
-  %o_d_cast_mid1 = zext i31 %o_d to i32
-  %tmp8 = add i32 %o_d_cast_mid1, %tmp_7
-  %tmp_s = mul i32 %id_read, %o_d_cast_mid1
-  %tmp1 = add i32 %tmp_6, %o_d_cast_mid1
-  %tmp2 = mul i32 %oy_read, %tmp1
-  %o_y_cast_mid1 = zext i31 %o_y to i32
-  %i_y = mul nsw i32 %s_read, %o_y_cast_mid1
-  %tmp7 = add i32 %tmp2, %o_y_cast_mid1
+.preheader:                                       ; preds = %10, %.preheader.preheader
+  %o_x = phi i31 [ %o_x_1, %10 ], [ 0, %.preheader.preheader ]
+  %i_x = phi i32 [ %next_mul, %10 ], [ 0, %.preheader.preheader ]
+  %next_mul = add i32 %i_x, %s_read
   %o_x_cast = zext i31 %o_x to i32
-  %tmp_1 = icmp slt i32 %o_x_cast, %ox_read
-  %exitcond_flatten3 = icmp eq i128 %indvar_flatten1, %bound3
-  %indvar_flatten_next3 = add i128 %indvar_flatten1, 1
-  br i1 %exitcond_flatten3, label %5, label %.preheader2.preheader
+  %tmp_6 = icmp slt i32 %o_x_cast, %ox_read
+  %o_x_1 = add i31 %o_x, 1
+  br i1 %tmp_6, label %1, label %.preheader1.loopexit
 
-; <label>:1                                       ; preds = %.preheader2.preheader, %._crit_edge
-  %indvar_flatten4 = phi i96 [ 0, %.preheader2.preheader ], [ %indvar_flatten_next4, %._crit_edge ]
-  %i_d = phi i31 [ 0, %.preheader2.preheader ], [ %i_d_mid2, %._crit_edge ]
-  %indvar_flatten = phi i64 [ 0, %.preheader2.preheader ], [ %indvar_flatten_next, %._crit_edge ]
-  %i_y1 = phi i32 [ %i_y_mid2, %.preheader2.preheader ], [ %i_y1_mid2, %._crit_edge ]
-  %iiy = phi i32 [ 0, %.preheader2.preheader ], [ %iiy_mid2, %._crit_edge ]
-  %output_element_2 = phi float [ %output_element, %.preheader2.preheader ], [ %output_element_4, %._crit_edge ]
-  %i_x1 = phi i32 [ %i_x, %.preheader2.preheader ], [ %i_x_1, %._crit_edge ]
-  %iix = phi i32 [ 0, %.preheader2.preheader ], [ %iix_1, %._crit_edge ]
-  %i_d_cast_mid1 = zext i31 %i_d to i32
-  %tmp4 = add i32 %i_d_cast_mid1, %tmp_5_mid2
+; <label>:1                                       ; preds = %.preheader
+  %output_element_req = call i1 @_ssdm_op_ReadReq.m_axi.floatP(float* %mem_addr, i32 1) nounwind
+  %output_element = call float @_ssdm_op_Read.m_axi.floatP(float* %mem_addr) nounwind
+  %tmp_10 = add nsw i32 %i_x, %k_read
+  br label %.loopexit
+
+.loopexit.loopexit:                               ; preds = %3
+  br label %.loopexit
+
+.loopexit:                                        ; preds = %.loopexit.loopexit, %1
+  %output_element1 = phi float [ %output_element, %1 ], [ %output_element_1, %.loopexit.loopexit ]
+  %i_d = phi i31 [ 0, %1 ], [ %i_d_1, %.loopexit.loopexit ]
+  %i_d_cast = zext i31 %i_d to i32
+  %tmp_11 = icmp slt i32 %i_d_cast, %id_read
+  %i_d_1 = add i31 %i_d, 1
+  br i1 %tmp_11, label %2, label %10
+
+; <label>:2                                       ; preds = %.loopexit
+  %tmp4 = add i32 %i_d_cast, %phi_mul5
   %tmp5 = mul i32 %tmp4, %iy_read
-  %tmp9 = add i32 %i_d_cast_mid1, %tmp_mid2
+  %tmp9 = add i32 %i_d_cast, %phi_mul3
   %tmp10 = mul i32 %tmp9, %k_read
-  %exitcond_flatten4 = icmp eq i96 %indvar_flatten4, %bound4
-  %indvar_flatten_next4 = add i96 %indvar_flatten4, 1
-  br i1 %exitcond_flatten4, label %4, label %.reset31
+  br label %3
 
-; <label>:2                                       ; preds = %.reset31
-  %tmp20 = add i32 %tmp_7, %iix_mid2
-  %tmp_18 = add i32 %tmp20, %tmp11_mid2
-  %mem_addr_3 = getelementptr inbounds float* %mem, i32 %tmp_18
-  %weight_element_req = call i1 @_ssdm_op_ReadReq.m_axi.floatP(float* %mem_addr_3, i32 1) nounwind
-  %weight_element = call float @_ssdm_op_Read.m_axi.floatP(float* %mem_addr_3) nounwind
-  %weight_element_to_in = bitcast float %weight_element to i32
-  %tmp_19 = call i8 @_ssdm_op_PartSelect.i8.i32.i32.i32(i32 %weight_element_to_in, i32 23, i32 30)
-  %tmp_28 = trunc i32 %weight_element_to_in to i23
-  %notlhs1 = icmp ne i8 %tmp_19, -1
-  %notrhs1 = icmp eq i23 %tmp_28, 0
-  %tmp_21 = or i1 %notrhs1, %notlhs1
-  %tmp_22 = fcmp oeq float %weight_element, 0.000000e+00
-  %tmp_23 = and i1 %tmp_21, %tmp_22
-  br i1 %tmp_23, label %._crit_edge, label %3
+; <label>:3                                       ; preds = %9, %2
+  %output_element_1 = phi float [ %output_element1, %2 ], [ %output_element_2, %9 ]
+  %i_y1 = phi i32 [ %i_y, %2 ], [ %i_y_1, %9 ]
+  %iiy = phi i32 [ 0, %2 ], [ %iiy_1, %9 ]
+  %tmp_13 = icmp slt i32 %i_y1, %tmp_8
+  %iiy_1 = add nsw i32 %iiy, 1
+  br i1 %tmp_13, label %4, label %.loopexit.loopexit
 
-; <label>:3                                       ; preds = %2
-  %tmp_24 = fmul float %input_element, %weight_element
-  %output_element_1 = fadd float %output_element_2, %tmp_24
-  br label %._crit_edge
+; <label>:4                                       ; preds = %3
+  %tmp3 = add i32 %i_y1, %tmp5
+  %tmp6 = mul i32 %tmp3, %ix_read
+  %tmp8 = add i32 %iiy, %tmp10
+  %tmp11 = mul i32 %tmp8, %k_read
+  br label %5
 
-._crit_edge:                                      ; preds = %3, %2, %.reset31
-  %output_element_4 = phi float [ %output_element_1, %3 ], [ %output_element_2, %.reset31 ], [ %output_element_2, %2 ]
-  %empty = call i32 (...)* @_ssdm_op_SpecRegionEnd([12 x i8]* @p_str4, i32 %tmp_10) nounwind
-  %i_x_1 = add nsw i32 %i_x1_mid2, 1
-  %iix_1 = add nsw i32 %iix_mid2, 1
-  %indvar_flatten_op = add i64 %indvar_flatten, 1
-  %indvar_flatten_next = select i1 %exitcond_flatten2, i64 1, i64 %indvar_flatten_op
-  br label %1
+; <label>:5                                       ; preds = %._crit_edge, %4
+  %output_element_2 = phi float [ %output_element_1, %4 ], [ %output_element_4, %._crit_edge ]
+  %i_x1 = phi i32 [ %i_x, %4 ], [ %i_x_1, %._crit_edge ]
+  %iix = phi i32 [ 0, %4 ], [ %iix_1, %._crit_edge ]
+  %tmp_14 = icmp slt i32 %i_x1, %tmp_10
+  %iix_1 = add nsw i32 %iix, 1
+  br i1 %tmp_14, label %6, label %9
 
-.reset31:                                         ; preds = %1
-  %i_d_s = add i31 1, %i_d
-  %i_d_cast = zext i31 %i_d_s to i32
-  %exitcond_flatten2 = icmp eq i64 %indvar_flatten, %bound
-  %i_y1_mid = select i1 %exitcond_flatten2, i32 %i_y_mid2, i32 %i_y1
-  %iiy_mid = select i1 %exitcond_flatten2, i32 0, i32 %iiy
-  %i_x1_mid = select i1 %exitcond_flatten2, i32 %i_x, i32 %i_x1
-  %iix_mid = select i1 %exitcond_flatten2, i32 0, i32 %iix
-  %tmp4_mid1 = add i32 %i_d_cast, %tmp_5_mid2
-  %tmp5_mid1 = mul i32 %iy_read, %tmp4_mid1
-  %tmp5_mid2 = select i1 %exitcond_flatten2, i32 %tmp5_mid1, i32 %tmp5
-  %tmp9_mid1 = add i32 %i_d_cast, %tmp_mid2
-  %tmp10_mid1 = mul i32 %k_read, %tmp9_mid1
-  %tmp10_mid2 = select i1 %exitcond_flatten2, i32 %tmp10_mid1, i32 %tmp10
-  %tmp3_mid = add i32 %i_y_mid2, %tmp5_mid1
-  %tmp12 = add i32 %tmp5, %i_y1
-  %tmp6_mid241_v = select i1 %exitcond_flatten2, i32 %tmp3_mid, i32 %tmp12
-  %tmp13 = add i32 %tmp10, %iiy
-  %tmp11_mid245_v = select i1 %exitcond_flatten2, i32 %tmp10_mid1, i32 %tmp13
-  %tmp_26 = icmp slt i32 %i_x1, %tmp_4
-  %tmp_15_mid = select i1 %exitcond_flatten2, i1 %p_mid, i1 %tmp_26
-  %i_d_mid2 = select i1 %exitcond_flatten2, i31 %i_d_s, i31 %i_d
-  %i_y_1 = add nsw i32 1, %i_y1_mid
-  %iiy_1 = add nsw i32 1, %iiy_mid
-  %i_x1_mid2 = select i1 %tmp_15_mid, i32 %i_x1_mid, i32 %i_x
-  %iix_mid2 = select i1 %tmp_15_mid, i32 %iix_mid, i32 0
-  %tmp3_mid1 = add i32 %i_y_1, %tmp5_mid2
-  %tmp6_mid2_v = select i1 %tmp_15_mid, i32 %tmp6_mid241_v, i32 %tmp3_mid1
-  %tmp6_mid2 = mul i32 %ix_read, %tmp6_mid2_v
-  %tmp8_mid1 = add i32 %iiy_1, %tmp10_mid2
-  %tmp11_mid2_v = select i1 %tmp_15_mid, i32 %tmp11_mid245_v, i32 %tmp8_mid1
-  %tmp11_mid2 = mul i32 %k_read, %tmp11_mid2_v
-  %i_y1_mid2 = select i1 %tmp_15_mid, i32 %i_y1_mid, i32 %i_y_1
-  %iiy_mid2 = select i1 %tmp_15_mid, i32 %iiy_mid, i32 %iiy_1
-  %tmp_10 = call i32 (...)* @_ssdm_op_SpecRegionBegin([12 x i8]* @p_str4) nounwind
-  call void (...)* @_ssdm_op_SpecPipeline(i32 -1, i32 1, i32 1, i32 0, [1 x i8]* @p_str1) nounwind
-  %tmp14 = add i32 %tmp6_mid2, %i_x1_mid2
-  %tmp15 = add i32 %tmp14, %num_weights
-  %tmp_11 = add i32 %tmp15, %tmp3
-  %mem_addr_2 = getelementptr inbounds float* %mem, i32 %tmp_11
+; <label>:6                                       ; preds = %5
+  %tmp17 = add i32 %tmp6, %i_x1
+  %tmp18 = add i32 %tmp17, %num_weights
+  %tmp_15 = add i32 %tmp18, %tmp16
+  %mem_addr_2 = getelementptr inbounds float* %mem, i32 %tmp_15
   %input_element_req = call i1 @_ssdm_op_ReadReq.m_axi.floatP(float* %mem_addr_2, i32 1) nounwind
   %input_element = call float @_ssdm_op_Read.m_axi.floatP(float* %mem_addr_2) nounwind
   %input_element_to_int = bitcast float %input_element to i32
-  %tmp_12 = call i8 @_ssdm_op_PartSelect.i8.i32.i32.i32(i32 %input_element_to_int, i32 23, i32 30)
-  %tmp_27 = trunc i32 %input_element_to_int to i23
-  %notlhs = icmp ne i8 %tmp_12, -1
-  %notrhs = icmp eq i23 %tmp_27, 0
-  %tmp_15 = or i1 %notrhs, %notlhs
-  %tmp_16 = fcmp oeq float %input_element, 0.000000e+00
-  %tmp_17 = and i1 %tmp_15, %tmp_16
-  br i1 %tmp_17, label %._crit_edge, label %2
+  %tmp_16 = call i8 @_ssdm_op_PartSelect.i8.i32.i32.i32(i32 %input_element_to_int, i32 23, i32 30)
+  %tmp_19 = trunc i32 %input_element_to_int to i23
+  %notlhs = icmp ne i8 %tmp_16, -1
+  %notrhs = icmp eq i23 %tmp_19, 0
+  %tmp_20 = or i1 %notrhs, %notlhs
+  %tmp_21 = fcmp oeq float %input_element, 0.000000e+00
+  %tmp_22 = and i1 %tmp_20, %tmp_21
+  br i1 %tmp_22, label %._crit_edge, label %7
 
-; <label>:4                                       ; preds = %1
-  %tmp11 = add i32 %o_x_cast_mid2_cast, %tmp_8
-  %tmp_9 = add i32 %tmp12_mid2, %tmp11
-  %mem_addr_1 = getelementptr inbounds float* %mem, i32 %tmp_9
+; <label>:7                                       ; preds = %6
+  %tmp20 = add i32 %tmp_s, %iix
+  %tmp_17 = add i32 %tmp20, %tmp11
+  %mem_addr_3 = getelementptr inbounds float* %mem, i32 %tmp_17
+  %weight_element_req = call i1 @_ssdm_op_ReadReq.m_axi.floatP(float* %mem_addr_3, i32 1) nounwind
+  %weight_element = call float @_ssdm_op_Read.m_axi.floatP(float* %mem_addr_3) nounwind
+  %weight_element_to_in = bitcast float %weight_element to i32
+  %tmp_23 = call i8 @_ssdm_op_PartSelect.i8.i32.i32.i32(i32 %weight_element_to_in, i32 23, i32 30)
+  %tmp_24 = trunc i32 %weight_element_to_in to i23
+  %notlhs1 = icmp ne i8 %tmp_23, -1
+  %notrhs1 = icmp eq i23 %tmp_24, 0
+  %tmp_25 = or i1 %notrhs1, %notlhs1
+  %tmp_26 = fcmp oeq float %weight_element, 0.000000e+00
+  %tmp_27 = and i1 %tmp_25, %tmp_26
+  br i1 %tmp_27, label %._crit_edge, label %8
+
+; <label>:8                                       ; preds = %7
+  %tmp_18 = fmul float %input_element, %weight_element
+  %output_element_3 = fadd float %output_element_2, %tmp_18
+  br label %._crit_edge
+
+._crit_edge:                                      ; preds = %8, %7, %6
+  %output_element_4 = phi float [ %output_element_3, %8 ], [ %output_element_2, %6 ], [ %output_element_2, %7 ]
+  %i_x_1 = add nsw i32 %i_x1, 1
+  br label %5
+
+; <label>:9                                       ; preds = %5
+  %i_y_1 = add nsw i32 %i_y1, 1
+  br label %3
+
+; <label>:10                                      ; preds = %.loopexit
+  %tmp15 = add i32 %tmp_5, %o_x_cast
+  %tmp_12 = add i32 %tmp15, %tmp12
+  %mem_addr_1 = getelementptr inbounds float* %mem, i32 %tmp_12
   %mem_addr_1_req = call i1 @_ssdm_op_WriteReq.m_axi.floatP(float* %mem_addr_1, i32 1) nounwind
-  call void @_ssdm_op_Write.m_axi.floatP(float* %mem_addr_1, float %output_element_2, i4 -1) nounwind
+  call void @_ssdm_op_Write.m_axi.floatP(float* %mem_addr_1, float %output_element1, i4 -1) nounwind
   %mem_addr_1_resp = call i1 @_ssdm_op_WriteResp.m_axi.floatP(float* %mem_addr_1) nounwind
-  %o_x_op = add i31 %o_x, 1
-  %o_x_mid293_op = select i1 %tmp_14, i31 1, i31 %o_x_op
-  %o_x_1 = select i1 %tmp_10_mid2, i31 %o_x_mid293_op, i31 1
-  %indvars_iv_next3 = add i32 %indvars_iv19_mid2, %s_read
-  %indvars_iv_next4 = add i32 %indvars_iv21_mid2, %s_read
-  %indvars_iv_next5 = sub i32 %indvars_iv24_mid2, %s_read
-  %indvar_flatten70_op = add i64 %indvar_flatten3, 1
-  %indvar_flatten_next1 = select i1 %tmp_14, i64 1, i64 %indvar_flatten70_op
-  %indvar_flatten123_op = add i96 %indvar_flatten2, 1
-  %indvar_flatten_next2 = select i1 %exitcond_flatten, i96 1, i96 %indvar_flatten123_op
   br label %.preheader
 
-.preheader2.preheader:                            ; preds = %.preheader
-  %b_s_4 = add i31 %b_s, 1
-  %b_cast = zext i31 %b_s_4 to i32
-  %exitcond_flatten = icmp eq i96 %indvar_flatten2, %bound2
-  %o_d_mid = select i1 %exitcond_flatten, i31 0, i31 %o_d
-  %indvars_iv12_mid = select i1 %exitcond_flatten, i32 %k_read, i32 %indvars_iv2
-  %indvars_iv19_mid = select i1 %exitcond_flatten, i32 %k_read, i32 %indvars_iv5
-  %tmp_5_mid2_v = select i1 %exitcond_flatten, i31 %b_s_4, i31 %b_s
-  %tmp_5_mid2_v_cast = zext i31 %tmp_5_mid2_v to i32
-  %tmp_5_mid2 = mul i32 %id_read, %tmp_5_mid2_v_cast
-  %tmp_6_mid1 = mul i32 %od_read, %b_cast
-  %tmp_6_mid2 = select i1 %exitcond_flatten, i32 %tmp_6_mid1, i32 %tmp_6
-  %tmp_9_mid2155_v = select i1 %exitcond_flatten, i32 %tmp_7, i32 %tmp8
-  %tmp_mid = select i1 %exitcond_flatten, i32 0, i32 %tmp_s
-  %tmp2_mid = mul i32 %oy_read, %tmp_6_mid1
-  %tmp2_mid3 = select i1 %exitcond_flatten, i32 %tmp2_mid, i32 %tmp2
-  %tmp_5 = icmp sgt i32 %indvars_iv2, %indvars_iv1
-  %smax = select i1 %tmp_5, i32 %indvars_iv2, i32 %indvars_iv1
-  %tmp_13 = add i32 %smax, %indvars_iv
-  %p_mid1 = select i1 %exitcond_flatten, i32 %smax16_mid, i32 %tmp_13
-  %tmp12_mid2187_v = select i1 %exitcond_flatten, i32 %tmp2_mid, i32 %tmp7
-  %tmp_10_mid1 = select i1 %exitcond_flatten, i1 %tmp_10_mid, i1 %tmp_1
-  %exitcond_flatten1 = icmp eq i64 %indvar_flatten3, %bound1
-  %exitcond_flatten72_m_1 = select i1 %exitcond_flatten, i1 %exitcond_flatten72_m, i1 %exitcond_flatten1
-  %o_d_1 = add i31 %o_d_mid, 1
-  %o_d_cast = zext i31 %o_d_1 to i32
-  %tmp_14 = or i1 %exitcond_flatten72_m_1, %exitcond_flatten
-  %indvars_iv17_mid = select i1 %tmp_14, i32 0, i32 %indvars_iv
-  %indvars_iv14_mid = select i1 %tmp_14, i32 0, i32 %indvars_iv1
-  %indvars_iv12_mid1 = select i1 %exitcond_flatten72_m_1, i32 %k_read, i32 %indvars_iv12_mid
-  %o_y_mid = select i1 %tmp_14, i31 0, i31 %o_y
-  %indvars_iv24_mid = select i1 %tmp_14, i32 0, i32 %indvars_iv3
-  %indvars_iv21_mid = select i1 %tmp_14, i32 0, i32 %indvars_iv4
-  %indvars_iv19_mid1 = select i1 %exitcond_flatten72_m_1, i32 %k_read, i32 %indvars_iv19_mid
-  %tmp14_mid1 = add i32 %tmp_7, %o_d_cast
-  %tmp_9_mid2_v = select i1 %exitcond_flatten72_m_1, i32 %tmp14_mid1, i32 %tmp_9_mid2155_v
-  %tmp_9_mid2 = add i32 %tmp_9_mid2_v, %num_weights
-  %tmp_mid1 = mul i32 %id_read, %o_d_cast
-  %tmp_mid2 = select i1 %exitcond_flatten72_m_1, i32 %tmp_mid1, i32 %tmp_mid
-  %tmp1_mid1 = add i32 %o_d_cast, %tmp_6_mid2
-  %tmp2_mid1 = mul i32 %oy_read, %tmp1_mid1
-  %tmp2_mid2 = select i1 %exitcond_flatten72_m_1, i32 %tmp2_mid1, i32 %tmp2_mid3
-  %p_mid2 = select i1 %exitcond_flatten72_m_1, i32 %smax16_mid, i32 %p_mid1
-  %i_y_mid = select i1 %tmp_14, i32 0, i32 %i_y
-  %tmp12_mid2117_v = select i1 %exitcond_flatten72_m_1, i32 %tmp2_mid1, i32 %tmp12_mid2187_v
-  %o_x_cast_mid = select i1 %tmp_14, i31 0, i31 %o_x
-  %tmp_10_mid2 = select i1 %exitcond_flatten72_m_1, i1 %tmp_10_mid, i1 %tmp_10_mid1
-  %o_d_mid2 = select i1 %exitcond_flatten72_m_1, i31 %o_d_1, i31 %o_d_mid
-  %o_y_1 = add i31 %o_y_mid, 1
-  %indvars_iv_next = add i32 %s_read, %indvars_iv12_mid1
-  %indvars_iv_next1 = add i32 %s_read, %indvars_iv14_mid
-  %indvars_iv_next2 = sub i32 %indvars_iv17_mid, %s_read
-  %o_y_cast = zext i31 %o_y_1 to i32
-  %indvars_iv24_mid2 = select i1 %tmp_10_mid2, i32 %indvars_iv24_mid, i32 0
-  %indvars_iv21_mid2 = select i1 %tmp_10_mid2, i32 %indvars_iv21_mid, i32 0
-  %indvars_iv19_mid2 = select i1 %tmp_10_mid2, i32 %indvars_iv19_mid1, i32 %k_read
-  %p_mid3 = icmp sgt i32 %indvars_iv_next, %indvars_iv_next1
-  %smax16_mid1 = select i1 %p_mid3, i32 %indvars_iv_next, i32 %indvars_iv_next1
-  %p_mid4 = add i32 %indvars_iv_next2, %smax16_mid1
-  %p_mid5 = select i1 %tmp_10_mid2, i32 %p_mid2, i32 %p_mid4
-  %i_y_mid1 = mul nsw i32 %s_read, %o_y_cast
-  %i_y_mid2 = select i1 %tmp_10_mid2, i32 %i_y_mid, i32 %i_y_mid1
-  %tmp7_mid1 = add i32 %o_y_cast, %tmp2_mid2
-  %tmp12_mid2_v = select i1 %tmp_10_mid2, i32 %tmp12_mid2117_v, i32 %tmp7_mid1
-  %tmp12_mid2 = mul i32 %ox_read, %tmp12_mid2_v
-  %o_x_cast_mid2 = select i1 %tmp_10_mid2, i31 %o_x_cast_mid, i31 0
-  %o_x_cast_mid2_cast = zext i31 %o_x_cast_mid2 to i32
-  %indvars_iv17_mid2 = select i1 %tmp_10_mid2, i32 %indvars_iv17_mid, i32 %indvars_iv_next2
-  %indvars_iv14_mid2 = select i1 %tmp_10_mid2, i32 %indvars_iv14_mid, i32 %indvars_iv_next1
-  %indvars_iv12_mid2 = select i1 %tmp_10_mid2, i32 %indvars_iv12_mid1, i32 %indvars_iv_next
-  %o_y_mid2 = select i1 %tmp_10_mid2, i31 %o_y_mid, i31 %o_y_1
-  %tmp_20 = icmp sgt i32 %indvars_iv19_mid2, %indvars_iv21_mid2
-  %smax1 = select i1 %tmp_20, i32 %indvars_iv19_mid2, i32 %indvars_iv21_mid2
-  %tmp_25 = add i32 %indvars_iv24_mid2, %smax1
-  %mem_addr = getelementptr inbounds float* %mem, i32 %tmp_9_mid2
-  %output_element_req = call i1 @_ssdm_op_ReadReq.m_axi.floatP(float* %mem_addr, i32 1) nounwind
-  %output_element = call float @_ssdm_op_Read.m_axi.floatP(float* %mem_addr) nounwind
-  %i_x = mul nsw i32 %s_read, %o_x_cast_mid2_cast
-  %tmp_4 = add nsw i32 %k_read, %i_x
-  %cast = zext i32 %p_mid5 to i64
-  %cast8 = zext i32 %tmp_25 to i64
-  %bound = mul i64 %cast8, %cast
-  %cast9 = zext i64 %bound to i96
-  %bound4 = mul i96 %cast9, %cast7
-  br label %1
-
-; <label>:5                                       ; preds = %.preheader
+; <label>:11                                      ; preds = %.loopexit20
   ret void
 }
 
@@ -332,21 +249,6 @@ entry:
 }
 
 define weak void @_ssdm_op_SpecTopModule(...) {
-entry:
-  ret void
-}
-
-define weak i32 @_ssdm_op_SpecRegionEnd(...) {
-entry:
-  ret i32 0
-}
-
-define weak i32 @_ssdm_op_SpecRegionBegin(...) {
-entry:
-  ret i32 0
-}
-
-define weak void @_ssdm_op_SpecPipeline(...) nounwind {
 entry:
   ret void
 }
@@ -380,15 +282,15 @@ entry:
 define weak i8 @_ssdm_op_PartSelect.i8.i32.i32.i32(i32, i32, i32) nounwind readnone {
 entry:
   %empty = call i32 @llvm.part.select.i32(i32 %0, i32 %1, i32 %2)
-  %empty_5 = trunc i32 %empty to i8
-  ret i8 %empty_5
+  %empty_4 = trunc i32 %empty to i8
+  ret i8 %empty_4
 }
 
 define weak i30 @_ssdm_op_PartSelect.i30.i32.i32.i32(i32, i32, i32) nounwind readnone {
 entry:
   %empty = call i32 @llvm.part.select.i32(i32 %0, i32 %1, i32 %2)
-  %empty_6 = trunc i32 %empty to i30
-  ret i30 %empty_6
+  %empty_5 = trunc i32 %empty to i30
+  ret i30 %empty_5
 }
 
 declare i23 @_ssdm_op_PartSelect.i23.i32.i32.i32(i32, i32, i32) nounwind readnone

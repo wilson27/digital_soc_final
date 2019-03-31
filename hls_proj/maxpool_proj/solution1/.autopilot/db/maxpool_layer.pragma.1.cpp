@@ -33735,8 +33735,8 @@ _ssdm_op_SpecInterface(0, "s_axilite", 0, 0, "", 0, 0, "CTRL_BUS", "", "", 0, 0,
               // Input X Dimension
               for (int i_x = o_x*s; i_x < o_x*s+k; i_x++)
               {
-_ssdm_op_SpecPipeline(-1, 1, 1, 0, "");
- temp = mem[input_offset/sizeof(float) + b_*id*ix*iy + i_d*ix*iy + i_y*ix + i_x];
+//#pragma HLS PIPELINE
+   temp = mem[input_offset/sizeof(float) + b_*id*ix*iy + i_d*ix*iy + i_y*ix + i_x];
    output_element = std::max(temp, output_element);
               }
             }

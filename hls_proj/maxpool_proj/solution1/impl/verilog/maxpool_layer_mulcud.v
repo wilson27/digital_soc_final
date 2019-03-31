@@ -13,16 +13,16 @@ input clk;
 input ce;
 input[32 - 1 : 0] a; // synthesis attribute keep a "true"
 input[32 - 1 : 0] b; // synthesis attribute keep b "true"
-output[64 - 1 : 0] p;
+output[32 - 1 : 0] p;
 
-reg [32 - 1 : 0] a_reg0;
-reg [32 - 1 : 0] b_reg0;
-wire [64 - 1 : 0] tmp_product;
-reg [64 - 1 : 0] buff0;
-reg [64 - 1 : 0] buff1;
-reg [64 - 1 : 0] buff2;
-reg [64 - 1 : 0] buff3;
-reg [64 - 1 : 0] buff4;
+reg signed [32 - 1 : 0] a_reg0;
+reg signed [32 - 1 : 0] b_reg0;
+wire signed [32 - 1 : 0] tmp_product;
+reg signed [32 - 1 : 0] buff0;
+reg signed [32 - 1 : 0] buff1;
+reg signed [32 - 1 : 0] buff2;
+reg signed [32 - 1 : 0] buff3;
+reg signed [32 - 1 : 0] buff4;
 
 assign p = buff4;
 assign tmp_product = a_reg0 * b_reg0;
