@@ -52,7 +52,7 @@ set TBTops {bc "" c "" sc "" cas "" vhdl "" verilog ""}
 set TBInstNames {bc "" c "" sc "" cas "" vhdl "" verilog ""}
 set XDCFiles {}
 set ExtraGlobalOptions {"area_timing" 1 "clock_gate" 1 "impl_flow" map "power_gate" 0}
-set PlatformFiles {{DefaultPlatform {xilinx/virtexu/virtexu xilinx/virtexu/virtexu_fpv7 xilinx/artix7/artix7 xilinx/artix7/artix7_fpv6}}}
+set PlatformFiles {{DefaultPlatform {xilinx/artix7/artix7 xilinx/artix7/artix7_fpv6}}}
 set DefaultPlatform "DefaultPlatform"
 set TBTVFileNotFound ""
 set AppFile "../vivado_hls.app"

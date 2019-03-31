@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
-  <source>
-    <originFiles name="fc_layer.cpp" path="C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\fc_test\fc_layer.cpp"/>
-    <originFiles name="fc_layer.cpp" path="C:\Users\Wilson\Desktop\digital_soc_final\digital_soc_final\hls_proj\fc_layer.cpp"/>
-  </source>
-  <testbench/>
-</autopilotfilemapping:AutoPilotFileMapping>
