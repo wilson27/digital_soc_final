@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;videodemo/src/hls_core/hw_fc_layer.c&apos; to &apos;hw_hls_core.c&apos;" description="Rename resource &apos;hw_fc_layer.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/hls_core/hw_fc_layer.c" name="hw_hls_core.c" stamp="1554577557648" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;videodemo/src/hls_core/hw_fc_layer.h&apos; to &apos;hw_hls_core.h&apos;" description="Rename resource &apos;hw_fc_layer.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/hls_core/hw_fc_layer.h" name="hw_hls_core.h" stamp="1554577589852" updateReferences="true"/>
+</session>

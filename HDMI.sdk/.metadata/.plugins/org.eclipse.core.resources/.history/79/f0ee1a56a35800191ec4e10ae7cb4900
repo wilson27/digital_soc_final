@@ -1,0 +1,94 @@
+#include "hw_hls_core.h"
+
+#include <stdint.h>
+#include <assert.h>
+#include <time.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+//#include <byteswap.h>
+#include <string.h>
+#include <errno.h>
+#include <signal.h>
+#include <fcntl.h>
+#include <ctype.h>
+//#include <termios.h>
+#include <stdbool.h>
+#include <sys/types.h>
+//#include <sys/mman.h>
+#include <sys/unistd.h>
+
+
+//#define MAP_SIZE (1024UL*1024UL)
+void write_int(volatile void* map_base, int offset, int value)
+{
+  volatile void* virt_addr = (volatile void*)((char*)map_base + offset);
+  *((uint32_t *) virt_addr) = value;
+}
+
+int read_int(volatile void* map_base, int offset)
+{
+  volatile void* virt_addr = (volatile void*)((char*)map_base + offset); 
+  return *((uint32_t *) virt_addr);
+}
+
+void write_data(volatile void* map_base, int offset, float value)
+{
+  volatile void* virt_addr = (volatile void*)((char*)map_base + offset);
+  *((int *) virt_addr) = value;
+}
+
+int read_data(volatile void* map_base, int offset)
+{
+  volatile void* virt_addr = (volatile void*)((char*)map_base + offset);
+  return *((int *) virt_addr);
+}
+
+void hw_fc_layer(int target,               // control offset
+				float * mem,              // global memory pointer 
+				int input_offset,         // offset of inputs
+				int output_offset,        // offset of outputs
+				const int batch_size,     // batch size
+				const int num_inputs,     // number of input (dimensions)
+				const int num_outputs,    // number of output (dimensions)
+				const int enable_relu)    // flag to enable/disable ReLU
+{
+	
+   //Step 1:  Setup control registers  write the value into control bus ( what is map_base address? )
+
+  // Write arguments
+  volatile void* map_base = 0x00000000;
+  write_int(map_base, target + CTRL_BUS_ADDR_INPUT_OFFSET_DATA, input_offset);
+  write_int(map_base, target + CTRL_BUS_ADDR_OUTPUT_OFFSET_DATA, output_offset);
+  write_int(map_base, target + CTRL_BUS_ADDR_BATCH_SIZE_DATA, batch_size);
+  write_int(map_base, target + CTRL_BUS_ADDR_NUM_INPUTS_DATA, num_inputs);
+  write_int(map_base, target + CTRL_BUS_ADDR_NUM_OUTPUTS_DATA, num_outputs);
+  write_int(map_base, target + CTRL_BUS_ADDR_ENABLE_RELU_DATA, enable_relu);
+
+  //////////////////////////////////////////////////////////////////////////////////////////////////////
+  
+  // Step 2: read data from external DDR , in this case, through microprocessor NOT DMA. 
+  // in lab2. mem is a C array that created to pass in data, we need to copy data from C array to in_buffer, and 
+  // pass the data to dma and write into External memory
+  // in final project, writing data to DDR will be done by microblaze, layer can access using the given pointer to external memory location
+  
+  //int wait_time = 0;
+  //struct timespec ts_start, ts_end;
+  //clock_gettime(CLOCK_MONOTONIC, &ts_start);
+  // signal the layer to start process ap_start
+  write_int(map_base, target + CTRL_BUS_ADDR_AP_CTRL, 0x1);
+  do {
+    sleep(1);
+    //printf("\rSleep wait %d", wait_time++);
+    //fflush(stdout);
+  }
+  // Poll the ap_ready and ap_done to see if the processing is done
+  while (!(read_int(map_base, target+ CTRL_BUS_ADDR_AP_CTRL ) & 0xe));
+  
+  //clock_gettime(CLOCK_MONOTONIC, &ts_end);
+  //timespec_sub(&ts_end, &ts_start);
+  //printf("CLOCK_MONOTONIC reports %ld.%09ld seconds (total) for core\n", ts_end.tv_sec, ts_end.tv_nsec);
+  
+}
+
+
