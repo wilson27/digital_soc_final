@@ -104,22 +104,42 @@ int main(void)
 	//xil_printf("hello world\n");
 	//xil_printf("hello world2\n");
 
-	write_int(0x0, HW_FC_CTRL_ADDR + FC_CTRL_BUS_ADDR_NUM_INPUTS_DATA, 500);
-    int addr_read = read_int(0x0, HW_FC_CTRL_ADDR + FC_CTRL_BUS_ADDR_NUM_INPUTS_DATA);
-    xil_printf("%d ,\n",addr_read);
+	//write_int(0x0, HW_FC_CTRL_ADDR + FC_CTRL_BUS_ADDR_NUM_INPUTS_DATA, 500);
+    //int addr_read = read_int(0x0, HW_FC_CTRL_ADDR + FC_CTRL_BUS_ADDR_NUM_INPUTS_DATA);
+    //xil_printf("%d ,\n",addr_read);
 
-	write_int(0x0, 0x80000000, 2147483000);
-	write_data(0x0, 0x80000008, -4034.678);
-    float addr_read2 = read_data(0x0, 0x80000008);
-    printf("%.8f ,\n",addr_read2);
+	//write_int(0x0, 0x80000000, 2147483000);
+	//write_data(0x0, 0x80000008, -4034.678);
+    //float addr_read2 = read_data(0x0, 0x80000008);
+    //printf("%.8f ,\n",addr_read2);
 
-    setup_fc_layer( 0x00000000, HW_FC_CTRL_ADDR, 0x80000000, 0x80000016, 200, 200, 0 );
+	//================== hls core debug=============================================================================
+	printf("start fc processing \n");
+    // write some test data
+    volatile unsigned int *temp_addr = (unsigned int*)0x80000000;
+    for (int i = 0; i <12 ; i ++){
+    	 write_int(0x0, temp_addr, 2);
+    	 printf("addr: %x , data: %d \n", temp_addr , *temp_addr);
+    	 temp_addr = temp_addr + 1;
+    }
+
+    // process with fc layer
+    //setup_fc_layer( 0x00000000, HW_FC_CTRL_ADDR, 0x80000000, 0x80000016, 20, 20, 0 );
+    setup_fc_layer( 0x00000000, HW_FC_CTRL_ADDR, 0, 0, 1, 1, 0 );
     start_layer(0x0,HW_FC_CTRL_ADDR, FC_CTRL_BUS_ADDR_AP_CTRL);
     while (poll_layer(0x0, HW_FC_CTRL_ADDR, FC_CTRL_BUS_ADDR_AP_CTRL) ==0){
     	printf("fc processing \n");
     }
     printf("done fc processing \n");
 
+    //print processing result
+    volatile unsigned int *temp_addr2 = (unsigned int*)0x80000000;
+    for (int j = 0; j <20 ; j ++){
+    	 printf("addr: %x , data: %d \n", temp_addr2 , *temp_addr2);
+    	 temp_addr2 = temp_addr2 + 1;
+    }
+
+    ///==============================================================================================================
 	while(1)
 	{
 		* ledPtr = * switchesPtr;
