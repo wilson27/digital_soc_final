@@ -74,7 +74,7 @@ define void @conv_layer(float* %mem, i32 %input_offset, i32 %output_offset, i32 
   %b_cast = zext i31 %b_s to i32
   %tmp_4 = icmp slt i32 %b_cast, %b_read
   %b_1 = add i31 %b_s, 1
-  br i1 %tmp_4, label %.preheader2.preheader, label %11
+  br i1 %tmp_4, label %.preheader2.preheader, label %9
 
 .preheader2.preheader:                            ; preds = %.loopexit20
   br label %.preheader2
@@ -117,9 +117,9 @@ define void @conv_layer(float* %mem, i32 %input_offset, i32 %output_offset, i32 
   %tmp12 = mul i32 %tmp7, %ox_read
   br label %.preheader
 
-.preheader:                                       ; preds = %10, %.preheader.preheader
-  %o_x = phi i31 [ %o_x_1, %10 ], [ 0, %.preheader.preheader ]
-  %i_x = phi i32 [ %next_mul, %10 ], [ 0, %.preheader.preheader ]
+.preheader:                                       ; preds = %8, %.preheader.preheader
+  %o_x = phi i31 [ %o_x_1, %8 ], [ 0, %.preheader.preheader ]
+  %i_x = phi i32 [ %next_mul, %8 ], [ 0, %.preheader.preheader ]
   %next_mul = add i32 %i_x, %s_read
   %o_x_cast = zext i31 %o_x to i32
   %tmp_6 = icmp slt i32 %o_x_cast, %ox_read
@@ -141,7 +141,7 @@ define void @conv_layer(float* %mem, i32 %input_offset, i32 %output_offset, i32 
   %i_d_cast = zext i31 %i_d to i32
   %tmp_11 = icmp slt i32 %i_d_cast, %id_read
   %i_d_1 = add i31 %i_d, 1
-  br i1 %tmp_11, label %2, label %10
+  br i1 %tmp_11, label %2, label %8
 
 ; <label>:2                                       ; preds = %.loopexit
   %tmp4 = add i32 %i_d_cast, %phi_mul5
@@ -150,10 +150,10 @@ define void @conv_layer(float* %mem, i32 %input_offset, i32 %output_offset, i32 
   %tmp10 = mul i32 %tmp9, %k_read
   br label %3
 
-; <label>:3                                       ; preds = %9, %2
-  %output_element_1 = phi float [ %output_element1, %2 ], [ %output_element_2, %9 ]
-  %i_y1 = phi i32 [ %i_y, %2 ], [ %i_y_1, %9 ]
-  %iiy = phi i32 [ 0, %2 ], [ %iiy_1, %9 ]
+; <label>:3                                       ; preds = %7, %2
+  %output_element_1 = phi float [ %output_element1, %2 ], [ %output_element_2, %7 ]
+  %i_y1 = phi i32 [ %i_y, %2 ], [ %i_y_1, %7 ]
+  %iiy = phi i32 [ 0, %2 ], [ %iiy_1, %7 ]
   %tmp_13 = icmp slt i32 %i_y1, %tmp_8
   %iiy_1 = add nsw i32 %iiy, 1
   br i1 %tmp_13, label %4, label %.loopexit.loopexit
@@ -165,13 +165,13 @@ define void @conv_layer(float* %mem, i32 %input_offset, i32 %output_offset, i32 
   %tmp11 = mul i32 %tmp8, %k_read
   br label %5
 
-; <label>:5                                       ; preds = %._crit_edge, %4
-  %output_element_2 = phi float [ %output_element_1, %4 ], [ %output_element_4, %._crit_edge ]
-  %i_x1 = phi i32 [ %i_x, %4 ], [ %i_x_1, %._crit_edge ]
-  %iix = phi i32 [ 0, %4 ], [ %iix_1, %._crit_edge ]
+; <label>:5                                       ; preds = %6, %4
+  %output_element_2 = phi float [ %output_element_1, %4 ], [ %output_element_3, %6 ]
+  %i_x1 = phi i32 [ %i_x, %4 ], [ %i_x_1, %6 ]
+  %iix = phi i32 [ 0, %4 ], [ %iix_1, %6 ]
   %tmp_14 = icmp slt i32 %i_x1, %tmp_10
   %iix_1 = add nsw i32 %iix, 1
-  br i1 %tmp_14, label %6, label %9
+  br i1 %tmp_14, label %6, label %7
 
 ; <label>:6                                       ; preds = %5
   %tmp17 = add i32 %tmp6, %i_x1
@@ -180,47 +180,21 @@ define void @conv_layer(float* %mem, i32 %input_offset, i32 %output_offset, i32 
   %mem_addr_2 = getelementptr inbounds float* %mem, i32 %tmp_15
   %input_element_req = call i1 @_ssdm_op_ReadReq.m_axi.floatP(float* %mem_addr_2, i32 1) nounwind
   %input_element = call float @_ssdm_op_Read.m_axi.floatP(float* %mem_addr_2) nounwind
-  %input_element_to_int = bitcast float %input_element to i32
-  %tmp_16 = call i8 @_ssdm_op_PartSelect.i8.i32.i32.i32(i32 %input_element_to_int, i32 23, i32 30)
-  %tmp_19 = trunc i32 %input_element_to_int to i23
-  %notlhs = icmp ne i8 %tmp_16, -1
-  %notrhs = icmp eq i23 %tmp_19, 0
-  %tmp_20 = or i1 %notrhs, %notlhs
-  %tmp_21 = fcmp oeq float %input_element, 0.000000e+00
-  %tmp_22 = and i1 %tmp_20, %tmp_21
-  br i1 %tmp_22, label %._crit_edge, label %7
-
-; <label>:7                                       ; preds = %6
-  %tmp20 = add i32 %tmp_s, %iix
-  %tmp_17 = add i32 %tmp20, %tmp11
-  %mem_addr_3 = getelementptr inbounds float* %mem, i32 %tmp_17
+  %tmp19 = add i32 %tmp_s, %iix
+  %tmp_16 = add i32 %tmp19, %tmp11
+  %mem_addr_3 = getelementptr inbounds float* %mem, i32 %tmp_16
   %weight_element_req = call i1 @_ssdm_op_ReadReq.m_axi.floatP(float* %mem_addr_3, i32 1) nounwind
   %weight_element = call float @_ssdm_op_Read.m_axi.floatP(float* %mem_addr_3) nounwind
-  %weight_element_to_in = bitcast float %weight_element to i32
-  %tmp_23 = call i8 @_ssdm_op_PartSelect.i8.i32.i32.i32(i32 %weight_element_to_in, i32 23, i32 30)
-  %tmp_24 = trunc i32 %weight_element_to_in to i23
-  %notlhs1 = icmp ne i8 %tmp_23, -1
-  %notrhs1 = icmp eq i23 %tmp_24, 0
-  %tmp_25 = or i1 %notrhs1, %notlhs1
-  %tmp_26 = fcmp oeq float %weight_element, 0.000000e+00
-  %tmp_27 = and i1 %tmp_25, %tmp_26
-  br i1 %tmp_27, label %._crit_edge, label %8
-
-; <label>:8                                       ; preds = %7
-  %tmp_18 = fmul float %input_element, %weight_element
-  %output_element_3 = fadd float %output_element_2, %tmp_18
-  br label %._crit_edge
-
-._crit_edge:                                      ; preds = %8, %7, %6
-  %output_element_4 = phi float [ %output_element_3, %8 ], [ %output_element_2, %6 ], [ %output_element_2, %7 ]
+  %tmp_17 = fmul float %input_element, %weight_element
+  %output_element_3 = fadd float %output_element_2, %tmp_17
   %i_x_1 = add nsw i32 %i_x1, 1
   br label %5
 
-; <label>:9                                       ; preds = %5
+; <label>:7                                       ; preds = %5
   %i_y_1 = add nsw i32 %i_y1, 1
   br label %3
 
-; <label>:10                                      ; preds = %.loopexit
+; <label>:8                                       ; preds = %.loopexit
   %tmp15 = add i32 %tmp_5, %o_x_cast
   %tmp_12 = add i32 %tmp15, %tmp12
   %mem_addr_1 = getelementptr inbounds float* %mem, i32 %tmp_12
@@ -229,7 +203,7 @@ define void @conv_layer(float* %mem, i32 %input_offset, i32 %output_offset, i32 
   %mem_addr_1_resp = call i1 @_ssdm_op_WriteResp.m_axi.floatP(float* %mem_addr_1) nounwind
   br label %.preheader
 
-; <label>:11                                      ; preds = %.loopexit20
+; <label>:9                                       ; preds = %.loopexit20
   ret void
 }
 
@@ -279,21 +253,12 @@ entry:
   ret float %empty
 }
 
-define weak i8 @_ssdm_op_PartSelect.i8.i32.i32.i32(i32, i32, i32) nounwind readnone {
-entry:
-  %empty = call i32 @llvm.part.select.i32(i32 %0, i32 %1, i32 %2)
-  %empty_4 = trunc i32 %empty to i8
-  ret i8 %empty_4
-}
-
 define weak i30 @_ssdm_op_PartSelect.i30.i32.i32.i32(i32, i32, i32) nounwind readnone {
 entry:
   %empty = call i32 @llvm.part.select.i32(i32 %0, i32 %1, i32 %2)
-  %empty_5 = trunc i32 %empty to i30
-  ret i30 %empty_5
+  %empty_4 = trunc i32 %empty to i30
+  ret i30 %empty_4
 }
-
-declare i23 @_ssdm_op_PartSelect.i23.i32.i32.i32(i32, i32, i32) nounwind readnone
 
 declare void @_GLOBAL__I_a() nounwind
 

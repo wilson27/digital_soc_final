@@ -9,15 +9,15 @@ INFO: [SYN 201-201] Setting up clock 'default' with a period of 4ns.
 INFO: [HLS 200-10] Setting target device to 'xc7a200tsbg484-1'
 INFO: [HLS 200-10] Analyzing design file '../conv_test/conv_layer.cpp' ... 
 INFO: [HLS 200-10] Validating synthesis directives ...
-INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:05 ; elapsed = 00:00:40 . Memory (MB): peak = 98.375 ; gain = 49.063
-INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:05 ; elapsed = 00:00:45 . Memory (MB): peak = 98.395 ; gain = 49.082
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:07 ; elapsed = 00:00:24 . Memory (MB): peak = 98.215 ; gain = 48.539
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:07 ; elapsed = 00:00:25 . Memory (MB): peak = 98.238 ; gain = 48.563
 INFO: [HLS 200-10] Starting code transformations ...
-INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:05 ; elapsed = 00:00:47 . Memory (MB): peak = 101.379 ; gain = 52.066
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:07 ; elapsed = 00:00:27 . Memory (MB): peak = 101.680 ; gain = 52.004
 INFO: [HLS 200-10] Checking synthesizability ...
-INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:06 ; elapsed = 00:00:47 . Memory (MB): peak = 104.059 ; gain = 54.746
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:07 ; elapsed = 00:00:27 . Memory (MB): peak = 103.992 ; gain = 54.316
 INFO: [XFORM 203-11] Balancing expressions in function 'conv_layer' (../conv_test/conv_layer.cpp:6)...7 expression(s) balanced.
-INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:06 ; elapsed = 00:00:49 . Memory (MB): peak = 128.945 ; gain = 79.633
-INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:06 ; elapsed = 00:00:50 . Memory (MB): peak = 129.168 ; gain = 79.855
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:08 ; elapsed = 00:00:29 . Memory (MB): peak = 127.457 ; gain = 77.781
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:09 ; elapsed = 00:00:29 . Memory (MB): peak = 128.230 ; gain = 78.555
 INFO: [HLS 200-10] Starting hardware synthesis ...
 INFO: [HLS 200-10] Synthesizing 'conv_layer' ...
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -25,13 +25,13 @@ INFO: [HLS 200-10] -- Implementing module 'conv_layer'
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111]  Elapsed time: 50.742 seconds; current allocated memory: 84.504 MB.
+INFO: [HLS 200-111]  Elapsed time: 30.486 seconds; current allocated memory: 84.154 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111]  Elapsed time: 0.659 seconds; current allocated memory: 85.474 MB.
+INFO: [HLS 200-111]  Elapsed time: 0.643 seconds; current allocated memory: 85.004 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'conv_layer' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -51,18 +51,16 @@ INFO: [RTGEN 206-500] Setting interface mode on function 'conv_layer' to 's_axil
 INFO: [RTGEN 206-100] Bundling port 'return', 'input_offset', 'output_offset', 'b', 'od', 'ox', 'oy', 'id', 'ix', 'iy', 's' and 'k' to AXI-Lite port CTRL_BUS.
 INFO: [SYN 201-210] Renamed object name 'conv_layer_fadd_32ns_32ns_32_13_full_dsp' to 'conv_layer_fadd_3bkb' due to the length limit 20
 INFO: [SYN 201-210] Renamed object name 'conv_layer_fmul_32ns_32ns_32_8_max_dsp' to 'conv_layer_fmul_3cud' due to the length limit 20
-INFO: [SYN 201-210] Renamed object name 'conv_layer_fcmp_32ns_32ns_1_4' to 'conv_layer_fcmp_3dEe' due to the length limit 20
-INFO: [SYN 201-210] Renamed object name 'conv_layer_mul_32s_32s_32_7' to 'conv_layer_mul_32eOg' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'conv_layer_mul_32s_32s_32_7' to 'conv_layer_mul_32dEe' due to the length limit 20
 INFO: [RTGEN 206-100] Generating core module 'conv_layer_fadd_3bkb': 1 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'conv_layer_fcmp_3dEe': 1 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'conv_layer_fmul_3cud': 1 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'conv_layer_mul_32eOg': 9 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'conv_layer_mul_32dEe': 9 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'conv_layer'.
-INFO: [HLS 200-111]  Elapsed time: 0.849 seconds; current allocated memory: 87.637 MB.
-INFO: [RTMG 210-282] Generating pipelined core: 'conv_layer_mul_32eOg_MulnS_0'
-INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:10 ; elapsed = 00:00:59 . Memory (MB): peak = 134.813 ; gain = 85.500
+INFO: [HLS 200-111]  Elapsed time: 0.949 seconds; current allocated memory: 86.905 MB.
+INFO: [RTMG 210-282] Generating pipelined core: 'conv_layer_mul_32dEe_MulnS_0'
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:14 ; elapsed = 00:00:39 . Memory (MB): peak = 134.074 ; gain = 84.398
 INFO: [SYSC 207-301] Generating SystemC RTL for conv_layer.
 INFO: [VHDL 208-304] Generating VHDL RTL for conv_layer.
 INFO: [VLOG 209-307] Generating Verilog RTL for conv_layer.
 INFO: [IMPL 213-8] Exporting RTL as an IP in IP-XACT.
-INFO: [HLS 200-112] Total elapsed time: 270.17 seconds; peak allocated memory: 87.637 MB.
+INFO: [HLS 200-112] Total elapsed time: 221.467 seconds; peak allocated memory: 86.905 MB.

@@ -198,7 +198,7 @@ set RtlHierarchyInfo {[
 
 set ArgLastReadFirstWriteLatency {
 	fc_layer {
-		mem {Type IO LastRead 44 FirstWrite 21}
+		mem {Type IO LastRead 30 FirstWrite 21}
 		input_offset {Type I LastRead 0 FirstWrite -1}
 		output_offset {Type I LastRead 0 FirstWrite -1}
 		batch_size {Type I LastRead 0 FirstWrite -1}

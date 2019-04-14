@@ -9,16 +9,16 @@ INFO: [SYN 201-201] Setting up clock 'default' with a period of 4ns.
 INFO: [HLS 200-10] Setting target device to 'xc7a200tsbg484-1'
 INFO: [HLS 200-10] Analyzing design file '../fc_test/fc_layer.cpp' ... 
 INFO: [HLS 200-10] Validating synthesis directives ...
-INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:03 ; elapsed = 00:00:24 . Memory (MB): peak = 98.578 ; gain = 48.879
-INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:03 ; elapsed = 00:00:26 . Memory (MB): peak = 98.598 ; gain = 48.898
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:05 ; elapsed = 00:00:43 . Memory (MB): peak = 98.656 ; gain = 49.258
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:05 ; elapsed = 00:00:56 . Memory (MB): peak = 98.680 ; gain = 49.281
 INFO: [HLS 200-10] Starting code transformations ...
 INFO: [XFORM 203-603] Inlining function 'std::max<float>' into 'fc_layer' (../fc_test/fc_layer.cpp:52).
-INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:03 ; elapsed = 00:00:26 . Memory (MB): peak = 98.602 ; gain = 48.902
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:05 ; elapsed = 00:01:09 . Memory (MB): peak = 98.680 ; gain = 49.281
 INFO: [HLS 200-10] Checking synthesizability ...
-INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:03 ; elapsed = 00:00:27 . Memory (MB): peak = 98.602 ; gain = 48.902
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:05 ; elapsed = 00:01:10 . Memory (MB): peak = 98.680 ; gain = 49.281
 INFO: [XFORM 203-11] Balancing expressions in function 'fc_layer' (../fc_test/fc_layer.cpp:4)...4 expression(s) balanced.
-INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:03 ; elapsed = 00:00:27 . Memory (MB): peak = 118.340 ; gain = 68.641
-INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:03 ; elapsed = 00:00:27 . Memory (MB): peak = 118.340 ; gain = 68.641
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:05 ; elapsed = 00:01:14 . Memory (MB): peak = 119.520 ; gain = 70.121
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:06 ; elapsed = 00:01:15 . Memory (MB): peak = 119.520 ; gain = 70.121
 INFO: [HLS 200-10] Starting hardware synthesis ...
 INFO: [HLS 200-10] Synthesizing 'fc_layer' ...
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -26,13 +26,13 @@ INFO: [HLS 200-10] -- Implementing module 'fc_layer'
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111]  Elapsed time: 27.755 seconds; current allocated memory: 74.914 MB.
+INFO: [HLS 200-111]  Elapsed time: 77.635 seconds; current allocated memory: 74.608 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111]  Elapsed time: 0.26 seconds; current allocated memory: 75.542 MB.
+INFO: [HLS 200-111]  Elapsed time: 0.986 seconds; current allocated memory: 75.159 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'fc_layer' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -54,11 +54,11 @@ INFO: [RTGEN 206-100] Generating core module 'fc_layer_fcmp_32ndEe': 1 instance(
 INFO: [RTGEN 206-100] Generating core module 'fc_layer_fmul_32ncud': 1 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'fc_layer_mul_32s_eOg': 1 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'fc_layer'.
-INFO: [HLS 200-111]  Elapsed time: 0.407 seconds; current allocated memory: 77.165 MB.
+INFO: [HLS 200-111]  Elapsed time: 1.442 seconds; current allocated memory: 76.534 MB.
 INFO: [RTMG 210-282] Generating pipelined core: 'fc_layer_mul_32s_eOg_MulnS_0'
-INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:05 ; elapsed = 00:00:32 . Memory (MB): peak = 122.398 ; gain = 72.699
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:08 ; elapsed = 00:01:26 . Memory (MB): peak = 120.914 ; gain = 71.516
 INFO: [SYSC 207-301] Generating SystemC RTL for fc_layer.
 INFO: [VHDL 208-304] Generating VHDL RTL for fc_layer.
 INFO: [VLOG 209-307] Generating Verilog RTL for fc_layer.
 INFO: [IMPL 213-8] Exporting RTL as an IP in IP-XACT.
-INFO: [HLS 200-112] Total elapsed time: 157.268 seconds; peak allocated memory: 77.165 MB.
+INFO: [HLS 200-112] Total elapsed time: 320.918 seconds; peak allocated memory: 76.534 MB.

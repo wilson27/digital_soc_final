@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'conv_layer'" level="0">
-<item name = "Date">Sun Mar 31 16:51:04 2019
+<item name = "Date">Sun Apr 14 13:00:22 2019
 </item>
 <item name = "Version">2017.2 (Build 1909853 on Thu Jun 15 18:55:24 MDT 2017)</item>
 <item name = "Project">conv_proj</item>
@@ -41,7 +41,7 @@
 <column name="   +++ Loop 1.1.1.1">?, ?, ?, -, -, ?, no</column>
 <column name="    ++++ Loop 1.1.1.1.1">?, ?, ?, -, -, ?, no</column>
 <column name="     +++++ Loop 1.1.1.1.1.1">?, ?, ?, -, -, ?, no</column>
-<column name="      ++++++ Loop 1.1.1.1.1.1.1">?, ?, 18 ~ 53, -, -, ?, no</column>
+<column name="      ++++++ Loop 1.1.1.1.1.1.1">?, ?, 33, -, -, ?, no</column>
 </table>
 </item>
 </section>

@@ -2894,8 +2894,8 @@ m {}} value 0} integer {signed {attribs {resolve_type immediate dependency {} fo
       </xilinx:taxonomies>
       <xilinx:displayName>Fc_layer</xilinx:displayName>
       <xilinx:definitionSource>HLS</xilinx:definitionSource>
-      <xilinx:coreRevision>1903311655</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2019-03-31T20:56:29Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>1904141253</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2019-04-14T16:54:43Z</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2017.2</xilinx:xilinxVersion>

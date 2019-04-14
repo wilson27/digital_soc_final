@@ -40,10 +40,10 @@ define void @fc_layer(float* %mem, i32 %input_offset, i32 %output_offset, i32 %b
   %tmp.2 = lshr i32 %output_offset, 2, !dbg !87   ; [#uses=1 type=i32] [debug line = 54:10]
   br label %1, !dbg !88                           ; [debug line = 25:17]
 
-; <label>:1                                       ; preds = %11, %0
-  %b = phi i32 [ 0, %0 ], [ %b.1, %11 ]           ; [#uses=4 type=i32]
+; <label>:1                                       ; preds = %9, %0
+  %b = phi i32 [ 0, %0 ], [ %b.1, %9 ]            ; [#uses=4 type=i32]
   %tmp.3 = icmp slt i32 %b, %batch_size, !dbg !88 ; [#uses=1 type=i1] [debug line = 25:17]
-  br i1 %tmp.3, label %.preheader.preheader, label %12, !dbg !88 ; [debug line = 25:17]
+  br i1 %tmp.3, label %.preheader.preheader, label %10, !dbg !88 ; [debug line = 25:17]
 
 .preheader.preheader:                             ; preds = %1
   %tmp.4 = mul nsw i32 %b, %num_inputs, !dbg !89  ; [#uses=1 type=i32] [debug line = 36:106]
@@ -51,10 +51,10 @@ define void @fc_layer(float* %mem, i32 %input_offset, i32 %output_offset, i32 %b
   %tmp.6 = add i32 %tmp.5, %tmp.2, !dbg !87       ; [#uses=2 type=i32] [debug line = 54:10]
   br label %.preheader, !dbg !92                  ; [debug line = 28:19]
 
-.preheader:                                       ; preds = %10, %.preheader.preheader
-  %o = phi i32 [ %o.1, %10 ], [ 0, %.preheader.preheader ] ; [#uses=6 type=i32]
+.preheader:                                       ; preds = %8, %.preheader.preheader
+  %o = phi i32 [ %o.1, %8 ], [ 0, %.preheader.preheader ] ; [#uses=6 type=i32]
   %tmp.7 = icmp slt i32 %o, %num_outputs, !dbg !92 ; [#uses=1 type=i1] [debug line = 28:19]
-  br i1 %tmp.7, label %2, label %11, !dbg !92     ; [debug line = 28:19]
+  br i1 %tmp.7, label %2, label %9, !dbg !92      ; [debug line = 28:19]
 
 ; <label>:2                                       ; preds = %.preheader
   %tmp.8 = add i32 %num_weights, %tmp, !dbg !81   ; [#uses=1 type=i32] [debug line = 31:79]
@@ -72,13 +72,13 @@ define void @fc_layer(float* %mem, i32 %input_offset, i32 %output_offset, i32 %b
   call void @llvm.dbg.value(metadata !{float %output_element}, i64 0, metadata !93), !dbg !81 ; [debug line = 31:79] [debug variable = output_element]
   call void @llvm.dbg.value(metadata !{float %output_element}, i64 0, metadata !93), !dbg !81 ; [debug line = 31:79] [debug variable = output_element]
   %tmp.10 = mul nsw i32 %o, %num_inputs, !dbg !94 ; [#uses=1 type=i32] [debug line = 38:84]
-  br label %3, !dbg !96                           ; [debug line = 34:21]
+  br label %3, !dbg !95                           ; [debug line = 34:21]
 
-; <label>:3                                       ; preds = %._crit_edge, %2
-  %tmp.12 = phi float [ %output_element, %2 ], [ %tmp.28, %._crit_edge ] ; [#uses=4 type=float]
-  %i = phi i32 [ 0, %2 ], [ %i.1, %._crit_edge ]  ; [#uses=4 type=i32]
-  %tmp.13 = icmp slt i32 %i, %num_inputs, !dbg !96 ; [#uses=1 type=i1] [debug line = 34:21]
-  br i1 %tmp.13, label %4, label %7, !dbg !96     ; [debug line = 34:21]
+; <label>:3                                       ; preds = %4, %2
+  %tmp.12 = phi float [ %output_element, %2 ], [ %output_element.1, %4 ] ; [#uses=2 type=float]
+  %i = phi i32 [ 0, %2 ], [ %i.1, %4 ]            ; [#uses=4 type=i32]
+  %tmp.13 = icmp slt i32 %i, %num_inputs, !dbg !95 ; [#uses=1 type=i1] [debug line = 34:21]
+  br i1 %tmp.13, label %4, label %5, !dbg !95     ; [debug line = 34:21]
 
 ; <label>:4                                       ; preds = %3
   %tmp.14 = add i32 %num_outputs, %tmp, !dbg !89  ; [#uses=1 type=i32] [debug line = 36:106]
@@ -86,72 +86,60 @@ define void @fc_layer(float* %mem, i32 %input_offset, i32 %output_offset, i32 %b
   %tmp.16 = add i32 %tmp.15, %tmp.4, !dbg !89     ; [#uses=1 type=i32] [debug line = 36:106]
   %tmp.17 = add i32 %tmp.16, %i, !dbg !89         ; [#uses=1 type=i32] [debug line = 36:106]
   %mem.addr.1 = getelementptr inbounds float* %mem, i32 %tmp.17, !dbg !89 ; [#uses=1 type=float*] [debug line = 36:106]
-  %input_element = load float* %mem.addr.1, align 4, !dbg !89 ; [#uses=3 type=float] [debug line = 36:106]
+  %input_element = load float* %mem.addr.1, align 4, !dbg !89 ; [#uses=2 type=float] [debug line = 36:106]
   call void (...)* @_ssdm_SpecKeepArrayLoad(float %input_element) nounwind
-  call void @llvm.dbg.value(metadata !{float %input_element}, i64 0, metadata !97), !dbg !89 ; [debug line = 36:106] [debug variable = input_element]
-  %tmp.18 = fcmp une float %input_element, 0.000000e+00, !dbg !98 ; [#uses=1 type=i1] [debug line = 37:9]
-  br i1 %tmp.18, label %5, label %._crit_edge, !dbg !98 ; [debug line = 37:9]
-
-; <label>:5                                       ; preds = %4
-  %tmp.19 = add i32 %tmp.10, %tmp, !dbg !94       ; [#uses=1 type=i32] [debug line = 38:84]
-  %tmp.20 = add i32 %tmp.19, %i, !dbg !94         ; [#uses=1 type=i32] [debug line = 38:84]
-  %mem.addr.2 = getelementptr inbounds float* %mem, i32 %tmp.20, !dbg !94 ; [#uses=1 type=float*] [debug line = 38:84]
-  %weight_element = load float* %mem.addr.2, align 4, !dbg !94 ; [#uses=3 type=float] [debug line = 38:84]
+  call void @llvm.dbg.value(metadata !{float %input_element}, i64 0, metadata !96), !dbg !89 ; [debug line = 36:106] [debug variable = input_element]
+  %tmp.18 = add i32 %tmp.10, %tmp, !dbg !94       ; [#uses=1 type=i32] [debug line = 38:84]
+  %tmp.19 = add i32 %tmp.18, %i, !dbg !94         ; [#uses=1 type=i32] [debug line = 38:84]
+  %mem.addr.2 = getelementptr inbounds float* %mem, i32 %tmp.19, !dbg !94 ; [#uses=1 type=float*] [debug line = 38:84]
+  %weight_element = load float* %mem.addr.2, align 4, !dbg !94 ; [#uses=2 type=float] [debug line = 38:84]
   call void (...)* @_ssdm_SpecKeepArrayLoad(float %weight_element) nounwind
-  call void @llvm.dbg.value(metadata !{float %weight_element}, i64 0, metadata !99), !dbg !94 ; [debug line = 38:84] [debug variable = weight_element]
-  %tmp.21 = fcmp une float %weight_element, 0.000000e+00, !dbg !100 ; [#uses=1 type=i1] [debug line = 39:13]
-  br i1 %tmp.21, label %6, label %._crit_edge, !dbg !100 ; [debug line = 39:13]
+  call void @llvm.dbg.value(metadata !{float %weight_element}, i64 0, metadata !97), !dbg !94 ; [debug line = 38:84] [debug variable = weight_element]
+  %tmp.20 = fmul float %input_element, %weight_element, !dbg !98 ; [#uses=1 type=float] [debug line = 40:18]
+  %output_element.1 = fadd float %tmp.12, %tmp.20, !dbg !98 ; [#uses=1 type=float] [debug line = 40:18]
+  call void @llvm.dbg.value(metadata !{float %output_element.1}, i64 0, metadata !93), !dbg !98 ; [debug line = 40:18] [debug variable = output_element]
+  call void @llvm.dbg.value(metadata !{float %output_element.1}, i64 0, metadata !93), !dbg !98 ; [debug line = 40:18] [debug variable = output_element]
+  call void @llvm.dbg.value(metadata !{float %output_element.1}, i64 0, metadata !93), !dbg !98 ; [debug line = 40:18] [debug variable = output_element]
+  call void @llvm.dbg.value(metadata !{float %output_element.1}, i64 0, metadata !93), !dbg !98 ; [debug line = 40:18] [debug variable = output_element]
+  call void @llvm.dbg.value(metadata !{float %output_element.1}, i64 0, metadata !93), !dbg !98 ; [debug line = 40:18] [debug variable = output_element]
+  call void @llvm.dbg.value(metadata !{float %output_element.1}, i64 0, metadata !93), !dbg !98 ; [debug line = 40:18] [debug variable = output_element]
+  call void @llvm.dbg.value(metadata !{float %output_element.1}, i64 0, metadata !93), !dbg !98 ; [debug line = 40:18] [debug variable = output_element]
+  call void @llvm.dbg.value(metadata !{float %output_element.1}, i64 0, metadata !93), !dbg !98 ; [debug line = 40:18] [debug variable = output_element]
+  call void @llvm.dbg.value(metadata !{float %output_element.1}, i64 0, metadata !93), !dbg !98 ; [debug line = 40:18] [debug variable = output_element]
+  %i.1 = add nsw i32 %i, 1, !dbg !99              ; [#uses=1 type=i32] [debug line = 34:39]
+  call void @llvm.dbg.value(metadata !{i32 %i.1}, i64 0, metadata !100), !dbg !99 ; [debug line = 34:39] [debug variable = i]
+  br label %3, !dbg !99                           ; [debug line = 34:39]
+
+; <label>:5                                       ; preds = %3
+  %.lcssa = phi float [ %tmp.12, %3 ]             ; [#uses=3 type=float]
+  br i1 %tmp.1, label %7, label %6, !dbg !86      ; [debug line = 51:7]
 
 ; <label>:6                                       ; preds = %5
-  %tmp.26 = fmul float %input_element, %weight_element, !dbg !101 ; [#uses=1 type=float] [debug line = 40:18]
-  %output_element.1 = fadd float %tmp.12, %tmp.26, !dbg !101 ; [#uses=1 type=float] [debug line = 40:18]
-  call void @llvm.dbg.value(metadata !{float %output_element.1}, i64 0, metadata !93), !dbg !101 ; [debug line = 40:18] [debug variable = output_element]
-  call void @llvm.dbg.value(metadata !{float %output_element.1}, i64 0, metadata !93), !dbg !101 ; [debug line = 40:18] [debug variable = output_element]
-  call void @llvm.dbg.value(metadata !{float %output_element.1}, i64 0, metadata !93), !dbg !101 ; [debug line = 40:18] [debug variable = output_element]
-  call void @llvm.dbg.value(metadata !{float %output_element.1}, i64 0, metadata !93), !dbg !101 ; [debug line = 40:18] [debug variable = output_element]
-  call void @llvm.dbg.value(metadata !{float %output_element.1}, i64 0, metadata !93), !dbg !101 ; [debug line = 40:18] [debug variable = output_element]
-  call void @llvm.dbg.value(metadata !{float %output_element.1}, i64 0, metadata !93), !dbg !101 ; [debug line = 40:18] [debug variable = output_element]
-  call void @llvm.dbg.value(metadata !{float %output_element.1}, i64 0, metadata !93), !dbg !101 ; [debug line = 40:18] [debug variable = output_element]
-  call void @llvm.dbg.value(metadata !{float %output_element.1}, i64 0, metadata !93), !dbg !101 ; [debug line = 40:18] [debug variable = output_element]
-  call void @llvm.dbg.value(metadata !{float %output_element.1}, i64 0, metadata !93), !dbg !101 ; [debug line = 40:18] [debug variable = output_element]
-  br label %._crit_edge, !dbg !103                ; [debug line = 41:13]
+  %tmp.24 = fcmp ogt float %.lcssa, 0.000000e+00, !dbg !101 ; [#uses=1 type=i1] [debug line = 214:7@52:63]
+  %tmp.25 = select i1 %tmp.24, float %.lcssa, float 0.000000e+00, !dbg !104 ; [#uses=1 type=float] [debug line = 52:63]
+  %tmp.26 = add i32 %o, %tmp.6, !dbg !104         ; [#uses=1 type=i32] [debug line = 52:63]
+  %mem.addr.4 = getelementptr inbounds float* %mem, i32 %tmp.26, !dbg !104 ; [#uses=1 type=float*] [debug line = 52:63]
+  store float %tmp.25, float* %mem.addr.4, align 4, !dbg !104 ; [debug line = 52:63]
+  br label %8, !dbg !104                          ; [debug line = 52:63]
 
-._crit_edge:                                      ; preds = %6, %5, %4
-  %tmp.28 = phi float [ %tmp.12, %4 ], [ %output_element.1, %6 ], [ %tmp.12, %5 ] ; [#uses=1 type=float]
-  %i.1 = add nsw i32 %i, 1, !dbg !104             ; [#uses=1 type=i32] [debug line = 34:39]
-  call void @llvm.dbg.value(metadata !{i32 %i.1}, i64 0, metadata !105), !dbg !104 ; [debug line = 34:39] [debug variable = i]
-  br label %3, !dbg !104                          ; [debug line = 34:39]
-
-; <label>:7                                       ; preds = %3
-  %.lcssa = phi float [ %tmp.12, %3 ]             ; [#uses=3 type=float]
-  br i1 %tmp.1, label %9, label %8, !dbg !86      ; [debug line = 51:7]
-
-; <label>:8                                       ; preds = %7
-  %tmp.23 = fcmp ogt float %.lcssa, 0.000000e+00, !dbg !106 ; [#uses=1 type=i1] [debug line = 214:7@52:63]
-  %tmp.24 = select i1 %tmp.23, float %.lcssa, float 0.000000e+00, !dbg !109 ; [#uses=1 type=float] [debug line = 52:63]
-  %tmp.25 = add i32 %o, %tmp.6, !dbg !109         ; [#uses=1 type=i32] [debug line = 52:63]
-  %mem.addr.4 = getelementptr inbounds float* %mem, i32 %tmp.25, !dbg !109 ; [#uses=1 type=float*] [debug line = 52:63]
-  store float %tmp.24, float* %mem.addr.4, align 4, !dbg !109 ; [debug line = 52:63]
-  br label %10, !dbg !109                         ; [debug line = 52:63]
-
-; <label>:9                                       ; preds = %7
-  %tmp.22 = add i32 %o, %tmp.6, !dbg !87          ; [#uses=1 type=i32] [debug line = 54:10]
-  %mem.addr.3 = getelementptr inbounds float* %mem, i32 %tmp.22, !dbg !87 ; [#uses=1 type=float*] [debug line = 54:10]
+; <label>:7                                       ; preds = %5
+  %tmp.23 = add i32 %o, %tmp.6, !dbg !87          ; [#uses=1 type=i32] [debug line = 54:10]
+  %mem.addr.3 = getelementptr inbounds float* %mem, i32 %tmp.23, !dbg !87 ; [#uses=1 type=float*] [debug line = 54:10]
   store float %.lcssa, float* %mem.addr.3, align 4, !dbg !87 ; [debug line = 54:10]
-  br label %10
+  br label %8
 
-; <label>:10                                      ; preds = %9, %8
-  %o.1 = add nsw i32 %o, 1, !dbg !110             ; [#uses=1 type=i32] [debug line = 28:38]
-  call void @llvm.dbg.value(metadata !{i32 %o.1}, i64 0, metadata !111), !dbg !110 ; [debug line = 28:38] [debug variable = o]
-  br label %.preheader, !dbg !110                 ; [debug line = 28:38]
+; <label>:8                                       ; preds = %7, %6
+  %o.1 = add nsw i32 %o, 1, !dbg !105             ; [#uses=1 type=i32] [debug line = 28:38]
+  call void @llvm.dbg.value(metadata !{i32 %o.1}, i64 0, metadata !106), !dbg !105 ; [debug line = 28:38] [debug variable = o]
+  br label %.preheader, !dbg !105                 ; [debug line = 28:38]
 
-; <label>:11                                      ; preds = %.preheader
-  %b.1 = add nsw i32 %b, 1, !dbg !112             ; [#uses=1 type=i32] [debug line = 25:35]
-  call void @llvm.dbg.value(metadata !{i32 %b.1}, i64 0, metadata !113), !dbg !112 ; [debug line = 25:35] [debug variable = b]
-  br label %1, !dbg !112                          ; [debug line = 25:35]
+; <label>:9                                       ; preds = %.preheader
+  %b.1 = add nsw i32 %b, 1, !dbg !107             ; [#uses=1 type=i32] [debug line = 25:35]
+  call void @llvm.dbg.value(metadata !{i32 %b.1}, i64 0, metadata !108), !dbg !107 ; [debug line = 25:35] [debug variable = b]
+  br label %1, !dbg !107                          ; [debug line = 25:35]
 
-; <label>:12                                      ; preds = %1
-  ret void, !dbg !114                             ; [debug line = 57:1]
+; <label>:10                                      ; preds = %1
+  ret void, !dbg !109                             ; [debug line = 57:1]
 }
 
 ; [#uses=1]
@@ -261,24 +249,19 @@ declare void @_ssdm_SpecKeepArrayLoad(...)
 !91 = metadata !{i32 786443, metadata !82, i32 34, i32 7, metadata !6, i32 5} ; [ DW_TAG_lexical_block ]
 !92 = metadata !{i32 28, i32 19, metadata !83, null}
 !93 = metadata !{i32 786688, metadata !82, metadata !"output_element", metadata !6, i32 31, metadata !10, i32 0, i32 0} ; [ DW_TAG_auto_variable ]
-!94 = metadata !{i32 38, i32 84, metadata !95, null}
-!95 = metadata !{i32 786443, metadata !90, i32 37, i32 35, metadata !6, i32 7} ; [ DW_TAG_lexical_block ]
-!96 = metadata !{i32 34, i32 21, metadata !91, null}
-!97 = metadata !{i32 786688, metadata !90, metadata !"input_element", metadata !6, i32 36, metadata !10, i32 0, i32 0} ; [ DW_TAG_auto_variable ]
-!98 = metadata !{i32 37, i32 9, metadata !90, null}
-!99 = metadata !{i32 786688, metadata !95, metadata !"weight_element", metadata !6, i32 38, metadata !10, i32 0, i32 0} ; [ DW_TAG_auto_variable ]
-!100 = metadata !{i32 39, i32 13, metadata !95, null}
-!101 = metadata !{i32 40, i32 18, metadata !102, null}
-!102 = metadata !{i32 786443, metadata !95, i32 39, i32 40, metadata !6, i32 8} ; [ DW_TAG_lexical_block ]
-!103 = metadata !{i32 41, i32 13, metadata !102, null}
-!104 = metadata !{i32 34, i32 39, metadata !91, null}
-!105 = metadata !{i32 786688, metadata !91, metadata !"i", metadata !6, i32 34, metadata !11, i32 0, i32 0} ; [ DW_TAG_auto_variable ]
-!106 = metadata !{i32 214, i32 7, metadata !107, metadata !109}
-!107 = metadata !{i32 786443, metadata !15, i32 210, i32 5, metadata !108, i32 9} ; [ DW_TAG_lexical_block ]
-!108 = metadata !{i32 786473, metadata !"C:/Xilinx/Vivado_HLS/2017.2/win64/tools/clang/bin\5C..\5Clib\5Cclang\5C3.1/../../../include/c++/4.5.2\5Cbits/stl_algobase.h", metadata !"C:\5CUsers\5CWilson\5CDesktop\5Cdigital_soc_final\5Cdigital_soc_final\5Chls_proj", null} ; [ DW_TAG_file_type ]
-!109 = metadata !{i32 52, i32 63, metadata !82, null}
-!110 = metadata !{i32 28, i32 38, metadata !83, null}
-!111 = metadata !{i32 786688, metadata !83, metadata !"o", metadata !6, i32 28, metadata !11, i32 0, i32 0} ; [ DW_TAG_auto_variable ]
-!112 = metadata !{i32 25, i32 35, metadata !85, null}
-!113 = metadata !{i32 786688, metadata !85, metadata !"b", metadata !6, i32 25, metadata !11, i32 0, i32 0} ; [ DW_TAG_auto_variable ]
-!114 = metadata !{i32 57, i32 1, metadata !69, null}
+!94 = metadata !{i32 38, i32 84, metadata !90, null}
+!95 = metadata !{i32 34, i32 21, metadata !91, null}
+!96 = metadata !{i32 786688, metadata !90, metadata !"input_element", metadata !6, i32 36, metadata !10, i32 0, i32 0} ; [ DW_TAG_auto_variable ]
+!97 = metadata !{i32 786688, metadata !90, metadata !"weight_element", metadata !6, i32 38, metadata !10, i32 0, i32 0} ; [ DW_TAG_auto_variable ]
+!98 = metadata !{i32 40, i32 18, metadata !90, null}
+!99 = metadata !{i32 34, i32 39, metadata !91, null}
+!100 = metadata !{i32 786688, metadata !91, metadata !"i", metadata !6, i32 34, metadata !11, i32 0, i32 0} ; [ DW_TAG_auto_variable ]
+!101 = metadata !{i32 214, i32 7, metadata !102, metadata !104}
+!102 = metadata !{i32 786443, metadata !15, i32 210, i32 5, metadata !103, i32 7} ; [ DW_TAG_lexical_block ]
+!103 = metadata !{i32 786473, metadata !"C:/Xilinx/Vivado_HLS/2017.2/win64/tools/clang/bin\5C..\5Clib\5Cclang\5C3.1/../../../include/c++/4.5.2\5Cbits/stl_algobase.h", metadata !"C:\5CUsers\5CWilson\5CDesktop\5Cdigital_soc_final\5Cdigital_soc_final\5Chls_proj", null} ; [ DW_TAG_file_type ]
+!104 = metadata !{i32 52, i32 63, metadata !82, null}
+!105 = metadata !{i32 28, i32 38, metadata !83, null}
+!106 = metadata !{i32 786688, metadata !83, metadata !"o", metadata !6, i32 28, metadata !11, i32 0, i32 0} ; [ DW_TAG_auto_variable ]
+!107 = metadata !{i32 25, i32 35, metadata !85, null}
+!108 = metadata !{i32 786688, metadata !85, metadata !"b", metadata !6, i32 25, metadata !11, i32 0, i32 0} ; [ DW_TAG_auto_variable ]
+!109 = metadata !{i32 57, i32 1, metadata !69, null}

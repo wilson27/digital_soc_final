@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'fc_layer'" level="0">
-<item name = "Date">Sun Mar 31 16:55:31 2019
+<item name = "Date">Sun Apr 14 12:52:57 2019
 </item>
 <item name = "Version">2017.2 (Build 1909853 on Thu Jun 15 18:55:24 MDT 2017)</item>
 <item name = "Project">fc_proj</item>
@@ -37,7 +37,7 @@
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
 <column name="- Loop 1">?, ?, ?, -, -, ?, no</column>
 <column name=" + Loop 1.1">?, ?, ?, -, -, ?, no</column>
-<column name="  ++ Loop 1.1.1">?, ?, 18 ~ 53, -, -, ?, no</column>
+<column name="  ++ Loop 1.1.1">?, ?, 33, -, -, ?, no</column>
 </table>
 </item>
 </section>

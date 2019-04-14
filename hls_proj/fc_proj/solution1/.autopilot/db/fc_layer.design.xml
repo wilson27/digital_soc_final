@@ -39,13 +39,8 @@
 <Name>Loop 1.1.1</Name>
 <TripCount>undef</TripCount>
 <Latency>undef</Latency>
-<IterationLatency>
-<range>
-<min>18</min>
-<max>53</max>
-</range>
-</IterationLatency>
-<PipelineDepth>18 ~ 53</PipelineDepth>
+<IterationLatency>33</IterationLatency>
+<PipelineDepth>33</PipelineDepth>
 </Loop1.1.1>
 </Loop1.1>
 </Loop1>
@@ -55,8 +50,8 @@
 <Resources>
 <BRAM_18K>2</BRAM_18K>
 <DSP48E>9</DSP48E>
-<FF>4726</FF>
-<LUT>2902</LUT>
+<FF>4603</FF>
+<LUT>2670</LUT>
 </Resources>
 </AreaEstimates>
 <InterfaceSummary>

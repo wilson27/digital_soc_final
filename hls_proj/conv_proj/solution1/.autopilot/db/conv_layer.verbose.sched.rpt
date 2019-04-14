@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'conv_layer'
 ================================================================
-* Date:           Sun Mar 31 16:51:04 2019
+* Date:           Sun Apr 14 13:00:22 2019
 
 * Version:        2017.2 (Build 1909853 on Thu Jun 15 18:55:24 MDT 2017)
 * Project:        conv_proj
@@ -47,7 +47,7 @@
         |   +++ Loop 1.1.1.1              |    ?|    ?|         ?|          -|          -|     ?|    no    |
         |    ++++ Loop 1.1.1.1.1          |    ?|    ?|         ?|          -|          -|     ?|    no    |
         |     +++++ Loop 1.1.1.1.1.1      |    ?|    ?|         ?|          -|          -|     ?|    no    |
-        |      ++++++ Loop 1.1.1.1.1.1.1  |    ?|    ?|  18 ~ 53 |          -|          -|     ?|    no    |
+        |      ++++++ Loop 1.1.1.1.1.1.1  |    ?|    ?|        33|          -|          -|     ?|    no    |
         +---------------------------------+-----+-----+----------+-----------+-----------+------+----------+
 
 ============================================================
@@ -76,7 +76,7 @@ IsGatedGlobalClock: 0
 ============================================================
 + Verbose Summary: Schedule
 ============================================================
-* Number of FSM states: 117
+* Number of FSM states: 97
 * Pipeline: 0
 * Dataflow Pipeline: 0
 
@@ -166,7 +166,7 @@ IsGatedGlobalClock: 0
 	41  / true
 41 --> 
 	42  / (tmp_11)
-	110  / (!tmp_11)
+	90  / (!tmp_11)
 42 --> 
 	43  / true
 43 --> 
@@ -232,8 +232,7 @@ IsGatedGlobalClock: 0
 72 --> 
 	73  / true
 73 --> 
-	74  / (!tmp_22)
-	109  / (tmp_22)
+	74  / true
 74 --> 
 	75  / true
 75 --> 
@@ -263,10 +262,9 @@ IsGatedGlobalClock: 0
 87 --> 
 	88  / true
 88 --> 
-	89  / (!tmp_27)
-	109  / (tmp_27)
+	89  / true
 89 --> 
-	90  / true
+	57  / true
 90 --> 
 	91  / true
 91 --> 
@@ -282,46 +280,6 @@ IsGatedGlobalClock: 0
 96 --> 
 	97  / true
 97 --> 
-	98  / true
-98 --> 
-	99  / true
-99 --> 
-	100  / true
-100 --> 
-	101  / true
-101 --> 
-	102  / true
-102 --> 
-	103  / true
-103 --> 
-	104  / true
-104 --> 
-	105  / true
-105 --> 
-	106  / true
-106 --> 
-	107  / true
-107 --> 
-	108  / true
-108 --> 
-	109  / true
-109 --> 
-	57  / true
-110 --> 
-	111  / true
-111 --> 
-	112  / true
-112 --> 
-	113  / true
-113 --> 
-	114  / true
-114 --> 
-	115  / true
-115 --> 
-	116  / true
-116 --> 
-	117  / true
-117 --> 
 	32  / true
 * FSM state operations: 
 
@@ -451,82 +409,82 @@ ST_13: num_weights (52)  [2/7] 2.14ns  loc: ../conv_test/conv_layer.cpp:37
 
 
  <State 14>: 2.89ns
-ST_14: StgValue_151 (13)  [1/1] 0.00ns
+ST_14: StgValue_131 (13)  [1/1] 0.00ns
 :0  call void (...)* @_ssdm_op_SpecBitsMap(float* %mem) nounwind, !map !14
 
-ST_14: StgValue_152 (14)  [1/1] 0.00ns
+ST_14: StgValue_132 (14)  [1/1] 0.00ns
 :1  call void (...)* @_ssdm_op_SpecBitsMap(i32 %input_offset) nounwind, !map !18
 
-ST_14: StgValue_153 (15)  [1/1] 0.00ns
+ST_14: StgValue_133 (15)  [1/1] 0.00ns
 :2  call void (...)* @_ssdm_op_SpecBitsMap(i32 %output_offset) nounwind, !map !24
 
-ST_14: StgValue_154 (16)  [1/1] 0.00ns
+ST_14: StgValue_134 (16)  [1/1] 0.00ns
 :3  call void (...)* @_ssdm_op_SpecBitsMap(i32 %b) nounwind, !map !28
 
-ST_14: StgValue_155 (17)  [1/1] 0.00ns
+ST_14: StgValue_135 (17)  [1/1] 0.00ns
 :4  call void (...)* @_ssdm_op_SpecBitsMap(i32 %od) nounwind, !map !32
 
-ST_14: StgValue_156 (18)  [1/1] 0.00ns
+ST_14: StgValue_136 (18)  [1/1] 0.00ns
 :5  call void (...)* @_ssdm_op_SpecBitsMap(i32 %ox) nounwind, !map !36
 
-ST_14: StgValue_157 (19)  [1/1] 0.00ns
+ST_14: StgValue_137 (19)  [1/1] 0.00ns
 :6  call void (...)* @_ssdm_op_SpecBitsMap(i32 %oy) nounwind, !map !40
 
-ST_14: StgValue_158 (20)  [1/1] 0.00ns
+ST_14: StgValue_138 (20)  [1/1] 0.00ns
 :7  call void (...)* @_ssdm_op_SpecBitsMap(i32 %id) nounwind, !map !44
 
-ST_14: StgValue_159 (21)  [1/1] 0.00ns
+ST_14: StgValue_139 (21)  [1/1] 0.00ns
 :8  call void (...)* @_ssdm_op_SpecBitsMap(i32 %ix) nounwind, !map !48
 
-ST_14: StgValue_160 (22)  [1/1] 0.00ns
+ST_14: StgValue_140 (22)  [1/1] 0.00ns
 :9  call void (...)* @_ssdm_op_SpecBitsMap(i32 %iy) nounwind, !map !52
 
-ST_14: StgValue_161 (23)  [1/1] 0.00ns
+ST_14: StgValue_141 (23)  [1/1] 0.00ns
 :10  call void (...)* @_ssdm_op_SpecBitsMap(i32 %s) nounwind, !map !56
 
-ST_14: StgValue_162 (24)  [1/1] 0.00ns
+ST_14: StgValue_142 (24)  [1/1] 0.00ns
 :11  call void (...)* @_ssdm_op_SpecBitsMap(i32 %k) nounwind, !map !60
 
-ST_14: StgValue_163 (25)  [1/1] 0.00ns
+ST_14: StgValue_143 (25)  [1/1] 0.00ns
 :12  call void (...)* @_ssdm_op_SpecTopModule([11 x i8]* @conv_layer_str) nounwind
 
-ST_14: StgValue_164 (37)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:21
+ST_14: StgValue_144 (37)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:21
 :24  call void (...)* @_ssdm_op_SpecInterface(float* %mem, [6 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @p_str1, i32 0, i64 2147483648, [1 x i8]* @p_str1, [1 x i8]* @p_str1, [1 x i8]* @p_str1, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind
 
-ST_14: StgValue_165 (38)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:23
+ST_14: StgValue_145 (38)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:23
 :25  call void (...)* @_ssdm_op_SpecInterface(i32 %b, [10 x i8]* @p_str2, i32 0, i32 0, [1 x i8]* @p_str1, i32 0, i32 0, [9 x i8]* @p_str3, [1 x i8]* @p_str1, [1 x i8]* @p_str1, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind
 
-ST_14: StgValue_166 (39)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:24
+ST_14: StgValue_146 (39)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:24
 :26  call void (...)* @_ssdm_op_SpecInterface(i32 %od, [10 x i8]* @p_str2, i32 0, i32 0, [1 x i8]* @p_str1, i32 0, i32 0, [9 x i8]* @p_str3, [1 x i8]* @p_str1, [1 x i8]* @p_str1, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind
 
-ST_14: StgValue_167 (40)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:25
+ST_14: StgValue_147 (40)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:25
 :27  call void (...)* @_ssdm_op_SpecInterface(i32 %ox, [10 x i8]* @p_str2, i32 0, i32 0, [1 x i8]* @p_str1, i32 0, i32 0, [9 x i8]* @p_str3, [1 x i8]* @p_str1, [1 x i8]* @p_str1, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind
 
-ST_14: StgValue_168 (41)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:26
+ST_14: StgValue_148 (41)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:26
 :28  call void (...)* @_ssdm_op_SpecInterface(i32 %oy, [10 x i8]* @p_str2, i32 0, i32 0, [1 x i8]* @p_str1, i32 0, i32 0, [9 x i8]* @p_str3, [1 x i8]* @p_str1, [1 x i8]* @p_str1, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind
 
-ST_14: StgValue_169 (42)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:27
+ST_14: StgValue_149 (42)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:27
 :29  call void (...)* @_ssdm_op_SpecInterface(i32 %id, [10 x i8]* @p_str2, i32 0, i32 0, [1 x i8]* @p_str1, i32 0, i32 0, [9 x i8]* @p_str3, [1 x i8]* @p_str1, [1 x i8]* @p_str1, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind
 
-ST_14: StgValue_170 (43)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:28
+ST_14: StgValue_150 (43)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:28
 :30  call void (...)* @_ssdm_op_SpecInterface(i32 %ix, [10 x i8]* @p_str2, i32 0, i32 0, [1 x i8]* @p_str1, i32 0, i32 0, [9 x i8]* @p_str3, [1 x i8]* @p_str1, [1 x i8]* @p_str1, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind
 
-ST_14: StgValue_171 (44)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:29
+ST_14: StgValue_151 (44)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:29
 :31  call void (...)* @_ssdm_op_SpecInterface(i32 %iy, [10 x i8]* @p_str2, i32 0, i32 0, [1 x i8]* @p_str1, i32 0, i32 0, [9 x i8]* @p_str3, [1 x i8]* @p_str1, [1 x i8]* @p_str1, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind
 
-ST_14: StgValue_172 (45)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:30
+ST_14: StgValue_152 (45)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:30
 :32  call void (...)* @_ssdm_op_SpecInterface(i32 %s, [10 x i8]* @p_str2, i32 0, i32 0, [1 x i8]* @p_str1, i32 0, i32 0, [9 x i8]* @p_str3, [1 x i8]* @p_str1, [1 x i8]* @p_str1, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind
 
-ST_14: StgValue_173 (46)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:31
+ST_14: StgValue_153 (46)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:31
 :33  call void (...)* @_ssdm_op_SpecInterface(i32 %k, [10 x i8]* @p_str2, i32 0, i32 0, [1 x i8]* @p_str1, i32 0, i32 0, [9 x i8]* @p_str3, [1 x i8]* @p_str1, [1 x i8]* @p_str1, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind
 
-ST_14: StgValue_174 (47)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:32
+ST_14: StgValue_154 (47)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:32
 :34  call void (...)* @_ssdm_op_SpecInterface(i32 %input_offset, [10 x i8]* @p_str2, i32 0, i32 0, [1 x i8]* @p_str1, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1, [1 x i8]* @p_str1, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind
 
-ST_14: StgValue_175 (48)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:33
+ST_14: StgValue_155 (48)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:33
 :35  call void (...)* @_ssdm_op_SpecInterface(i32 %output_offset, [10 x i8]* @p_str2, i32 0, i32 0, [1 x i8]* @p_str1, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1, [1 x i8]* @p_str1, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind
 
-ST_14: StgValue_176 (49)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:34
+ST_14: StgValue_156 (49)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:34
 :36  call void (...)* @_ssdm_op_SpecInterface(i32 0, [10 x i8]* @p_str2, i32 0, i32 0, [1 x i8]* @p_str1, i32 0, i32 0, [9 x i8]* @p_str3, [1 x i8]* @p_str1, [1 x i8]* @p_str1, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind
 
 ST_14: num_weights (52)  [1/7] 2.14ns  loc: ../conv_test/conv_layer.cpp:37
@@ -541,7 +499,7 @@ ST_14: tmp_5 (56)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:82
 ST_14: tmp16 (57)  [1/1] 2.89ns  loc: ../conv_test/conv_layer.cpp:69
 :44  %tmp16 = add i32 %tmp_s, %od_read
 
-ST_14: StgValue_181 (58)  [1/1] 1.61ns  loc: ../conv_test/conv_layer.cpp:43
+ST_14: StgValue_161 (58)  [1/1] 1.61ns  loc: ../conv_test/conv_layer.cpp:43
 :45  br label %.loopexit20
 
 
@@ -570,13 +528,13 @@ ST_15: tmp_4 (66)  [1/1] 3.25ns  loc: ../conv_test/conv_layer.cpp:43
 ST_15: b_1 (67)  [1/1] 2.85ns  loc: ../conv_test/conv_layer.cpp:43
 .loopexit20:7  %b_1 = add i31 %b_s, 1
 
-ST_15: StgValue_190 (68)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:43
-.loopexit20:8  br i1 %tmp_4, label %.preheader2.preheader, label %11
+ST_15: StgValue_170 (68)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:43
+.loopexit20:8  br i1 %tmp_4, label %.preheader2.preheader, label %9
 
-ST_15: StgValue_191 (70)  [1/1] 1.61ns
+ST_15: StgValue_171 (70)  [1/1] 1.61ns
 .preheader2.preheader:0  br label %.preheader2
 
-ST_15: StgValue_192 (204)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:87
+ST_15: StgValue_172 (181)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:87
 :0  ret void
 
 
@@ -599,13 +557,13 @@ ST_16: tmp_7 (76)  [1/1] 3.25ns  loc: ../conv_test/conv_layer.cpp:46
 ST_16: o_d_1 (77)  [1/1] 2.85ns  loc: ../conv_test/conv_layer.cpp:46
 .preheader2:5  %o_d_1 = add i31 %o_d, 1
 
-ST_16: StgValue_199 (78)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:46
+ST_16: StgValue_179 (78)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:46
 .preheader2:6  br i1 %tmp_7, label %.preheader1.preheader, label %.loopexit20.loopexit
 
 ST_16: tmp1 (83)  [1/1] 2.89ns  loc: ../conv_test/conv_layer.cpp:46
 .preheader1.preheader:3  %tmp1 = add i32 %o_d_cast, %phi_mul7
 
-ST_16: StgValue_201 (202)  [1/1] 0.00ns
+ST_16: StgValue_181 (179)  [1/1] 0.00ns
 .loopexit20.loopexit:0  br label %.loopexit20
 
 
@@ -652,7 +610,7 @@ ST_23: mem_addr (82)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:55
 ST_23: tmp2 (84)  [1/7] 2.14ns  loc: ../conv_test/conv_layer.cpp:46
 .preheader1.preheader:4  %tmp2 = mul i32 %tmp1, %oy_read
 
-ST_23: StgValue_212 (85)  [1/1] 1.61ns  loc: ../conv_test/conv_layer.cpp:49
+ST_23: StgValue_192 (85)  [1/1] 1.61ns  loc: ../conv_test/conv_layer.cpp:49
 .preheader1.preheader:5  br label %.preheader1
 
 
@@ -675,13 +633,13 @@ ST_24: tmp_1 (91)  [1/1] 3.25ns  loc: ../conv_test/conv_layer.cpp:49
 ST_24: o_y_1 (92)  [1/1] 2.85ns  loc: ../conv_test/conv_layer.cpp:49
 .preheader1:5  %o_y_1 = add i31 %o_y, 1
 
-ST_24: StgValue_219 (93)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:49
+ST_24: StgValue_199 (93)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:49
 .preheader1:6  br i1 %tmp_1, label %.preheader.preheader, label %.preheader2.loopexit
 
 ST_24: tmp7 (96)  [1/1] 2.89ns  loc: ../conv_test/conv_layer.cpp:49
 .preheader.preheader:1  %tmp7 = add i32 %o_y_cast, %tmp2
 
-ST_24: StgValue_221 (200)  [1/1] 0.00ns
+ST_24: StgValue_201 (177)  [1/1] 0.00ns
 .preheader2.loopexit:0  br label %.preheader2
 
 
@@ -722,16 +680,16 @@ ST_31: tmp_8 (95)  [1/1] 2.89ns  loc: ../conv_test/conv_layer.cpp:63
 ST_31: tmp12 (97)  [1/7] 2.14ns  loc: ../conv_test/conv_layer.cpp:49
 .preheader.preheader:2  %tmp12 = mul i32 %tmp7, %ox_read
 
-ST_31: StgValue_230 (98)  [1/1] 1.61ns  loc: ../conv_test/conv_layer.cpp:52
+ST_31: StgValue_210 (98)  [1/1] 1.61ns  loc: ../conv_test/conv_layer.cpp:52
 .preheader.preheader:3  br label %.preheader
 
 
  <State 32>: 3.50ns
 ST_32: o_x (100)  [1/1] 0.00ns
-.preheader:0  %o_x = phi i31 [ %o_x_1, %10 ], [ 0, %.preheader.preheader ]
+.preheader:0  %o_x = phi i31 [ %o_x_1, %8 ], [ 0, %.preheader.preheader ]
 
 ST_32: i_x (101)  [1/1] 0.00ns
-.preheader:1  %i_x = phi i32 [ %next_mul, %10 ], [ 0, %.preheader.preheader ]
+.preheader:1  %i_x = phi i32 [ %next_mul, %8 ], [ 0, %.preheader.preheader ]
 
 ST_32: next_mul (102)  [1/1] 2.89ns
 .preheader:2  %next_mul = add i32 %i_x, %s_read
@@ -745,13 +703,13 @@ ST_32: tmp_6 (104)  [1/1] 3.25ns  loc: ../conv_test/conv_layer.cpp:52
 ST_32: o_x_1 (105)  [1/1] 2.85ns  loc: ../conv_test/conv_layer.cpp:52
 .preheader:5  %o_x_1 = add i31 %o_x, 1
 
-ST_32: StgValue_237 (106)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:52
+ST_32: StgValue_217 (106)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:52
 .preheader:6  br i1 %tmp_6, label %1, label %.preheader1.loopexit
 
 ST_32: output_element_req (108)  [7/7] 3.50ns  loc: ../conv_test/conv_layer.cpp:55
 :0  %output_element_req = call i1 @_ssdm_op_ReadReq.m_axi.floatP(float* %mem_addr, i32 1) nounwind
 
-ST_32: StgValue_239 (198)  [1/1] 0.00ns
+ST_32: StgValue_219 (175)  [1/1] 0.00ns
 .preheader1.loopexit:0  br label %.preheader1
 
 
@@ -794,7 +752,7 @@ ST_39: output_element (109)  [1/1] 3.50ns  loc: ../conv_test/conv_layer.cpp:55
 ST_40: tmp_10 (110)  [1/1] 2.89ns  loc: ../conv_test/conv_layer.cpp:66
 :2  %tmp_10 = add nsw i32 %i_x, %k_read
 
-ST_40: StgValue_248 (111)  [1/1] 1.61ns  loc: ../conv_test/conv_layer.cpp:60
+ST_40: StgValue_228 (111)  [1/1] 1.61ns  loc: ../conv_test/conv_layer.cpp:60
 :3  br label %.loopexit
 
 
@@ -814,8 +772,8 @@ ST_41: tmp_11 (116)  [1/1] 3.25ns  loc: ../conv_test/conv_layer.cpp:60
 ST_41: i_d_1 (117)  [1/1] 2.85ns  loc: ../conv_test/conv_layer.cpp:60
 .loopexit:4  %i_d_1 = add i31 %i_d, 1
 
-ST_41: StgValue_254 (118)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:60
-.loopexit:5  br i1 %tmp_11, label %2, label %10
+ST_41: StgValue_234 (118)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:60
+.loopexit:5  br i1 %tmp_11, label %2, label %8
 
 ST_41: tmp4 (120)  [1/1] 2.89ns  loc: ../conv_test/conv_layer.cpp:60
 :0  %tmp4 = add i32 %i_d_cast, %phi_mul5
@@ -823,7 +781,7 @@ ST_41: tmp4 (120)  [1/1] 2.89ns  loc: ../conv_test/conv_layer.cpp:60
 ST_41: tmp9 (122)  [1/1] 2.89ns  loc: ../conv_test/conv_layer.cpp:60
 :2  %tmp9 = add i32 %i_d_cast, %phi_mul3
 
-ST_41: tmp15 (190)  [1/1] 2.85ns  loc: ../conv_test/conv_layer.cpp:82
+ST_41: tmp15 (167)  [1/1] 2.85ns  loc: ../conv_test/conv_layer.cpp:82
 :0  %tmp15 = add i32 %tmp_5, %o_x_cast
 
 
@@ -882,19 +840,19 @@ ST_48: tmp5 (121)  [1/7] 2.14ns  loc: ../conv_test/conv_layer.cpp:60
 ST_48: tmp10 (123)  [1/7] 2.14ns  loc: ../conv_test/conv_layer.cpp:60
 :3  %tmp10 = mul i32 %tmp9, %k_read
 
-ST_48: StgValue_272 (124)  [1/1] 1.61ns  loc: ../conv_test/conv_layer.cpp:63
+ST_48: StgValue_252 (124)  [1/1] 1.61ns  loc: ../conv_test/conv_layer.cpp:63
 :4  br label %3
 
 
  <State 49>: 3.25ns
 ST_49: output_element_1 (126)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:55
-:0  %output_element_1 = phi float [ %output_element1, %2 ], [ %output_element_2, %9 ]
+:0  %output_element_1 = phi float [ %output_element1, %2 ], [ %output_element_2, %7 ]
 
 ST_49: i_y1 (127)  [1/1] 0.00ns
-:1  %i_y1 = phi i32 [ %i_y, %2 ], [ %i_y_1, %9 ]
+:1  %i_y1 = phi i32 [ %i_y, %2 ], [ %i_y_1, %7 ]
 
 ST_49: iiy (128)  [1/1] 0.00ns
-:2  %iiy = phi i32 [ 0, %2 ], [ %iiy_1, %9 ]
+:2  %iiy = phi i32 [ 0, %2 ], [ %iiy_1, %7 ]
 
 ST_49: tmp_13 (129)  [1/1] 3.25ns  loc: ../conv_test/conv_layer.cpp:63
 :3  %tmp_13 = icmp slt i32 %i_y1, %tmp_8
@@ -902,7 +860,7 @@ ST_49: tmp_13 (129)  [1/1] 3.25ns  loc: ../conv_test/conv_layer.cpp:63
 ST_49: iiy_1 (130)  [1/1] 2.89ns  loc: ../conv_test/conv_layer.cpp:63
 :4  %iiy_1 = add nsw i32 %iiy, 1
 
-ST_49: StgValue_278 (131)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:63
+ST_49: StgValue_258 (131)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:63
 :5  br i1 %tmp_13, label %4, label %.loopexit.loopexit
 
 ST_49: tmp3 (133)  [1/1] 2.89ns  loc: ../conv_test/conv_layer.cpp:63
@@ -911,7 +869,7 @@ ST_49: tmp3 (133)  [1/1] 2.89ns  loc: ../conv_test/conv_layer.cpp:63
 ST_49: tmp8 (135)  [1/1] 2.89ns  loc: ../conv_test/conv_layer.cpp:63
 :2  %tmp8 = add i32 %iiy, %tmp10
 
-ST_49: StgValue_281 (188)  [1/1] 0.00ns
+ST_49: StgValue_261 (165)  [1/1] 0.00ns
 .loopexit.loopexit:0  br label %.loopexit
 
 
@@ -970,19 +928,19 @@ ST_56: tmp6 (134)  [1/7] 2.14ns  loc: ../conv_test/conv_layer.cpp:63
 ST_56: tmp11 (136)  [1/7] 2.14ns  loc: ../conv_test/conv_layer.cpp:63
 :3  %tmp11 = mul i32 %tmp8, %k_read
 
-ST_56: StgValue_296 (137)  [1/1] 1.61ns  loc: ../conv_test/conv_layer.cpp:66
+ST_56: StgValue_276 (137)  [1/1] 1.61ns  loc: ../conv_test/conv_layer.cpp:66
 :4  br label %5
 
 
  <State 57>: 3.25ns
-ST_57: output_element_2 (139)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:55
-:0  %output_element_2 = phi float [ %output_element_1, %4 ], [ %output_element_4, %._crit_edge ]
+ST_57: output_element_2 (139)  [1/1] 0.00ns
+:0  %output_element_2 = phi float [ %output_element_1, %4 ], [ %output_element_3, %6 ]
 
 ST_57: i_x1 (140)  [1/1] 0.00ns
-:1  %i_x1 = phi i32 [ %i_x, %4 ], [ %i_x_1, %._crit_edge ]
+:1  %i_x1 = phi i32 [ %i_x, %4 ], [ %i_x_1, %6 ]
 
 ST_57: iix (141)  [1/1] 0.00ns
-:2  %iix = phi i32 [ 0, %4 ], [ %iix_1, %._crit_edge ]
+:2  %iix = phi i32 [ 0, %4 ], [ %iix_1, %6 ]
 
 ST_57: tmp_14 (142)  [1/1] 3.25ns  loc: ../conv_test/conv_layer.cpp:66
 :3  %tmp_14 = icmp slt i32 %i_x1, %tmp_10
@@ -990,22 +948,31 @@ ST_57: tmp_14 (142)  [1/1] 3.25ns  loc: ../conv_test/conv_layer.cpp:66
 ST_57: iix_1 (143)  [1/1] 2.89ns  loc: ../conv_test/conv_layer.cpp:66
 :4  %iix_1 = add nsw i32 %iix, 1
 
-ST_57: StgValue_302 (144)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:66
-:5  br i1 %tmp_14, label %6, label %9
+ST_57: StgValue_282 (144)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:66
+:5  br i1 %tmp_14, label %6, label %7
 
 ST_57: tmp17 (146)  [1/1] 2.89ns  loc: ../conv_test/conv_layer.cpp:69
 :0  %tmp17 = add i32 %tmp6, %i_x1
 
-ST_57: i_y_1 (185)  [1/1] 2.89ns  loc: ../conv_test/conv_layer.cpp:63
+ST_57: tmp19 (152)  [1/1] 2.89ns  loc: ../conv_test/conv_layer.cpp:71
+:6  %tmp19 = add i32 %tmp_s, %iix
+
+ST_57: i_x_1 (159)  [1/1] 2.89ns  loc: ../conv_test/conv_layer.cpp:66
+:13  %i_x_1 = add nsw i32 %i_x1, 1
+
+ST_57: i_y_1 (162)  [1/1] 2.89ns  loc: ../conv_test/conv_layer.cpp:63
 :0  %i_y_1 = add nsw i32 %i_y1, 1
 
-ST_57: StgValue_305 (186)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:63
+ST_57: StgValue_287 (163)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:63
 :1  br label %3
 
 
  <State 58>: 2.89ns
 ST_58: tmp18 (147)  [1/1] 2.89ns  loc: ../conv_test/conv_layer.cpp:69
 :1  %tmp18 = add i32 %tmp17, %num_weights
+
+ST_58: tmp_16 (153)  [1/1] 2.89ns  loc: ../conv_test/conv_layer.cpp:71
+:7  %tmp_16 = add i32 %tmp19, %tmp11
 
 
  <State 59>: 2.89ns
@@ -1025,344 +992,217 @@ ST_60: input_element_req (150)  [7/7] 3.50ns  loc: ../conv_test/conv_layer.cpp:6
 ST_61: input_element_req (150)  [6/7] 3.50ns  loc: ../conv_test/conv_layer.cpp:69
 :4  %input_element_req = call i1 @_ssdm_op_ReadReq.m_axi.floatP(float* %mem_addr_2, i32 1) nounwind
 
+ST_61: mem_addr_3 (154)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:71
+:8  %mem_addr_3 = getelementptr inbounds float* %mem, i32 %tmp_16
+
+ST_61: weight_element_req (155)  [7/7] 3.50ns  loc: ../conv_test/conv_layer.cpp:71
+:9  %weight_element_req = call i1 @_ssdm_op_ReadReq.m_axi.floatP(float* %mem_addr_3, i32 1) nounwind
+
 
  <State 62>: 3.50ns
 ST_62: input_element_req (150)  [5/7] 3.50ns  loc: ../conv_test/conv_layer.cpp:69
 :4  %input_element_req = call i1 @_ssdm_op_ReadReq.m_axi.floatP(float* %mem_addr_2, i32 1) nounwind
+
+ST_62: weight_element_req (155)  [6/7] 3.50ns  loc: ../conv_test/conv_layer.cpp:71
+:9  %weight_element_req = call i1 @_ssdm_op_ReadReq.m_axi.floatP(float* %mem_addr_3, i32 1) nounwind
 
 
  <State 63>: 3.50ns
 ST_63: input_element_req (150)  [4/7] 3.50ns  loc: ../conv_test/conv_layer.cpp:69
 :4  %input_element_req = call i1 @_ssdm_op_ReadReq.m_axi.floatP(float* %mem_addr_2, i32 1) nounwind
 
+ST_63: weight_element_req (155)  [5/7] 3.50ns  loc: ../conv_test/conv_layer.cpp:71
+:9  %weight_element_req = call i1 @_ssdm_op_ReadReq.m_axi.floatP(float* %mem_addr_3, i32 1) nounwind
+
 
  <State 64>: 3.50ns
 ST_64: input_element_req (150)  [3/7] 3.50ns  loc: ../conv_test/conv_layer.cpp:69
 :4  %input_element_req = call i1 @_ssdm_op_ReadReq.m_axi.floatP(float* %mem_addr_2, i32 1) nounwind
+
+ST_64: weight_element_req (155)  [4/7] 3.50ns  loc: ../conv_test/conv_layer.cpp:71
+:9  %weight_element_req = call i1 @_ssdm_op_ReadReq.m_axi.floatP(float* %mem_addr_3, i32 1) nounwind
 
 
  <State 65>: 3.50ns
 ST_65: input_element_req (150)  [2/7] 3.50ns  loc: ../conv_test/conv_layer.cpp:69
 :4  %input_element_req = call i1 @_ssdm_op_ReadReq.m_axi.floatP(float* %mem_addr_2, i32 1) nounwind
 
+ST_65: weight_element_req (155)  [3/7] 3.50ns  loc: ../conv_test/conv_layer.cpp:71
+:9  %weight_element_req = call i1 @_ssdm_op_ReadReq.m_axi.floatP(float* %mem_addr_3, i32 1) nounwind
+
 
  <State 66>: 3.50ns
 ST_66: input_element_req (150)  [1/7] 3.50ns  loc: ../conv_test/conv_layer.cpp:69
 :4  %input_element_req = call i1 @_ssdm_op_ReadReq.m_axi.floatP(float* %mem_addr_2, i32 1) nounwind
+
+ST_66: weight_element_req (155)  [2/7] 3.50ns  loc: ../conv_test/conv_layer.cpp:71
+:9  %weight_element_req = call i1 @_ssdm_op_ReadReq.m_axi.floatP(float* %mem_addr_3, i32 1) nounwind
 
 
  <State 67>: 3.50ns
 ST_67: input_element (151)  [1/1] 3.50ns  loc: ../conv_test/conv_layer.cpp:69
 :5  %input_element = call float @_ssdm_op_Read.m_axi.floatP(float* %mem_addr_2) nounwind
 
+ST_67: weight_element_req (155)  [1/7] 3.50ns  loc: ../conv_test/conv_layer.cpp:71
+:9  %weight_element_req = call i1 @_ssdm_op_ReadReq.m_axi.floatP(float* %mem_addr_3, i32 1) nounwind
 
- <State 68>: 2.64ns
-ST_68: tmp_21 (158)  [4/4] 2.64ns  loc: ../conv_test/conv_layer.cpp:70
-:12  %tmp_21 = fcmp oeq float %input_element, 0.000000e+00
 
+ <State 68>: 3.50ns
+ST_68: weight_element (156)  [1/1] 3.50ns  loc: ../conv_test/conv_layer.cpp:71
+:10  %weight_element = call float @_ssdm_op_Read.m_axi.floatP(float* %mem_addr_3) nounwind
 
- <State 69>: 2.64ns
-ST_69: tmp_21 (158)  [3/4] 2.64ns  loc: ../conv_test/conv_layer.cpp:70
-:12  %tmp_21 = fcmp oeq float %input_element, 0.000000e+00
 
+ <State 69>: 2.65ns
+ST_69: tmp_17 (157)  [8/8] 2.65ns  loc: ../conv_test/conv_layer.cpp:73
+:11  %tmp_17 = fmul float %input_element, %weight_element
 
- <State 70>: 2.64ns
-ST_70: tmp_21 (158)  [2/4] 2.64ns  loc: ../conv_test/conv_layer.cpp:70
-:12  %tmp_21 = fcmp oeq float %input_element, 0.000000e+00
 
+ <State 70>: 2.65ns
+ST_70: tmp_17 (157)  [7/8] 2.65ns  loc: ../conv_test/conv_layer.cpp:73
+:11  %tmp_17 = fmul float %input_element, %weight_element
 
- <State 71>: 3.19ns
-ST_71: input_element_to_int (152)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:69
-:6  %input_element_to_int = bitcast float %input_element to i32
 
-ST_71: tmp_16 (153)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:69
-:7  %tmp_16 = call i8 @_ssdm_op_PartSelect.i8.i32.i32.i32(i32 %input_element_to_int, i32 23, i32 30)
+ <State 71>: 2.65ns
+ST_71: tmp_17 (157)  [6/8] 2.65ns  loc: ../conv_test/conv_layer.cpp:73
+:11  %tmp_17 = fmul float %input_element, %weight_element
 
-ST_71: tmp_19 (154)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:69
-:8  %tmp_19 = trunc i32 %input_element_to_int to i23
 
-ST_71: notlhs (155)  [1/1] 2.90ns  loc: ../conv_test/conv_layer.cpp:69
-:9  %notlhs = icmp ne i8 %tmp_16, -1
+ <State 72>: 2.65ns
+ST_72: tmp_17 (157)  [5/8] 2.65ns  loc: ../conv_test/conv_layer.cpp:73
+:11  %tmp_17 = fmul float %input_element, %weight_element
 
-ST_71: notrhs (156)  [1/1] 3.19ns  loc: ../conv_test/conv_layer.cpp:69
-:10  %notrhs = icmp eq i23 %tmp_19, 0
 
-ST_71: tmp_21 (158)  [1/4] 2.64ns  loc: ../conv_test/conv_layer.cpp:70
-:12  %tmp_21 = fcmp oeq float %input_element, 0.000000e+00
+ <State 73>: 2.65ns
+ST_73: tmp_17 (157)  [4/8] 2.65ns  loc: ../conv_test/conv_layer.cpp:73
+:11  %tmp_17 = fmul float %input_element, %weight_element
 
 
- <State 72>: 2.07ns
-ST_72: tmp_20 (157)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:69 (grouped into LUT with out node tmp_22)
-:11  %tmp_20 = or i1 %notrhs, %notlhs
+ <State 74>: 2.65ns
+ST_74: tmp_17 (157)  [3/8] 2.65ns  loc: ../conv_test/conv_layer.cpp:73
+:11  %tmp_17 = fmul float %input_element, %weight_element
 
-ST_72: tmp_22 (159)  [1/1] 2.07ns  loc: ../conv_test/conv_layer.cpp:70 (out node of the LUT)
-:13  %tmp_22 = and i1 %tmp_20, %tmp_21
 
+ <State 75>: 2.65ns
+ST_75: tmp_17 (157)  [2/8] 2.65ns  loc: ../conv_test/conv_layer.cpp:73
+:11  %tmp_17 = fmul float %input_element, %weight_element
 
- <State 73>: 2.89ns
-ST_73: StgValue_328 (160)  [1/1] 1.61ns  loc: ../conv_test/conv_layer.cpp:70
-:14  br i1 %tmp_22, label %._crit_edge, label %7
 
-ST_73: tmp20 (162)  [1/1] 2.89ns  loc: ../conv_test/conv_layer.cpp:71
-:0  %tmp20 = add i32 %tmp_s, %iix
+ <State 76>: 2.65ns
+ST_76: tmp_17 (157)  [1/8] 2.65ns  loc: ../conv_test/conv_layer.cpp:73
+:11  %tmp_17 = fmul float %input_element, %weight_element
 
 
- <State 74>: 2.89ns
-ST_74: tmp_17 (163)  [1/1] 2.89ns  loc: ../conv_test/conv_layer.cpp:71
-:1  %tmp_17 = add i32 %tmp20, %tmp11
+ <State 77>: 3.30ns
+ST_77: output_element_3 (158)  [13/13] 3.30ns  loc: ../conv_test/conv_layer.cpp:73
+:12  %output_element_3 = fadd float %output_element_2, %tmp_17
 
 
- <State 75>: 3.50ns
-ST_75: mem_addr_3 (164)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:71
-:2  %mem_addr_3 = getelementptr inbounds float* %mem, i32 %tmp_17
+ <State 78>: 3.30ns
+ST_78: output_element_3 (158)  [12/13] 3.30ns  loc: ../conv_test/conv_layer.cpp:73
+:12  %output_element_3 = fadd float %output_element_2, %tmp_17
 
-ST_75: weight_element_req (165)  [7/7] 3.50ns  loc: ../conv_test/conv_layer.cpp:71
-:3  %weight_element_req = call i1 @_ssdm_op_ReadReq.m_axi.floatP(float* %mem_addr_3, i32 1) nounwind
 
+ <State 79>: 3.30ns
+ST_79: output_element_3 (158)  [11/13] 3.30ns  loc: ../conv_test/conv_layer.cpp:73
+:12  %output_element_3 = fadd float %output_element_2, %tmp_17
 
- <State 76>: 3.50ns
-ST_76: weight_element_req (165)  [6/7] 3.50ns  loc: ../conv_test/conv_layer.cpp:71
-:3  %weight_element_req = call i1 @_ssdm_op_ReadReq.m_axi.floatP(float* %mem_addr_3, i32 1) nounwind
 
+ <State 80>: 3.30ns
+ST_80: output_element_3 (158)  [10/13] 3.30ns  loc: ../conv_test/conv_layer.cpp:73
+:12  %output_element_3 = fadd float %output_element_2, %tmp_17
 
- <State 77>: 3.50ns
-ST_77: weight_element_req (165)  [5/7] 3.50ns  loc: ../conv_test/conv_layer.cpp:71
-:3  %weight_element_req = call i1 @_ssdm_op_ReadReq.m_axi.floatP(float* %mem_addr_3, i32 1) nounwind
 
+ <State 81>: 3.30ns
+ST_81: output_element_3 (158)  [9/13] 3.30ns  loc: ../conv_test/conv_layer.cpp:73
+:12  %output_element_3 = fadd float %output_element_2, %tmp_17
 
- <State 78>: 3.50ns
-ST_78: weight_element_req (165)  [4/7] 3.50ns  loc: ../conv_test/conv_layer.cpp:71
-:3  %weight_element_req = call i1 @_ssdm_op_ReadReq.m_axi.floatP(float* %mem_addr_3, i32 1) nounwind
 
+ <State 82>: 3.30ns
+ST_82: output_element_3 (158)  [8/13] 3.30ns  loc: ../conv_test/conv_layer.cpp:73
+:12  %output_element_3 = fadd float %output_element_2, %tmp_17
 
- <State 79>: 3.50ns
-ST_79: weight_element_req (165)  [3/7] 3.50ns  loc: ../conv_test/conv_layer.cpp:71
-:3  %weight_element_req = call i1 @_ssdm_op_ReadReq.m_axi.floatP(float* %mem_addr_3, i32 1) nounwind
 
+ <State 83>: 3.30ns
+ST_83: output_element_3 (158)  [7/13] 3.30ns  loc: ../conv_test/conv_layer.cpp:73
+:12  %output_element_3 = fadd float %output_element_2, %tmp_17
 
- <State 80>: 3.50ns
-ST_80: weight_element_req (165)  [2/7] 3.50ns  loc: ../conv_test/conv_layer.cpp:71
-:3  %weight_element_req = call i1 @_ssdm_op_ReadReq.m_axi.floatP(float* %mem_addr_3, i32 1) nounwind
 
+ <State 84>: 3.30ns
+ST_84: output_element_3 (158)  [6/13] 3.30ns  loc: ../conv_test/conv_layer.cpp:73
+:12  %output_element_3 = fadd float %output_element_2, %tmp_17
 
- <State 81>: 3.50ns
-ST_81: weight_element_req (165)  [1/7] 3.50ns  loc: ../conv_test/conv_layer.cpp:71
-:3  %weight_element_req = call i1 @_ssdm_op_ReadReq.m_axi.floatP(float* %mem_addr_3, i32 1) nounwind
 
+ <State 85>: 3.30ns
+ST_85: output_element_3 (158)  [5/13] 3.30ns  loc: ../conv_test/conv_layer.cpp:73
+:12  %output_element_3 = fadd float %output_element_2, %tmp_17
 
- <State 82>: 3.50ns
-ST_82: weight_element (166)  [1/1] 3.50ns  loc: ../conv_test/conv_layer.cpp:71
-:4  %weight_element = call float @_ssdm_op_Read.m_axi.floatP(float* %mem_addr_3) nounwind
 
+ <State 86>: 3.30ns
+ST_86: output_element_3 (158)  [4/13] 3.30ns  loc: ../conv_test/conv_layer.cpp:73
+:12  %output_element_3 = fadd float %output_element_2, %tmp_17
 
- <State 83>: 2.64ns
-ST_83: tmp_26 (173)  [4/4] 2.64ns  loc: ../conv_test/conv_layer.cpp:72
-:11  %tmp_26 = fcmp oeq float %weight_element, 0.000000e+00
 
+ <State 87>: 3.30ns
+ST_87: output_element_3 (158)  [3/13] 3.30ns  loc: ../conv_test/conv_layer.cpp:73
+:12  %output_element_3 = fadd float %output_element_2, %tmp_17
 
- <State 84>: 2.64ns
-ST_84: tmp_26 (173)  [3/4] 2.64ns  loc: ../conv_test/conv_layer.cpp:72
-:11  %tmp_26 = fcmp oeq float %weight_element, 0.000000e+00
 
+ <State 88>: 3.30ns
+ST_88: output_element_3 (158)  [2/13] 3.30ns  loc: ../conv_test/conv_layer.cpp:73
+:12  %output_element_3 = fadd float %output_element_2, %tmp_17
 
- <State 85>: 2.64ns
-ST_85: tmp_26 (173)  [2/4] 2.64ns  loc: ../conv_test/conv_layer.cpp:72
-:11  %tmp_26 = fcmp oeq float %weight_element, 0.000000e+00
 
+ <State 89>: 3.30ns
+ST_89: output_element_3 (158)  [1/13] 3.30ns  loc: ../conv_test/conv_layer.cpp:73
+:12  %output_element_3 = fadd float %output_element_2, %tmp_17
 
- <State 86>: 3.19ns
-ST_86: weight_element_to_in (167)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:71
-:5  %weight_element_to_in = bitcast float %weight_element to i32
+ST_89: StgValue_330 (160)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:66
+:14  br label %5
 
-ST_86: tmp_23 (168)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:71
-:6  %tmp_23 = call i8 @_ssdm_op_PartSelect.i8.i32.i32.i32(i32 %weight_element_to_in, i32 23, i32 30)
 
-ST_86: tmp_24 (169)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:71
-:7  %tmp_24 = trunc i32 %weight_element_to_in to i23
-
-ST_86: notlhs1 (170)  [1/1] 2.90ns  loc: ../conv_test/conv_layer.cpp:71
-:8  %notlhs1 = icmp ne i8 %tmp_23, -1
-
-ST_86: notrhs1 (171)  [1/1] 3.19ns  loc: ../conv_test/conv_layer.cpp:71
-:9  %notrhs1 = icmp eq i23 %tmp_24, 0
-
-ST_86: tmp_26 (173)  [1/4] 2.64ns  loc: ../conv_test/conv_layer.cpp:72
-:11  %tmp_26 = fcmp oeq float %weight_element, 0.000000e+00
-
-
- <State 87>: 2.07ns
-ST_87: tmp_25 (172)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:71 (grouped into LUT with out node tmp_27)
-:10  %tmp_25 = or i1 %notrhs1, %notlhs1
-
-ST_87: tmp_27 (174)  [1/1] 2.07ns  loc: ../conv_test/conv_layer.cpp:72 (out node of the LUT)
-:12  %tmp_27 = and i1 %tmp_25, %tmp_26
-
-
- <State 88>: 2.65ns
-ST_88: StgValue_351 (175)  [1/1] 1.61ns  loc: ../conv_test/conv_layer.cpp:72
-:13  br i1 %tmp_27, label %._crit_edge, label %8
-
-ST_88: tmp_18 (177)  [8/8] 2.65ns  loc: ../conv_test/conv_layer.cpp:73
-:0  %tmp_18 = fmul float %input_element, %weight_element
-
-
- <State 89>: 2.65ns
-ST_89: tmp_18 (177)  [7/8] 2.65ns  loc: ../conv_test/conv_layer.cpp:73
-:0  %tmp_18 = fmul float %input_element, %weight_element
-
-
- <State 90>: 2.65ns
-ST_90: tmp_18 (177)  [6/8] 2.65ns  loc: ../conv_test/conv_layer.cpp:73
-:0  %tmp_18 = fmul float %input_element, %weight_element
-
-
- <State 91>: 2.65ns
-ST_91: tmp_18 (177)  [5/8] 2.65ns  loc: ../conv_test/conv_layer.cpp:73
-:0  %tmp_18 = fmul float %input_element, %weight_element
-
-
- <State 92>: 2.65ns
-ST_92: tmp_18 (177)  [4/8] 2.65ns  loc: ../conv_test/conv_layer.cpp:73
-:0  %tmp_18 = fmul float %input_element, %weight_element
-
-
- <State 93>: 2.65ns
-ST_93: tmp_18 (177)  [3/8] 2.65ns  loc: ../conv_test/conv_layer.cpp:73
-:0  %tmp_18 = fmul float %input_element, %weight_element
-
-
- <State 94>: 2.65ns
-ST_94: tmp_18 (177)  [2/8] 2.65ns  loc: ../conv_test/conv_layer.cpp:73
-:0  %tmp_18 = fmul float %input_element, %weight_element
-
-
- <State 95>: 2.65ns
-ST_95: tmp_18 (177)  [1/8] 2.65ns  loc: ../conv_test/conv_layer.cpp:73
-:0  %tmp_18 = fmul float %input_element, %weight_element
-
-
- <State 96>: 3.30ns
-ST_96: output_element_3 (178)  [13/13] 3.30ns  loc: ../conv_test/conv_layer.cpp:73
-:1  %output_element_3 = fadd float %output_element_2, %tmp_18
-
-
- <State 97>: 3.30ns
-ST_97: output_element_3 (178)  [12/13] 3.30ns  loc: ../conv_test/conv_layer.cpp:73
-:1  %output_element_3 = fadd float %output_element_2, %tmp_18
-
-
- <State 98>: 3.30ns
-ST_98: output_element_3 (178)  [11/13] 3.30ns  loc: ../conv_test/conv_layer.cpp:73
-:1  %output_element_3 = fadd float %output_element_2, %tmp_18
-
-
- <State 99>: 3.30ns
-ST_99: output_element_3 (178)  [10/13] 3.30ns  loc: ../conv_test/conv_layer.cpp:73
-:1  %output_element_3 = fadd float %output_element_2, %tmp_18
-
-
- <State 100>: 3.30ns
-ST_100: output_element_3 (178)  [9/13] 3.30ns  loc: ../conv_test/conv_layer.cpp:73
-:1  %output_element_3 = fadd float %output_element_2, %tmp_18
-
-
- <State 101>: 3.30ns
-ST_101: output_element_3 (178)  [8/13] 3.30ns  loc: ../conv_test/conv_layer.cpp:73
-:1  %output_element_3 = fadd float %output_element_2, %tmp_18
-
-
- <State 102>: 3.30ns
-ST_102: output_element_3 (178)  [7/13] 3.30ns  loc: ../conv_test/conv_layer.cpp:73
-:1  %output_element_3 = fadd float %output_element_2, %tmp_18
-
-
- <State 103>: 3.30ns
-ST_103: output_element_3 (178)  [6/13] 3.30ns  loc: ../conv_test/conv_layer.cpp:73
-:1  %output_element_3 = fadd float %output_element_2, %tmp_18
-
-
- <State 104>: 3.30ns
-ST_104: output_element_3 (178)  [5/13] 3.30ns  loc: ../conv_test/conv_layer.cpp:73
-:1  %output_element_3 = fadd float %output_element_2, %tmp_18
-
-
- <State 105>: 3.30ns
-ST_105: output_element_3 (178)  [4/13] 3.30ns  loc: ../conv_test/conv_layer.cpp:73
-:1  %output_element_3 = fadd float %output_element_2, %tmp_18
-
-
- <State 106>: 3.30ns
-ST_106: output_element_3 (178)  [3/13] 3.30ns  loc: ../conv_test/conv_layer.cpp:73
-:1  %output_element_3 = fadd float %output_element_2, %tmp_18
-
-
- <State 107>: 3.30ns
-ST_107: output_element_3 (178)  [2/13] 3.30ns  loc: ../conv_test/conv_layer.cpp:73
-:1  %output_element_3 = fadd float %output_element_2, %tmp_18
-
-
- <State 108>: 3.30ns
-ST_108: output_element_3 (178)  [1/13] 3.30ns  loc: ../conv_test/conv_layer.cpp:73
-:1  %output_element_3 = fadd float %output_element_2, %tmp_18
-
-
- <State 109>: 2.89ns
-ST_109: StgValue_373 (179)  [1/1] 1.61ns  loc: ../conv_test/conv_layer.cpp:74
-:2  br label %._crit_edge
-
-ST_109: output_element_4 (181)  [1/1] 0.00ns
-._crit_edge:0  %output_element_4 = phi float [ %output_element_3, %8 ], [ %output_element_2, %6 ], [ %output_element_2, %7 ]
-
-ST_109: i_x_1 (182)  [1/1] 2.89ns  loc: ../conv_test/conv_layer.cpp:66
-._crit_edge:1  %i_x_1 = add nsw i32 %i_x1, 1
-
-ST_109: StgValue_376 (183)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:66
-._crit_edge:2  br label %5
-
-
- <State 110>: 2.89ns
-ST_110: tmp_12 (191)  [1/1] 2.89ns  loc: ../conv_test/conv_layer.cpp:82
+ <State 90>: 2.89ns
+ST_90: tmp_12 (168)  [1/1] 2.89ns  loc: ../conv_test/conv_layer.cpp:82
 :1  %tmp_12 = add i32 %tmp15, %tmp12
 
 
- <State 111>: 3.50ns
-ST_111: mem_addr_1 (192)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:82
+ <State 91>: 3.50ns
+ST_91: mem_addr_1 (169)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:82
 :2  %mem_addr_1 = getelementptr inbounds float* %mem, i32 %tmp_12
 
-ST_111: mem_addr_1_req (193)  [1/1] 3.50ns  loc: ../conv_test/conv_layer.cpp:82
+ST_91: mem_addr_1_req (170)  [1/1] 3.50ns  loc: ../conv_test/conv_layer.cpp:82
 :3  %mem_addr_1_req = call i1 @_ssdm_op_WriteReq.m_axi.floatP(float* %mem_addr_1, i32 1) nounwind
 
 
- <State 112>: 3.50ns
-ST_112: StgValue_380 (194)  [1/1] 3.50ns  loc: ../conv_test/conv_layer.cpp:82
+ <State 92>: 3.50ns
+ST_92: StgValue_334 (171)  [1/1] 3.50ns  loc: ../conv_test/conv_layer.cpp:82
 :4  call void @_ssdm_op_Write.m_axi.floatP(float* %mem_addr_1, float %output_element1, i4 -1) nounwind
 
 
- <State 113>: 3.50ns
-ST_113: mem_addr_1_resp (195)  [5/5] 3.50ns  loc: ../conv_test/conv_layer.cpp:82
+ <State 93>: 3.50ns
+ST_93: mem_addr_1_resp (172)  [5/5] 3.50ns  loc: ../conv_test/conv_layer.cpp:82
 :5  %mem_addr_1_resp = call i1 @_ssdm_op_WriteResp.m_axi.floatP(float* %mem_addr_1) nounwind
 
 
- <State 114>: 3.50ns
-ST_114: mem_addr_1_resp (195)  [4/5] 3.50ns  loc: ../conv_test/conv_layer.cpp:82
+ <State 94>: 3.50ns
+ST_94: mem_addr_1_resp (172)  [4/5] 3.50ns  loc: ../conv_test/conv_layer.cpp:82
 :5  %mem_addr_1_resp = call i1 @_ssdm_op_WriteResp.m_axi.floatP(float* %mem_addr_1) nounwind
 
 
- <State 115>: 3.50ns
-ST_115: mem_addr_1_resp (195)  [3/5] 3.50ns  loc: ../conv_test/conv_layer.cpp:82
+ <State 95>: 3.50ns
+ST_95: mem_addr_1_resp (172)  [3/5] 3.50ns  loc: ../conv_test/conv_layer.cpp:82
 :5  %mem_addr_1_resp = call i1 @_ssdm_op_WriteResp.m_axi.floatP(float* %mem_addr_1) nounwind
 
 
- <State 116>: 3.50ns
-ST_116: mem_addr_1_resp (195)  [2/5] 3.50ns  loc: ../conv_test/conv_layer.cpp:82
+ <State 96>: 3.50ns
+ST_96: mem_addr_1_resp (172)  [2/5] 3.50ns  loc: ../conv_test/conv_layer.cpp:82
 :5  %mem_addr_1_resp = call i1 @_ssdm_op_WriteResp.m_axi.floatP(float* %mem_addr_1) nounwind
 
 
- <State 117>: 3.50ns
-ST_117: mem_addr_1_resp (195)  [1/5] 3.50ns  loc: ../conv_test/conv_layer.cpp:82
+ <State 97>: 3.50ns
+ST_97: mem_addr_1_resp (172)  [1/5] 3.50ns  loc: ../conv_test/conv_layer.cpp:82
 :5  %mem_addr_1_resp = call i1 @_ssdm_op_WriteResp.m_axi.floatP(float* %mem_addr_1) nounwind
 
-ST_117: StgValue_386 (196)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:52
+ST_97: StgValue_340 (173)  [1/1] 0.00ns  loc: ../conv_test/conv_layer.cpp:52
 :6  br label %.preheader
 
 
@@ -1375,7 +1215,7 @@ Target clock period: 4ns, clock uncertainty: 0.5ns.
  <State 1>: 3.14ns
 The critical path consists of the following:
 	s_axi read on port 'k' [26]  (1 ns)
-	'mul' operation ('tmp13', ../conv_test/conv_layer.cpp:37) [51]  (2.14 ns)
+	'mul' operation ('tmp', ../conv_test/conv_layer.cpp:37) [50]  (2.14 ns)
 
  <State 2>: 2.14ns
 The critical path consists of the following:
@@ -1648,209 +1488,126 @@ The critical path consists of the following:
 The critical path consists of the following:
 	bus read on port 'mem' (../conv_test/conv_layer.cpp:69) [151]  (3.5 ns)
 
- <State 68>: 2.64ns
+ <State 68>: 3.5ns
 The critical path consists of the following:
-	'fcmp' operation ('tmp_21', ../conv_test/conv_layer.cpp:70) [158]  (2.64 ns)
+	bus read on port 'mem' (../conv_test/conv_layer.cpp:71) [156]  (3.5 ns)
 
- <State 69>: 2.64ns
+ <State 69>: 2.65ns
 The critical path consists of the following:
-	'fcmp' operation ('tmp_21', ../conv_test/conv_layer.cpp:70) [158]  (2.64 ns)
+	'fmul' operation ('tmp_17', ../conv_test/conv_layer.cpp:73) [157]  (2.65 ns)
 
- <State 70>: 2.64ns
+ <State 70>: 2.65ns
 The critical path consists of the following:
-	'fcmp' operation ('tmp_21', ../conv_test/conv_layer.cpp:70) [158]  (2.64 ns)
+	'fmul' operation ('tmp_17', ../conv_test/conv_layer.cpp:73) [157]  (2.65 ns)
 
- <State 71>: 3.19ns
+ <State 71>: 2.65ns
 The critical path consists of the following:
-	'icmp' operation ('notrhs', ../conv_test/conv_layer.cpp:69) [156]  (3.19 ns)
+	'fmul' operation ('tmp_17', ../conv_test/conv_layer.cpp:73) [157]  (2.65 ns)
 
- <State 72>: 2.07ns
+ <State 72>: 2.65ns
 The critical path consists of the following:
-	'or' operation ('tmp_20', ../conv_test/conv_layer.cpp:69) [157]  (0 ns)
-	'and' operation ('tmp_22', ../conv_test/conv_layer.cpp:70) [159]  (2.07 ns)
+	'fmul' operation ('tmp_17', ../conv_test/conv_layer.cpp:73) [157]  (2.65 ns)
 
- <State 73>: 2.89ns
+ <State 73>: 2.65ns
 The critical path consists of the following:
-	'add' operation ('tmp20', ../conv_test/conv_layer.cpp:71) [162]  (2.89 ns)
+	'fmul' operation ('tmp_17', ../conv_test/conv_layer.cpp:73) [157]  (2.65 ns)
 
- <State 74>: 2.89ns
+ <State 74>: 2.65ns
 The critical path consists of the following:
-	'add' operation ('tmp_17', ../conv_test/conv_layer.cpp:71) [163]  (2.89 ns)
+	'fmul' operation ('tmp_17', ../conv_test/conv_layer.cpp:73) [157]  (2.65 ns)
 
- <State 75>: 3.5ns
+ <State 75>: 2.65ns
 The critical path consists of the following:
-	'getelementptr' operation ('mem_addr_3', ../conv_test/conv_layer.cpp:71) [164]  (0 ns)
-	bus request on port 'mem' (../conv_test/conv_layer.cpp:71) [165]  (3.5 ns)
+	'fmul' operation ('tmp_17', ../conv_test/conv_layer.cpp:73) [157]  (2.65 ns)
 
- <State 76>: 3.5ns
+ <State 76>: 2.65ns
 The critical path consists of the following:
-	bus request on port 'mem' (../conv_test/conv_layer.cpp:71) [165]  (3.5 ns)
+	'fmul' operation ('tmp_17', ../conv_test/conv_layer.cpp:73) [157]  (2.65 ns)
 
- <State 77>: 3.5ns
+ <State 77>: 3.3ns
 The critical path consists of the following:
-	bus request on port 'mem' (../conv_test/conv_layer.cpp:71) [165]  (3.5 ns)
+	'fadd' operation ('output_element', ../conv_test/conv_layer.cpp:73) [158]  (3.3 ns)
 
- <State 78>: 3.5ns
+ <State 78>: 3.3ns
 The critical path consists of the following:
-	bus request on port 'mem' (../conv_test/conv_layer.cpp:71) [165]  (3.5 ns)
+	'fadd' operation ('output_element', ../conv_test/conv_layer.cpp:73) [158]  (3.3 ns)
 
- <State 79>: 3.5ns
+ <State 79>: 3.3ns
 The critical path consists of the following:
-	bus request on port 'mem' (../conv_test/conv_layer.cpp:71) [165]  (3.5 ns)
+	'fadd' operation ('output_element', ../conv_test/conv_layer.cpp:73) [158]  (3.3 ns)
 
- <State 80>: 3.5ns
+ <State 80>: 3.3ns
 The critical path consists of the following:
-	bus request on port 'mem' (../conv_test/conv_layer.cpp:71) [165]  (3.5 ns)
+	'fadd' operation ('output_element', ../conv_test/conv_layer.cpp:73) [158]  (3.3 ns)
 
- <State 81>: 3.5ns
+ <State 81>: 3.3ns
 The critical path consists of the following:
-	bus request on port 'mem' (../conv_test/conv_layer.cpp:71) [165]  (3.5 ns)
+	'fadd' operation ('output_element', ../conv_test/conv_layer.cpp:73) [158]  (3.3 ns)
 
- <State 82>: 3.5ns
+ <State 82>: 3.3ns
 The critical path consists of the following:
-	bus read on port 'mem' (../conv_test/conv_layer.cpp:71) [166]  (3.5 ns)
+	'fadd' operation ('output_element', ../conv_test/conv_layer.cpp:73) [158]  (3.3 ns)
 
- <State 83>: 2.64ns
+ <State 83>: 3.3ns
 The critical path consists of the following:
-	'fcmp' operation ('tmp_26', ../conv_test/conv_layer.cpp:72) [173]  (2.64 ns)
+	'fadd' operation ('output_element', ../conv_test/conv_layer.cpp:73) [158]  (3.3 ns)
 
- <State 84>: 2.64ns
+ <State 84>: 3.3ns
 The critical path consists of the following:
-	'fcmp' operation ('tmp_26', ../conv_test/conv_layer.cpp:72) [173]  (2.64 ns)
+	'fadd' operation ('output_element', ../conv_test/conv_layer.cpp:73) [158]  (3.3 ns)
 
- <State 85>: 2.64ns
+ <State 85>: 3.3ns
 The critical path consists of the following:
-	'fcmp' operation ('tmp_26', ../conv_test/conv_layer.cpp:72) [173]  (2.64 ns)
+	'fadd' operation ('output_element', ../conv_test/conv_layer.cpp:73) [158]  (3.3 ns)
 
- <State 86>: 3.19ns
+ <State 86>: 3.3ns
 The critical path consists of the following:
-	'icmp' operation ('notrhs1', ../conv_test/conv_layer.cpp:71) [171]  (3.19 ns)
+	'fadd' operation ('output_element', ../conv_test/conv_layer.cpp:73) [158]  (3.3 ns)
 
- <State 87>: 2.07ns
+ <State 87>: 3.3ns
 The critical path consists of the following:
-	'or' operation ('tmp_25', ../conv_test/conv_layer.cpp:71) [172]  (0 ns)
-	'and' operation ('tmp_27', ../conv_test/conv_layer.cpp:72) [174]  (2.07 ns)
+	'fadd' operation ('output_element', ../conv_test/conv_layer.cpp:73) [158]  (3.3 ns)
 
- <State 88>: 2.65ns
+ <State 88>: 3.3ns
 The critical path consists of the following:
-	'fmul' operation ('tmp_18', ../conv_test/conv_layer.cpp:73) [177]  (2.65 ns)
+	'fadd' operation ('output_element', ../conv_test/conv_layer.cpp:73) [158]  (3.3 ns)
 
- <State 89>: 2.65ns
+ <State 89>: 3.3ns
 The critical path consists of the following:
-	'fmul' operation ('tmp_18', ../conv_test/conv_layer.cpp:73) [177]  (2.65 ns)
+	'fadd' operation ('output_element', ../conv_test/conv_layer.cpp:73) [158]  (3.3 ns)
 
- <State 90>: 2.65ns
+ <State 90>: 2.89ns
 The critical path consists of the following:
-	'fmul' operation ('tmp_18', ../conv_test/conv_layer.cpp:73) [177]  (2.65 ns)
+	'add' operation ('tmp_12', ../conv_test/conv_layer.cpp:82) [168]  (2.89 ns)
 
- <State 91>: 2.65ns
+ <State 91>: 3.5ns
 The critical path consists of the following:
-	'fmul' operation ('tmp_18', ../conv_test/conv_layer.cpp:73) [177]  (2.65 ns)
+	'getelementptr' operation ('mem_addr_1', ../conv_test/conv_layer.cpp:82) [169]  (0 ns)
+	bus request on port 'mem' (../conv_test/conv_layer.cpp:82) [170]  (3.5 ns)
 
- <State 92>: 2.65ns
+ <State 92>: 3.5ns
 The critical path consists of the following:
-	'fmul' operation ('tmp_18', ../conv_test/conv_layer.cpp:73) [177]  (2.65 ns)
+	bus write on port 'mem' (../conv_test/conv_layer.cpp:82) [171]  (3.5 ns)
 
- <State 93>: 2.65ns
+ <State 93>: 3.5ns
 The critical path consists of the following:
-	'fmul' operation ('tmp_18', ../conv_test/conv_layer.cpp:73) [177]  (2.65 ns)
+	bus access on port 'mem' (../conv_test/conv_layer.cpp:82) [172]  (3.5 ns)
 
- <State 94>: 2.65ns
+ <State 94>: 3.5ns
 The critical path consists of the following:
-	'fmul' operation ('tmp_18', ../conv_test/conv_layer.cpp:73) [177]  (2.65 ns)
+	bus access on port 'mem' (../conv_test/conv_layer.cpp:82) [172]  (3.5 ns)
 
- <State 95>: 2.65ns
+ <State 95>: 3.5ns
 The critical path consists of the following:
-	'fmul' operation ('tmp_18', ../conv_test/conv_layer.cpp:73) [177]  (2.65 ns)
+	bus access on port 'mem' (../conv_test/conv_layer.cpp:82) [172]  (3.5 ns)
 
- <State 96>: 3.3ns
+ <State 96>: 3.5ns
 The critical path consists of the following:
-	'fadd' operation ('output_element', ../conv_test/conv_layer.cpp:73) [178]  (3.3 ns)
+	bus access on port 'mem' (../conv_test/conv_layer.cpp:82) [172]  (3.5 ns)
 
- <State 97>: 3.3ns
+ <State 97>: 3.5ns
 The critical path consists of the following:
-	'fadd' operation ('output_element', ../conv_test/conv_layer.cpp:73) [178]  (3.3 ns)
-
- <State 98>: 3.3ns
-The critical path consists of the following:
-	'fadd' operation ('output_element', ../conv_test/conv_layer.cpp:73) [178]  (3.3 ns)
-
- <State 99>: 3.3ns
-The critical path consists of the following:
-	'fadd' operation ('output_element', ../conv_test/conv_layer.cpp:73) [178]  (3.3 ns)
-
- <State 100>: 3.3ns
-The critical path consists of the following:
-	'fadd' operation ('output_element', ../conv_test/conv_layer.cpp:73) [178]  (3.3 ns)
-
- <State 101>: 3.3ns
-The critical path consists of the following:
-	'fadd' operation ('output_element', ../conv_test/conv_layer.cpp:73) [178]  (3.3 ns)
-
- <State 102>: 3.3ns
-The critical path consists of the following:
-	'fadd' operation ('output_element', ../conv_test/conv_layer.cpp:73) [178]  (3.3 ns)
-
- <State 103>: 3.3ns
-The critical path consists of the following:
-	'fadd' operation ('output_element', ../conv_test/conv_layer.cpp:73) [178]  (3.3 ns)
-
- <State 104>: 3.3ns
-The critical path consists of the following:
-	'fadd' operation ('output_element', ../conv_test/conv_layer.cpp:73) [178]  (3.3 ns)
-
- <State 105>: 3.3ns
-The critical path consists of the following:
-	'fadd' operation ('output_element', ../conv_test/conv_layer.cpp:73) [178]  (3.3 ns)
-
- <State 106>: 3.3ns
-The critical path consists of the following:
-	'fadd' operation ('output_element', ../conv_test/conv_layer.cpp:73) [178]  (3.3 ns)
-
- <State 107>: 3.3ns
-The critical path consists of the following:
-	'fadd' operation ('output_element', ../conv_test/conv_layer.cpp:73) [178]  (3.3 ns)
-
- <State 108>: 3.3ns
-The critical path consists of the following:
-	'fadd' operation ('output_element', ../conv_test/conv_layer.cpp:73) [178]  (3.3 ns)
-
- <State 109>: 2.89ns
-The critical path consists of the following:
-	'add' operation ('i_x', ../conv_test/conv_layer.cpp:66) [182]  (2.89 ns)
-
- <State 110>: 2.89ns
-The critical path consists of the following:
-	'add' operation ('tmp_12', ../conv_test/conv_layer.cpp:82) [191]  (2.89 ns)
-
- <State 111>: 3.5ns
-The critical path consists of the following:
-	'getelementptr' operation ('mem_addr_1', ../conv_test/conv_layer.cpp:82) [192]  (0 ns)
-	bus request on port 'mem' (../conv_test/conv_layer.cpp:82) [193]  (3.5 ns)
-
- <State 112>: 3.5ns
-The critical path consists of the following:
-	bus write on port 'mem' (../conv_test/conv_layer.cpp:82) [194]  (3.5 ns)
-
- <State 113>: 3.5ns
-The critical path consists of the following:
-	bus access on port 'mem' (../conv_test/conv_layer.cpp:82) [195]  (3.5 ns)
-
- <State 114>: 3.5ns
-The critical path consists of the following:
-	bus access on port 'mem' (../conv_test/conv_layer.cpp:82) [195]  (3.5 ns)
-
- <State 115>: 3.5ns
-The critical path consists of the following:
-	bus access on port 'mem' (../conv_test/conv_layer.cpp:82) [195]  (3.5 ns)
-
- <State 116>: 3.5ns
-The critical path consists of the following:
-	bus access on port 'mem' (../conv_test/conv_layer.cpp:82) [195]  (3.5 ns)
-
- <State 117>: 3.5ns
-The critical path consists of the following:
-	bus access on port 'mem' (../conv_test/conv_layer.cpp:82) [195]  (3.5 ns)
+	bus access on port 'mem' (../conv_test/conv_layer.cpp:82) [172]  (3.5 ns)
 
 
 ============================================================
@@ -1958,26 +1715,6 @@ N/A
 	State 95
 	State 96
 	State 97
-	State 98
-	State 99
-	State 100
-	State 101
-	State 102
-	State 103
-	State 104
-	State 105
-	State 106
-	State 107
-	State 108
-	State 109
-	State 110
-	State 111
-	State 112
-	State 113
-	State 114
-	State 115
-	State 116
-	State 117
 
 
 ============================================================

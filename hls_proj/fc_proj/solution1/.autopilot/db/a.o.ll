@@ -31,8 +31,8 @@ define void @_Z8fc_layerPfiiiiii(float* %mem, i32 %input_offset, i32 %output_off
   %o = alloca i32, align 4                        ; [#uses=8 type=i32*]
   %output_element = alloca float, align 4         ; [#uses=5 type=float*]
   %i = alloca i32, align 4                        ; [#uses=6 type=i32*]
-  %input_element = alloca float, align 4          ; [#uses=3 type=float*]
-  %weight_element = alloca float, align 4         ; [#uses=3 type=float*]
+  %input_element = alloca float, align 4          ; [#uses=2 type=float*]
+  %weight_element = alloca float, align 4         ; [#uses=2 type=float*]
   %8 = alloca float, align 4                      ; [#uses=2 type=float*]
   store float* %mem, float** %1, align 4
   call void @llvm.dbg.declare(metadata !{float** %1}, metadata !54), !dbg !55 ; [debug line = 4:23] [debug variable = mem]
@@ -75,22 +75,22 @@ define void @_Z8fc_layerPfiiiiii(float* %mem, i32 %input_offset, i32 %output_off
   store i32 0, i32* %b, align 4, !dbg !86         ; [debug line = 25:17]
   br label %20, !dbg !86                          ; [debug line = 25:17]
 
-; <label>:20                                      ; preds = %119, %0
+; <label>:20                                      ; preds = %111, %0
   %21 = load i32* %b, align 4, !dbg !86           ; [#uses=1 type=i32] [debug line = 25:17]
   %22 = load i32* %4, align 4, !dbg !86           ; [#uses=1 type=i32] [debug line = 25:17]
   %23 = icmp slt i32 %21, %22, !dbg !86           ; [#uses=1 type=i1] [debug line = 25:17]
-  br i1 %23, label %24, label %122, !dbg !86      ; [debug line = 25:17]
+  br i1 %23, label %24, label %114, !dbg !86      ; [debug line = 25:17]
 
 ; <label>:24                                      ; preds = %20
   call void @llvm.dbg.declare(metadata !{i32* %o}, metadata !87), !dbg !90 ; [debug line = 28:14] [debug variable = o]
   store i32 0, i32* %o, align 4, !dbg !91         ; [debug line = 28:19]
   br label %25, !dbg !91                          ; [debug line = 28:19]
 
-; <label>:25                                      ; preds = %115, %24
+; <label>:25                                      ; preds = %107, %24
   %26 = load i32* %o, align 4, !dbg !91           ; [#uses=1 type=i32] [debug line = 28:19]
   %27 = load i32* %6, align 4, !dbg !91           ; [#uses=1 type=i32] [debug line = 28:19]
   %28 = icmp slt i32 %26, %27, !dbg !91           ; [#uses=1 type=i1] [debug line = 28:19]
-  br i1 %28, label %29, label %118, !dbg !91      ; [debug line = 28:19]
+  br i1 %28, label %29, label %110, !dbg !91      ; [debug line = 28:19]
 
 ; <label>:29                                      ; preds = %25
   call void @llvm.dbg.declare(metadata !{float* %output_element}, metadata !92), !dbg !94 ; [debug line = 31:13] [debug variable = output_element]
@@ -108,11 +108,11 @@ define void @_Z8fc_layerPfiiiiii(float* %mem, i32 %input_offset, i32 %output_off
   store i32 0, i32* %i, align 4, !dbg !99         ; [debug line = 34:21]
   br label %39, !dbg !99                          ; [debug line = 34:21]
 
-; <label>:39                                      ; preds = %83, %29
+; <label>:39                                      ; preds = %75, %29
   %40 = load i32* %i, align 4, !dbg !99           ; [#uses=1 type=i32] [debug line = 34:21]
   %41 = load i32* %5, align 4, !dbg !99           ; [#uses=1 type=i32] [debug line = 34:21]
   %42 = icmp slt i32 %40, %41, !dbg !99           ; [#uses=1 type=i1] [debug line = 34:21]
-  br i1 %42, label %43, label %86, !dbg !99       ; [debug line = 34:21]
+  br i1 %42, label %43, label %78, !dbg !99       ; [debug line = 34:21]
 
 ; <label>:43                                      ; preds = %39
   call void @llvm.dbg.declare(metadata !{float* %input_element}, metadata !100), !dbg !102 ; [debug line = 36:15] [debug variable = input_element]
@@ -132,106 +132,90 @@ define void @_Z8fc_layerPfiiiiii(float* %mem, i32 %input_offset, i32 %output_off
   %57 = getelementptr inbounds float* %56, i32 %55, !dbg !103 ; [#uses=1 type=float*] [debug line = 36:106]
   %58 = load float* %57, align 4, !dbg !103       ; [#uses=1 type=float] [debug line = 36:106]
   store float %58, float* %input_element, align 4, !dbg !103 ; [debug line = 36:106]
-  %59 = load float* %input_element, align 4, !dbg !104 ; [#uses=1 type=float] [debug line = 37:9]
-  %60 = fcmp une float %59, 0.000000e+00, !dbg !104 ; [#uses=1 type=i1] [debug line = 37:9]
-  br i1 %60, label %61, label %82, !dbg !104      ; [debug line = 37:9]
+  call void @llvm.dbg.declare(metadata !{float* %weight_element}, metadata !104), !dbg !105 ; [debug line = 38:19] [debug variable = weight_element]
+  %59 = load i32* %2, align 4, !dbg !106          ; [#uses=1 type=i32] [debug line = 38:84]
+  %60 = udiv i32 %59, 4, !dbg !106                ; [#uses=1 type=i32] [debug line = 38:84]
+  %61 = load i32* %o, align 4, !dbg !106          ; [#uses=1 type=i32] [debug line = 38:84]
+  %62 = load i32* %5, align 4, !dbg !106          ; [#uses=1 type=i32] [debug line = 38:84]
+  %63 = mul nsw i32 %61, %62, !dbg !106           ; [#uses=1 type=i32] [debug line = 38:84]
+  %64 = add i32 %60, %63, !dbg !106               ; [#uses=1 type=i32] [debug line = 38:84]
+  %65 = load i32* %i, align 4, !dbg !106          ; [#uses=1 type=i32] [debug line = 38:84]
+  %66 = add i32 %64, %65, !dbg !106               ; [#uses=1 type=i32] [debug line = 38:84]
+  %67 = load float** %1, align 4, !dbg !106       ; [#uses=1 type=float*] [debug line = 38:84]
+  %68 = getelementptr inbounds float* %67, i32 %66, !dbg !106 ; [#uses=1 type=float*] [debug line = 38:84]
+  %69 = load float* %68, align 4, !dbg !106       ; [#uses=1 type=float] [debug line = 38:84]
+  store float %69, float* %weight_element, align 4, !dbg !106 ; [debug line = 38:84]
+  %70 = load float* %input_element, align 4, !dbg !107 ; [#uses=1 type=float] [debug line = 40:18]
+  %71 = load float* %weight_element, align 4, !dbg !107 ; [#uses=1 type=float] [debug line = 40:18]
+  %72 = fmul float %70, %71, !dbg !107            ; [#uses=1 type=float] [debug line = 40:18]
+  %73 = load float* %output_element, align 4, !dbg !107 ; [#uses=1 type=float] [debug line = 40:18]
+  %74 = fadd float %73, %72, !dbg !107            ; [#uses=1 type=float] [debug line = 40:18]
+  store float %74, float* %output_element, align 4, !dbg !107 ; [debug line = 40:18]
+  br label %75, !dbg !108                         ; [debug line = 48:7]
 
-; <label>:61                                      ; preds = %43
-  call void @llvm.dbg.declare(metadata !{float* %weight_element}, metadata !105), !dbg !107 ; [debug line = 38:19] [debug variable = weight_element]
-  %62 = load i32* %2, align 4, !dbg !108          ; [#uses=1 type=i32] [debug line = 38:84]
-  %63 = udiv i32 %62, 4, !dbg !108                ; [#uses=1 type=i32] [debug line = 38:84]
-  %64 = load i32* %o, align 4, !dbg !108          ; [#uses=1 type=i32] [debug line = 38:84]
-  %65 = load i32* %5, align 4, !dbg !108          ; [#uses=1 type=i32] [debug line = 38:84]
-  %66 = mul nsw i32 %64, %65, !dbg !108           ; [#uses=1 type=i32] [debug line = 38:84]
-  %67 = add i32 %63, %66, !dbg !108               ; [#uses=1 type=i32] [debug line = 38:84]
-  %68 = load i32* %i, align 4, !dbg !108          ; [#uses=1 type=i32] [debug line = 38:84]
-  %69 = add i32 %67, %68, !dbg !108               ; [#uses=1 type=i32] [debug line = 38:84]
-  %70 = load float** %1, align 4, !dbg !108       ; [#uses=1 type=float*] [debug line = 38:84]
-  %71 = getelementptr inbounds float* %70, i32 %69, !dbg !108 ; [#uses=1 type=float*] [debug line = 38:84]
-  %72 = load float* %71, align 4, !dbg !108       ; [#uses=1 type=float] [debug line = 38:84]
-  store float %72, float* %weight_element, align 4, !dbg !108 ; [debug line = 38:84]
-  %73 = load float* %weight_element, align 4, !dbg !109 ; [#uses=1 type=float] [debug line = 39:13]
-  %74 = fcmp une float %73, 0.000000e+00, !dbg !109 ; [#uses=1 type=i1] [debug line = 39:13]
-  br i1 %74, label %75, label %81, !dbg !109      ; [debug line = 39:13]
+; <label>:75                                      ; preds = %43
+  %76 = load i32* %i, align 4, !dbg !109          ; [#uses=1 type=i32] [debug line = 34:39]
+  %77 = add nsw i32 %76, 1, !dbg !109             ; [#uses=1 type=i32] [debug line = 34:39]
+  store i32 %77, i32* %i, align 4, !dbg !109      ; [debug line = 34:39]
+  br label %39, !dbg !109                         ; [debug line = 34:39]
 
-; <label>:75                                      ; preds = %61
-  %76 = load float* %input_element, align 4, !dbg !110 ; [#uses=1 type=float] [debug line = 40:18]
-  %77 = load float* %weight_element, align 4, !dbg !110 ; [#uses=1 type=float] [debug line = 40:18]
-  %78 = fmul float %76, %77, !dbg !110            ; [#uses=1 type=float] [debug line = 40:18]
-  %79 = load float* %output_element, align 4, !dbg !110 ; [#uses=1 type=float] [debug line = 40:18]
-  %80 = fadd float %79, %78, !dbg !110            ; [#uses=1 type=float] [debug line = 40:18]
-  store float %80, float* %output_element, align 4, !dbg !110 ; [debug line = 40:18]
-  br label %81, !dbg !112                         ; [debug line = 41:13]
+; <label>:78                                      ; preds = %39
+  %79 = load i32* %7, align 4, !dbg !110          ; [#uses=1 type=i32] [debug line = 51:7]
+  %80 = icmp ne i32 %79, 0, !dbg !110             ; [#uses=1 type=i1] [debug line = 51:7]
+  br i1 %80, label %81, label %94, !dbg !110      ; [debug line = 51:7]
 
-; <label>:81                                      ; preds = %75, %61
-  br label %82, !dbg !113                         ; [debug line = 42:9]
+; <label>:81                                      ; preds = %78
+  store float 0.000000e+00, float* %8, align 4, !dbg !111 ; [debug line = 52:63]
+  %82 = call float* @_ZSt3maxIfERKT_S2_S2_(float* %8, float* %output_element), !dbg !111 ; [#uses=1 type=float*] [debug line = 52:63]
+  %83 = load float* %82, !dbg !111                ; [#uses=1 type=float] [debug line = 52:63]
+  %84 = load i32* %3, align 4, !dbg !111          ; [#uses=1 type=i32] [debug line = 52:63]
+  %85 = udiv i32 %84, 4, !dbg !111                ; [#uses=1 type=i32] [debug line = 52:63]
+  %86 = load i32* %b, align 4, !dbg !111          ; [#uses=1 type=i32] [debug line = 52:63]
+  %87 = load i32* %6, align 4, !dbg !111          ; [#uses=1 type=i32] [debug line = 52:63]
+  %88 = mul nsw i32 %86, %87, !dbg !111           ; [#uses=1 type=i32] [debug line = 52:63]
+  %89 = add i32 %85, %88, !dbg !111               ; [#uses=1 type=i32] [debug line = 52:63]
+  %90 = load i32* %o, align 4, !dbg !111          ; [#uses=1 type=i32] [debug line = 52:63]
+  %91 = add i32 %89, %90, !dbg !111               ; [#uses=1 type=i32] [debug line = 52:63]
+  %92 = load float** %1, align 4, !dbg !111       ; [#uses=1 type=float*] [debug line = 52:63]
+  %93 = getelementptr inbounds float* %92, i32 %91, !dbg !111 ; [#uses=1 type=float*] [debug line = 52:63]
+  store float %83, float* %93, align 4, !dbg !111 ; [debug line = 52:63]
+  br label %106, !dbg !111                        ; [debug line = 52:63]
 
-; <label>:82                                      ; preds = %81, %43
-  br label %83, !dbg !114                         ; [debug line = 48:7]
+; <label>:94                                      ; preds = %78
+  %95 = load float* %output_element, align 4, !dbg !112 ; [#uses=1 type=float] [debug line = 54:10]
+  %96 = load i32* %3, align 4, !dbg !112          ; [#uses=1 type=i32] [debug line = 54:10]
+  %97 = udiv i32 %96, 4, !dbg !112                ; [#uses=1 type=i32] [debug line = 54:10]
+  %98 = load i32* %b, align 4, !dbg !112          ; [#uses=1 type=i32] [debug line = 54:10]
+  %99 = load i32* %6, align 4, !dbg !112          ; [#uses=1 type=i32] [debug line = 54:10]
+  %100 = mul nsw i32 %98, %99, !dbg !112          ; [#uses=1 type=i32] [debug line = 54:10]
+  %101 = add i32 %97, %100, !dbg !112             ; [#uses=1 type=i32] [debug line = 54:10]
+  %102 = load i32* %o, align 4, !dbg !112         ; [#uses=1 type=i32] [debug line = 54:10]
+  %103 = add i32 %101, %102, !dbg !112            ; [#uses=1 type=i32] [debug line = 54:10]
+  %104 = load float** %1, align 4, !dbg !112      ; [#uses=1 type=float*] [debug line = 54:10]
+  %105 = getelementptr inbounds float* %104, i32 %103, !dbg !112 ; [#uses=1 type=float*] [debug line = 54:10]
+  store float %95, float* %105, align 4, !dbg !112 ; [debug line = 54:10]
+  br label %106
 
-; <label>:83                                      ; preds = %82
-  %84 = load i32* %i, align 4, !dbg !115          ; [#uses=1 type=i32] [debug line = 34:39]
-  %85 = add nsw i32 %84, 1, !dbg !115             ; [#uses=1 type=i32] [debug line = 34:39]
-  store i32 %85, i32* %i, align 4, !dbg !115      ; [debug line = 34:39]
-  br label %39, !dbg !115                         ; [debug line = 34:39]
+; <label>:106                                     ; preds = %94, %81
+  br label %107, !dbg !113                        ; [debug line = 55:5]
 
-; <label>:86                                      ; preds = %39
-  %87 = load i32* %7, align 4, !dbg !116          ; [#uses=1 type=i32] [debug line = 51:7]
-  %88 = icmp ne i32 %87, 0, !dbg !116             ; [#uses=1 type=i1] [debug line = 51:7]
-  br i1 %88, label %89, label %102, !dbg !116     ; [debug line = 51:7]
+; <label>:107                                     ; preds = %106
+  %108 = load i32* %o, align 4, !dbg !114         ; [#uses=1 type=i32] [debug line = 28:38]
+  %109 = add nsw i32 %108, 1, !dbg !114           ; [#uses=1 type=i32] [debug line = 28:38]
+  store i32 %109, i32* %o, align 4, !dbg !114     ; [debug line = 28:38]
+  br label %25, !dbg !114                         ; [debug line = 28:38]
 
-; <label>:89                                      ; preds = %86
-  store float 0.000000e+00, float* %8, align 4, !dbg !117 ; [debug line = 52:63]
-  %90 = call float* @_ZSt3maxIfERKT_S2_S2_(float* %8, float* %output_element), !dbg !117 ; [#uses=1 type=float*] [debug line = 52:63]
-  %91 = load float* %90, !dbg !117                ; [#uses=1 type=float] [debug line = 52:63]
-  %92 = load i32* %3, align 4, !dbg !117          ; [#uses=1 type=i32] [debug line = 52:63]
-  %93 = udiv i32 %92, 4, !dbg !117                ; [#uses=1 type=i32] [debug line = 52:63]
-  %94 = load i32* %b, align 4, !dbg !117          ; [#uses=1 type=i32] [debug line = 52:63]
-  %95 = load i32* %6, align 4, !dbg !117          ; [#uses=1 type=i32] [debug line = 52:63]
-  %96 = mul nsw i32 %94, %95, !dbg !117           ; [#uses=1 type=i32] [debug line = 52:63]
-  %97 = add i32 %93, %96, !dbg !117               ; [#uses=1 type=i32] [debug line = 52:63]
-  %98 = load i32* %o, align 4, !dbg !117          ; [#uses=1 type=i32] [debug line = 52:63]
-  %99 = add i32 %97, %98, !dbg !117               ; [#uses=1 type=i32] [debug line = 52:63]
-  %100 = load float** %1, align 4, !dbg !117      ; [#uses=1 type=float*] [debug line = 52:63]
-  %101 = getelementptr inbounds float* %100, i32 %99, !dbg !117 ; [#uses=1 type=float*] [debug line = 52:63]
-  store float %91, float* %101, align 4, !dbg !117 ; [debug line = 52:63]
-  br label %114, !dbg !117                        ; [debug line = 52:63]
+; <label>:110                                     ; preds = %25
+  br label %111, !dbg !115                        ; [debug line = 56:3]
 
-; <label>:102                                     ; preds = %86
-  %103 = load float* %output_element, align 4, !dbg !118 ; [#uses=1 type=float] [debug line = 54:10]
-  %104 = load i32* %3, align 4, !dbg !118         ; [#uses=1 type=i32] [debug line = 54:10]
-  %105 = udiv i32 %104, 4, !dbg !118              ; [#uses=1 type=i32] [debug line = 54:10]
-  %106 = load i32* %b, align 4, !dbg !118         ; [#uses=1 type=i32] [debug line = 54:10]
-  %107 = load i32* %6, align 4, !dbg !118         ; [#uses=1 type=i32] [debug line = 54:10]
-  %108 = mul nsw i32 %106, %107, !dbg !118        ; [#uses=1 type=i32] [debug line = 54:10]
-  %109 = add i32 %105, %108, !dbg !118            ; [#uses=1 type=i32] [debug line = 54:10]
-  %110 = load i32* %o, align 4, !dbg !118         ; [#uses=1 type=i32] [debug line = 54:10]
-  %111 = add i32 %109, %110, !dbg !118            ; [#uses=1 type=i32] [debug line = 54:10]
-  %112 = load float** %1, align 4, !dbg !118      ; [#uses=1 type=float*] [debug line = 54:10]
-  %113 = getelementptr inbounds float* %112, i32 %111, !dbg !118 ; [#uses=1 type=float*] [debug line = 54:10]
-  store float %103, float* %113, align 4, !dbg !118 ; [debug line = 54:10]
-  br label %114
+; <label>:111                                     ; preds = %110
+  %112 = load i32* %b, align 4, !dbg !116         ; [#uses=1 type=i32] [debug line = 25:35]
+  %113 = add nsw i32 %112, 1, !dbg !116           ; [#uses=1 type=i32] [debug line = 25:35]
+  store i32 %113, i32* %b, align 4, !dbg !116     ; [debug line = 25:35]
+  br label %20, !dbg !116                         ; [debug line = 25:35]
 
-; <label>:114                                     ; preds = %102, %89
-  br label %115, !dbg !119                        ; [debug line = 55:5]
-
-; <label>:115                                     ; preds = %114
-  %116 = load i32* %o, align 4, !dbg !120         ; [#uses=1 type=i32] [debug line = 28:38]
-  %117 = add nsw i32 %116, 1, !dbg !120           ; [#uses=1 type=i32] [debug line = 28:38]
-  store i32 %117, i32* %o, align 4, !dbg !120     ; [debug line = 28:38]
-  br label %25, !dbg !120                         ; [debug line = 28:38]
-
-; <label>:118                                     ; preds = %25
-  br label %119, !dbg !121                        ; [debug line = 56:3]
-
-; <label>:119                                     ; preds = %118
-  %120 = load i32* %b, align 4, !dbg !122         ; [#uses=1 type=i32] [debug line = 25:35]
-  %121 = add nsw i32 %120, 1, !dbg !122           ; [#uses=1 type=i32] [debug line = 25:35]
-  store i32 %121, i32* %b, align 4, !dbg !122     ; [debug line = 25:35]
-  br label %20, !dbg !122                         ; [debug line = 25:35]
-
-; <label>:122                                     ; preds = %20
-  ret void, !dbg !123                             ; [debug line = 57:1]
+; <label>:114                                     ; preds = %20
+  ret void, !dbg !117                             ; [debug line = 57:1]
 }
 
 ; [#uses=17]
@@ -246,29 +230,29 @@ define linkonce_odr float* @_ZSt3maxIfERKT_S2_S2_(float* %__a, float* %__b) noun
   %2 = alloca float*, align 4                     ; [#uses=3 type=float**]
   %3 = alloca float*, align 4                     ; [#uses=3 type=float**]
   store float* %__a, float** %2, align 4
-  call void @llvm.dbg.declare(metadata !{float** %2}, metadata !124), !dbg !125 ; [debug line = 342:19] [debug variable = __a]
+  call void @llvm.dbg.declare(metadata !{float** %2}, metadata !118), !dbg !119 ; [debug line = 342:19] [debug variable = __a]
   store float* %__b, float** %3, align 4
-  call void @llvm.dbg.declare(metadata !{float** %3}, metadata !126), !dbg !127 ; [debug line = 342:31] [debug variable = __b]
-  %4 = load float** %2, align 4, !dbg !128        ; [#uses=1 type=float*] [debug line = 214:7]
-  %5 = load float* %4, align 4, !dbg !128         ; [#uses=1 type=float] [debug line = 214:7]
-  %6 = load float** %3, align 4, !dbg !128        ; [#uses=1 type=float*] [debug line = 214:7]
-  %7 = load float* %6, align 4, !dbg !128         ; [#uses=1 type=float] [debug line = 214:7]
-  %8 = fcmp olt float %5, %7, !dbg !128           ; [#uses=1 type=i1] [debug line = 214:7]
-  br i1 %8, label %9, label %11, !dbg !128        ; [debug line = 214:7]
+  call void @llvm.dbg.declare(metadata !{float** %3}, metadata !120), !dbg !121 ; [debug line = 342:31] [debug variable = __b]
+  %4 = load float** %2, align 4, !dbg !122        ; [#uses=1 type=float*] [debug line = 214:7]
+  %5 = load float* %4, align 4, !dbg !122         ; [#uses=1 type=float] [debug line = 214:7]
+  %6 = load float** %3, align 4, !dbg !122        ; [#uses=1 type=float*] [debug line = 214:7]
+  %7 = load float* %6, align 4, !dbg !122         ; [#uses=1 type=float] [debug line = 214:7]
+  %8 = fcmp olt float %5, %7, !dbg !122           ; [#uses=1 type=i1] [debug line = 214:7]
+  br i1 %8, label %9, label %11, !dbg !122        ; [debug line = 214:7]
 
 ; <label>:9                                       ; preds = %0
-  %10 = load float** %3, align 4, !dbg !131       ; [#uses=1 type=float*] [debug line = 215:2]
-  store float* %10, float** %1, !dbg !131         ; [debug line = 215:2]
-  br label %13, !dbg !131                         ; [debug line = 215:2]
+  %10 = load float** %3, align 4, !dbg !125       ; [#uses=1 type=float*] [debug line = 215:2]
+  store float* %10, float** %1, !dbg !125         ; [debug line = 215:2]
+  br label %13, !dbg !125                         ; [debug line = 215:2]
 
 ; <label>:11                                      ; preds = %0
-  %12 = load float** %2, align 4, !dbg !132       ; [#uses=1 type=float*] [debug line = 216:7]
-  store float* %12, float** %1, !dbg !132         ; [debug line = 216:7]
-  br label %13, !dbg !132                         ; [debug line = 216:7]
+  %12 = load float** %2, align 4, !dbg !126       ; [#uses=1 type=float*] [debug line = 216:7]
+  store float* %12, float** %1, !dbg !126         ; [debug line = 216:7]
+  br label %13, !dbg !126                         ; [debug line = 216:7]
 
 ; <label>:13                                      ; preds = %11, %9
-  %14 = load float** %1, !dbg !133                ; [#uses=1 type=float*] [debug line = 217:5]
-  ret float* %14, !dbg !133                       ; [debug line = 217:5]
+  %14 = load float** %1, !dbg !127                ; [#uses=1 type=float*] [debug line = 217:5]
+  ret float* %14, !dbg !127                       ; [debug line = 217:5]
 }
 
 !llvm.dbg.cu = !{!0}
@@ -379,33 +363,27 @@ define linkonce_odr float* @_ZSt3maxIfERKT_S2_S2_(float* %__a, float* %__b) noun
 !101 = metadata !{i32 786443, metadata !97, i32 34, i32 48, metadata !6, i32 6} ; [ DW_TAG_lexical_block ]
 !102 = metadata !{i32 36, i32 15, metadata !101, null}
 !103 = metadata !{i32 36, i32 106, metadata !101, null}
-!104 = metadata !{i32 37, i32 9, metadata !101, null}
-!105 = metadata !{i32 786688, metadata !106, metadata !"weight_element", metadata !6, i32 38, metadata !10, i32 0, i32 0} ; [ DW_TAG_auto_variable ]
-!106 = metadata !{i32 786443, metadata !101, i32 37, i32 35, metadata !6, i32 7} ; [ DW_TAG_lexical_block ]
-!107 = metadata !{i32 38, i32 19, metadata !106, null}
-!108 = metadata !{i32 38, i32 84, metadata !106, null}
-!109 = metadata !{i32 39, i32 13, metadata !106, null}
-!110 = metadata !{i32 40, i32 18, metadata !111, null}
-!111 = metadata !{i32 786443, metadata !106, i32 39, i32 40, metadata !6, i32 8} ; [ DW_TAG_lexical_block ]
-!112 = metadata !{i32 41, i32 13, metadata !111, null}
-!113 = metadata !{i32 42, i32 9, metadata !106, null}
-!114 = metadata !{i32 48, i32 7, metadata !101, null}
-!115 = metadata !{i32 34, i32 39, metadata !97, null}
-!116 = metadata !{i32 51, i32 7, metadata !93, null}
-!117 = metadata !{i32 52, i32 63, metadata !93, null}
-!118 = metadata !{i32 54, i32 10, metadata !93, null}
-!119 = metadata !{i32 55, i32 5, metadata !93, null}
-!120 = metadata !{i32 28, i32 38, metadata !88, null}
-!121 = metadata !{i32 56, i32 3, metadata !89, null}
-!122 = metadata !{i32 25, i32 35, metadata !84, null}
-!123 = metadata !{i32 57, i32 1, metadata !69, null}
-!124 = metadata !{i32 786689, metadata !15, metadata !"__a", metadata !17, i32 16777558, metadata !20, i32 0, i32 0} ; [ DW_TAG_arg_variable ]
-!125 = metadata !{i32 342, i32 19, metadata !15, null}
-!126 = metadata !{i32 786689, metadata !15, metadata !"__b", metadata !17, i32 33554774, metadata !20, i32 0, i32 0} ; [ DW_TAG_arg_variable ]
-!127 = metadata !{i32 342, i32 31, metadata !15, null}
-!128 = metadata !{i32 214, i32 7, metadata !129, null}
-!129 = metadata !{i32 786443, metadata !15, i32 210, i32 5, metadata !130, i32 9} ; [ DW_TAG_lexical_block ]
-!130 = metadata !{i32 786473, metadata !"C:/Xilinx/Vivado_HLS/2017.2/win64/tools/clang/bin\5C..\5Clib\5Cclang\5C3.1/../../../include/c++/4.5.2\5Cbits/stl_algobase.h", metadata !"C:\5CUsers\5CWilson\5CDesktop\5Cdigital_soc_final\5Cdigital_soc_final\5Chls_proj", null} ; [ DW_TAG_file_type ]
-!131 = metadata !{i32 215, i32 2, metadata !129, null}
-!132 = metadata !{i32 216, i32 7, metadata !129, null}
-!133 = metadata !{i32 217, i32 5, metadata !129, null}
+!104 = metadata !{i32 786688, metadata !101, metadata !"weight_element", metadata !6, i32 38, metadata !10, i32 0, i32 0} ; [ DW_TAG_auto_variable ]
+!105 = metadata !{i32 38, i32 19, metadata !101, null}
+!106 = metadata !{i32 38, i32 84, metadata !101, null}
+!107 = metadata !{i32 40, i32 18, metadata !101, null}
+!108 = metadata !{i32 48, i32 7, metadata !101, null}
+!109 = metadata !{i32 34, i32 39, metadata !97, null}
+!110 = metadata !{i32 51, i32 7, metadata !93, null}
+!111 = metadata !{i32 52, i32 63, metadata !93, null}
+!112 = metadata !{i32 54, i32 10, metadata !93, null}
+!113 = metadata !{i32 55, i32 5, metadata !93, null}
+!114 = metadata !{i32 28, i32 38, metadata !88, null}
+!115 = metadata !{i32 56, i32 3, metadata !89, null}
+!116 = metadata !{i32 25, i32 35, metadata !84, null}
+!117 = metadata !{i32 57, i32 1, metadata !69, null}
+!118 = metadata !{i32 786689, metadata !15, metadata !"__a", metadata !17, i32 16777558, metadata !20, i32 0, i32 0} ; [ DW_TAG_arg_variable ]
+!119 = metadata !{i32 342, i32 19, metadata !15, null}
+!120 = metadata !{i32 786689, metadata !15, metadata !"__b", metadata !17, i32 33554774, metadata !20, i32 0, i32 0} ; [ DW_TAG_arg_variable ]
+!121 = metadata !{i32 342, i32 31, metadata !15, null}
+!122 = metadata !{i32 214, i32 7, metadata !123, null}
+!123 = metadata !{i32 786443, metadata !15, i32 210, i32 5, metadata !124, i32 7} ; [ DW_TAG_lexical_block ]
+!124 = metadata !{i32 786473, metadata !"C:/Xilinx/Vivado_HLS/2017.2/win64/tools/clang/bin\5C..\5Clib\5Cclang\5C3.1/../../../include/c++/4.5.2\5Cbits/stl_algobase.h", metadata !"C:\5CUsers\5CWilson\5CDesktop\5Cdigital_soc_final\5Cdigital_soc_final\5Chls_proj", null} ; [ DW_TAG_file_type ]
+!125 = metadata !{i32 215, i32 2, metadata !123, null}
+!126 = metadata !{i32 216, i32 7, metadata !123, null}
+!127 = metadata !{i32 217, i32 5, metadata !123, null}

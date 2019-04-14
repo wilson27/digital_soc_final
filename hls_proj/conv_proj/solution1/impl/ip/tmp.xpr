@@ -6,7 +6,7 @@
 <Project Version="7" Minor="20" Path="C:/Users/Wilson/Desktop/digital_soc_final/digital_soc_final/hls_proj/conv_proj/solution1/impl/ip/tmp.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
-    <Option Name="Id" Val="a116dd8c892f4ffcaad6399813d34f4c"/>
+    <Option Name="Id" Val="55c679f01f3f49a0b245019ec703c1d4"/>
     <Option Name="Part" Val="xc7vx485tffg1157-1"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>
@@ -54,13 +54,6 @@
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
       <Filter Type="Srcs"/>
       <File Path="$PSRCDIR/sources_1/ip/conv_layer_ap_fadd_11_full_dsp_32/conv_layer_ap_fadd_11_full_dsp_32.xci">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/ip/conv_layer_ap_fcmp_2_no_dsp_32/conv_layer_ap_fcmp_2_no_dsp_32.xci">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>

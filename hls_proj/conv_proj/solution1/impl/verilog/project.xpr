@@ -6,7 +6,7 @@
 <Project Version="7" Minor="20" Path="C:/Users/Wilson/Desktop/digital_soc_final/digital_soc_final/hls_proj/conv_proj/solution1/impl/verilog/project.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
-    <Option Name="Id" Val="0f5a630ad6564fcf996be2992dd8f558"/>
+    <Option Name="Id" Val="2eb8f31a26c44048b5ec2f4d94c849a4"/>
     <Option Name="Part" Val="xc7a200tsbg484-1"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>
@@ -73,13 +73,6 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/conv_layer_fcmp_3dEe.v">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
       <File Path="$PPRDIR/conv_layer_fmul_3cud.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -94,7 +87,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/conv_layer_mul_32eOg.v">
+      <File Path="$PPRDIR/conv_layer_mul_32dEe.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -102,13 +95,6 @@
         </FileInfo>
       </File>
       <File Path="$PSRCDIR/sources_1/ip/conv_layer_ap_fadd_11_full_dsp_32/conv_layer_ap_fadd_11_full_dsp_32.xci">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/ip/conv_layer_ap_fcmp_2_no_dsp_32/conv_layer_ap_fcmp_2_no_dsp_32.xci">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>

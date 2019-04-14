@@ -9,5 +9,5 @@
   <xd:arg xd:name="num_outputs" xd:originalName="num_outputs" xd:direction="in" xd:interfaceRef="s_axi_CTRL_BUS" xd:busTypeRef="axilite" xd:offset="0x30" xd:handshakeRef="ap_none" xd:dataWidth="32"/>
   <xd:arg xd:name="enable_relu" xd:originalName="enable_relu" xd:direction="in" xd:interfaceRef="s_axi_CTRL_BUS" xd:busTypeRef="axilite" xd:offset="0x38" xd:handshakeRef="ap_none" xd:dataWidth="32"/>
   <xd:latencyEstimates xd:best-case="undef" xd:worst-case="undef" xd:average-case="undef"/>
-  <xd:resourceEstimates xd:LUT="2902" xd:FF="4726" xd:BRAM="2" xd:DSP="9"/>
+  <xd:resourceEstimates xd:LUT="2670" xd:FF="4603" xd:BRAM="2" xd:DSP="9"/>
 </xd:acceleratorMap>

@@ -14312,12 +14312,12 @@ _ssdm_op_SpecInterface(0, "s_axilite", 0, 0, "", 0, 0, "CTRL_BUS", "", "", 0, 0,
       for (int i = 0; i < num_inputs; i = i+1) {
 //#pragma HLS PIPELINE
         float input_element = mem[input_offset/sizeof(float) + num_weights + num_biases + b*num_inputs+i];
-        if (input_element != 0.0f){
+        //if (input_element != 0.0f){
             float weight_element = mem[input_offset/sizeof(float) + o*num_inputs+i];
-            if (weight_element != 0.0f){
+        //    if (weight_element != 0.0f){
                  output_element += input_element * weight_element;
-            }
-        }
+        //    }
+        //}
 
         //float input_element = mem[input_offset/sizeof(float) + num_weights + num_biases + b*num_inputs+i];
         //float weight_element = mem[input_offset/sizeof(float) + o*num_inputs+i];

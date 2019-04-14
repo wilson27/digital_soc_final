@@ -33726,12 +33726,12 @@ void conv_layer(float * mem, // global memory pointer
               {
 //#pragma HLS PIPELINE
                 float input_element = mem[input_offset/sizeof(float) + num_weights+num_biases+ b_*id*ix*iy + i_d*ix*iy + i_y*ix + i_x];
-                 if (input_element != 0.0f){
+                 //if (input_element != 0.0f){
                      float weight_element = mem[input_offset/sizeof(float) + o_d*id*k*k + i_d*k*k + iiy*k + iix];
-                     if (weight_element != 0.0f){
+                 //    if (weight_element != 0.0f){
                       output_element += input_element * weight_element;
-                     }
-                 }
+                 //    }
+                 //}
                 //output_element += mem[input_offset/sizeof(float) + num_weights+num_biases+ b_*id*ix*iy + i_d*ix*iy + i_y*ix + i_x]*
                 //                  mem[input_offset/sizeof(float) + o_d*id*k*k + i_d*k*k + iiy*k + iix];
               }
